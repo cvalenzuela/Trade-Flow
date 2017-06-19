@@ -1,0 +1,48 @@
+{
+  "name": "exporta",
+  "version": "1.0.0",
+  "description": "Visualizing trade data",
+  "main": "src/index.js",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "watch:test": "npm t -- -w",
+    "build:main": "babel --copy-files --out-dir dist --ignore *.test.js",
+    "build": "webpack --output-filename bundle.js",
+    "build:min": "webpack --output-filename bundle.min.js -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cvalenzuela/Exporta-Web.git"
+  },
+  "keywords": [
+    "visualization"
+  ],
+  "author": "Cristobal Valenzuela <cvalenzuela@nyu.edu> (https://github.com/cvalenzuela)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cvalenzuela/Exporta-Web/issues"
+  },
+  "homepage": "https://github.com/cvalenzuela/Exporta-Web#readme",
+  "devDependencies": {
+    "babel-cli": "6.24.1",
+    "babel-loader": "7.0.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-2": "6.24.1",
+    "babel-register": "6.24.1",
+    "json-loader": "0.5.4",
+    "rimraf": "2.6.1",
+    "webpack": "2.6.1",
+    "webpack-dev-server": "2.4.5"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-2"
+    ]
+  },
+  "dependencies": {
+    "d3-scale": "1.0.6",
+    "dat.gui": "0.6.1",
+    "p5": "0.5.11"
+  }
+}
