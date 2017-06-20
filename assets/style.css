@@ -7,3 +7,27 @@ body{
 .dg .c select {
   width: 120px;
 }
+
+p{
+  position:absolute;
+  font-size:9px;
+  font-family: 'Helvetica', 'sans-serif';
+}
+
+.origin {
+  padding: 4px;
+}
+
+.partner {
+
+}
+
+#gui {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.mapboxgl-ctrl-logo{
+  display: none;
+}

@@ -7,17 +7,22 @@ cvalenzuelab.com
 */
 import p5 from 'p5';
 import Mappa from './p5maps';
-import { allCountries } from './SystemManagment';
+import { allCountries } from './countryOptions';
 import key from './private';
+import { controller } from './controller';
 
 const options = {
   lat: 0,
   lng: 0,
   zoom: 2,
-  style: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png'
-  // style: 'mapbox://styles/mapbox/dark-v9'
+  renderWorldCopies: false,
+  minZoom: 1,
+  maxZoom: 5.5,
+  maxBounds: [ [-180, -75], [180, 85] ],
+  //style: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png'
+  style: 'mapbox://styles/cvalenzuela/cj463ywav008a2spldmk3n40c'
 }
-let mappa = new Mappa('Leaflet');
+let mappa = new Mappa('Mapboxgl', key);
 
 const width = window.innerWidth;
 const height = window.innerHeight;
@@ -32,15 +37,15 @@ const sketch = (p) => {
     p.noStroke();
     p.smooth();
     p.textFont("Helvetica");
-    p.textAlign(p.CENTER)
+    p.textAlign(p.CENTER);
   };
 
   p.draw = () => {
     p.clear();
     for(let country in allCountries){
-      allCountries[country].system.run();
+      allCountries[country].system.run(); // run as long as there are countries
       if(allCountries[country].system.ended){
-        delete allCountries[country]
+        delete allCountries[country] // erase a country once it has ended
       }
     }
   };

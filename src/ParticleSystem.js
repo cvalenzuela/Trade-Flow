@@ -9,8 +9,9 @@ class ParticleSystem {
     this.started = false;
   }
 
-  addParticle(origin, destination, originName, destinationName, size, color, opacity, trail, tradeType) {
-    this.particles.push(new Particle(origin, destination, originName, destinationName, size, color, opacity, trail, tradeType));
+  addParticle(...args) {
+    this.originName = args[2];
+    this.particles.push(new Particle(args));
   }
 
   run() {
@@ -22,6 +23,8 @@ class ParticleSystem {
     }
 
     if(this.particles.length == 0 && this.started){
+      let originName = document.getElementById("originName"); // delete this name once it has ended.
+      originName && (originName.remove());
       this.ended = true;
     }
   }
