@@ -7,11 +7,6 @@ cvalenzuelab.com
 */
 import p5 from 'p5';
 import Mappa from './p5maps';
-import * as d3 from 'd3-scale';
-import dat from './dat.gui';
-import * as trade from './tradeData.json';
-import * as countries from './all_countries_latlng.json';
-import { ParticleSystem } from './ParticleSystem';
 import { allCountries } from './SystemManagment';
 import key from './private';
 
@@ -36,12 +31,17 @@ const sketch = (p) => {
     map.append(canvas);
     p.noStroke();
     p.smooth();
+    p.textFont("Helvetica");
+    p.textAlign(p.CENTER)
   };
 
   p.draw = () => {
     p.clear();
     for(let country in allCountries){
       allCountries[country].system.run();
+      if(allCountries[country].system.ended){
+        delete allCountries[country]
+      }
     }
   };
 
