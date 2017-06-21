@@ -24,9 +24,24 @@ const options = {
 }
 let mappa = new Mappa('Mapboxgl', key);
 
-const width = window.innerWidth;
-const height = window.innerHeight;
+let width = window.innerWidth;
+let height = window.innerHeight;
 let canvas, map;
+
+// View/Hide the overlay
+document.getElementById('play').addEventListener("click", () =>{
+  let overlays = document.getElementsByClassName('overlay');
+  for(let i = 0; i < overlays.length; i++){
+    overlays[i].style.display = 'none'
+  }
+}, false);
+document.getElementById('getinfo').addEventListener("click", () =>{
+  let overlays = document.getElementsByClassName('overlay');
+  for(let i = 0; i < overlays.length; i++){
+    overlays[i].style.display = 'block'
+  }
+}, false);
+
 
 const sketch = (p) => {
 
@@ -49,6 +64,10 @@ const sketch = (p) => {
       }
     }
   };
+
+  p.windowResized = () => {
+    p.resizeCanvas(width, height);
+  }
 
 };
 
