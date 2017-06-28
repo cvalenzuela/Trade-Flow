@@ -10,6 +10,7 @@ import Mappa from './p5maps';
 import { allCountries } from './countryOptions';
 import key from './private';
 import { controller } from './controller';
+import { countryOptions } from './countryOptions';
 
 const options = {
   lat: 0,
@@ -19,6 +20,7 @@ const options = {
   minZoom: 1,
   maxZoom: 5.5,
   maxBounds: [ [-180, -75], [180, 85] ],
+  pitch: 0,
   //style: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png'
   style: 'mapbox://styles/cvalenzuela/cj463ywav008a2spldmk3n40c'
 }
@@ -51,12 +53,11 @@ const sketch = (p) => {
     map.append(canvas);
     p.noStroke();
     p.smooth();
-    p.textFont("Helvetica");
-    p.textAlign(p.CENTER);
   };
 
   p.draw = () => {
     p.clear();
+
     for(let country in allCountries){
       allCountries[country].system.run(); // run as long as there are countries
       if(allCountries[country].system.ended){

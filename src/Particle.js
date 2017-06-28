@@ -19,6 +19,7 @@ class Particle {
     this.tradeType = args[8];
     this.showText = args[9];
     this.sound = args[10];
+    this.pitch = args[11];
 
     this.amount = p5.createVector(0,0);
     this.position = p5.createVector(0,0);
@@ -37,12 +38,12 @@ class Particle {
     // Handle the size
     (this.size < this.maxSize && !this.reachSize) && (this.size += 1);
     this.size >= this.maxSize && (this.reachSize = true);
-    (this.amount.x > 0.98 && this.reachSize) && (this.size -= 1);
+    //(this.amount.x > 0.97 && this.reachSize) && (this.size -= 1);
 
     // Play sounds at start
     if(this.sound){
       if (this.amount.x == 0){
-        let note = p5.map(this.maxSize, 2, 64, 200, 100);
+        let note = p5.map(this.maxSize, 2, 64, this.pitch, this.pitch - 100);
         let delay = p5.random(100, 600);
         playNote(note, delay);
       }
@@ -59,6 +60,7 @@ class Particle {
     }
 
     // Particle's trail
+
     this.history.push(this.position.copy())
     this.history.length > this.trail && (this.history.splice(0, 1));
     for(let i = 0; i < this.history.length; i++){
@@ -85,6 +87,7 @@ class Particle {
     // Actual Particle
     p5.fill(this.color[0], this.color[1], this.color[2], this.opacity);
     p5.ellipse(this.position.x, this.position.y, this.size, this.size);
+
 
     // If arrived, erase from particle array
     if(this.amount.x >= 1 && this.amount.y >= 1) {

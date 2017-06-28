@@ -12,7 +12,7 @@ let allCountries = new Object();
 
 // Object as middleware to control new Countries creation with the GUI
 let countryOptions = {
-  Country: 'Canada',
+  Country: 'Chile',
   Speed: 3,
   Opacity: 200,
   Color: randomColor(),
@@ -20,7 +20,7 @@ let countryOptions = {
   Sound: true,
   Trail: 5,
   "Show Text (slow)": false,
-  "Trade Type": "imports",
+  "Trade Type": "exports",
   CountryAndTrade: function(){return this.Country + this["Trade Type"]},
   Start: function() {
     if(!allCountries[this.CountryAndTrade()]) {

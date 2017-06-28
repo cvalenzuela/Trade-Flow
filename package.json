@@ -41,6 +41,8 @@
     ]
   },
   "dependencies": {
+    "d3-array": "1.2.0",
+    "d3-collection": "1.0.4",
     "d3-scale": "1.0.6",
     "dat.gui": "0.6.1",
     "p5": "0.5.11",

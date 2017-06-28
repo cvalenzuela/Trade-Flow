@@ -17,7 +17,7 @@ let Countries = controller.addFolder('Countries');
 let selectedCountry = Countries.add(countryOptions, 'Country', (() => {
   let c = []; validCountries.forEach((e)=>{c.push(e)}); return c.sort()
 })());
-let type = Countries.add(countryOptions, 'Trade Type', ["imports", "exports"]);
+let type = Countries.add(countryOptions, 'Trade Type', ["exports", "imports"]);
 let speed = Countries.add(countryOptions, 'Speed', 1, 50).listen();
 let opacity = Countries.add(countryOptions, 'Opacity', 0, 255).listen();
 let trail = Countries.add(countryOptions, 'Trail', 0, 30).listen();
