@@ -18,7 +18,7 @@ let selectedCountry = Countries.add(countryOptions, 'Country', (() => {
   let c = []; validCountries.forEach((e)=>{c.push(e)}); return c.sort()
 })());
 let type = Countries.add(countryOptions, 'Trade Type', ["exports", "imports"]);
-let speed = Countries.add(countryOptions, 'Speed', 1, 50).listen();
+//let speed = Countries.add(countryOptions, 'Speed', 1, 50).listen();
 let opacity = Countries.add(countryOptions, 'Opacity', 0, 255).listen();
 let trail = Countries.add(countryOptions, 'Trail', 0, 30).listen();
 let color = Countries.addColor(countryOptions, 'Color').listen();
@@ -43,9 +43,9 @@ type.onChange(function(value) {
   countryOptions.Color = randomColor();
 });
 
-speed.onChange(function(value) {
-  countryOptions.UpdateSpeed(value)
-});
+// speed.onChange(function(value) {
+//   countryOptions.UpdateSpeed(value)
+// });
 
 showText.onChange(function(value) {
   countryOptions.UpdateShowText(value)
@@ -65,6 +65,5 @@ trail.onChange(function(value) {
 sound.onChange(function(value) {
   countryOptions.UpdateSound(value)
 });
-
 
 export { controller };

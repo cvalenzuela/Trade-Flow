@@ -6,6 +6,7 @@
 import { p5Instance as p5 } from './index';
 import { Country } from './Country';
 import { randomColor, removeDiv } from './utils';
+import { setCurrentInstrument } from './sounds';
 
 // All the countries are store in this object
 let allCountries = new Object();
@@ -13,7 +14,7 @@ let allCountries = new Object();
 // Object as middleware to control new Countries creation with the GUI
 let countryOptions = {
   Country: 'Chile',
-  Speed: 3,
+  // Speed: 3,
   Opacity: 200,
   Color: randomColor(),
   CountryInstance: null,
@@ -24,7 +25,7 @@ let countryOptions = {
   CountryAndTrade: function(){return this.Country + this["Trade Type"]},
   Start: function() {
     if(!allCountries[this.CountryAndTrade()]) {
-      this.CountryInstance = new Country([this.Country, this.Speed, this.Color, this.Opacity, this.Trail, this["Trade Type"], this["Show Text (slow)"], this.Sound]);
+      this.CountryInstance = new Country([this.Country, /*this.Speed,*/ this.Color, this.Opacity, this.Trail, this["Trade Type"], this["Show Text (slow)"], this.Sound]);
       allCountries[this.CountryAndTrade()] = this.CountryInstance;
     }
   },
@@ -41,6 +42,8 @@ let countryOptions = {
     }
   },
   "Clear All": function() {
+    // return to the first sound
+    setCurrentInstrument(true);
     // Clear all future timeouts (from all countries)
     for(let country in allCountries){
       for(let i = 0; i < allCountries[country].animationQue.length ;i++){
@@ -59,10 +62,10 @@ let countryOptions = {
       })
     }
   },
-  UpdateSpeed: function(value) {
-    this.Stop();
-    this.Start();
-  },
+  // UpdateSpeed: function(value) {
+  //   this.Stop();
+  //   this.Start();
+  // },
   UpdateOpacity: function(value) {
     if(allCountries[this.CountryAndTrade()]){
       this.CountryInstance = allCountries[this.CountryAndTrade()];

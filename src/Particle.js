@@ -2,7 +2,7 @@
 
 import { p5Instance as p5, map } from './index'
 import { showName } from './utils';
-import { playNote } from './sounds';
+import { playSound } from './sounds';
 
 class Particle {
   constructor(...args){
@@ -19,7 +19,7 @@ class Particle {
     this.tradeType = args[8];
     this.showText = args[9];
     this.sound = args[10];
-    this.pitch = args[11];
+    this.soundType = args[11];
 
     this.amount = p5.createVector(0,0);
     this.position = p5.createVector(0,0);
@@ -43,9 +43,7 @@ class Particle {
     // Play sounds at start
     if(this.sound){
       if (this.amount.x == 0){
-        let note = p5.map(this.maxSize, 2, 64, this.pitch, this.pitch - 100);
-        let delay = p5.random(100, 600);
-        playNote(note, delay);
+        playSound(this.soundType);
       }
     }
 
