@@ -1718,8 +1718,8 @@ var countryOptions = {
   Color: (0, _utils.randomColor)(),
   CountryInstance: null,
   Sound: true,
-  Trail: 5,
-  "Show Text (slow)": false,
+  Trail: 2,
+  "Show Text (slow)": true,
   "Trade Type": "exports",
   CountryAndTrade: function CountryAndTrade() {
     return this.Country + this["Trade Type"];
@@ -26057,11 +26057,11 @@ var selectedCountry = Countries.add(_countryOptions.countryOptions, 'Country', f
 }());
 var type = Countries.add(_countryOptions.countryOptions, 'Trade Type', ["exports", "imports"]);
 //let speed = Countries.add(countryOptions, 'Speed', 1, 50).listen();
-var opacity = Countries.add(_countryOptions.countryOptions, 'Opacity', 0, 255).listen();
-var trail = Countries.add(_countryOptions.countryOptions, 'Trail', 0, 30).listen();
+// let opacity = Countries.add(countryOptions, 'Opacity', 0, 255).listen();
+// let trail = Countries.add(countryOptions, 'Trail', 0, 30).listen();
 var color = Countries.addColor(_countryOptions.countryOptions, 'Color').listen();
-var showText = Countries.add(_countryOptions.countryOptions, 'Show Text (slow)');
-var sound = Countries.add(_countryOptions.countryOptions, 'Sound').listen();
+// let showText = Countries.add(countryOptions, 'Show Text (slow)');
+// let sound = Countries.add(countryOptions, 'Sound').listen();
 Countries.add(_countryOptions.countryOptions, 'Start');
 Countries.add(_countryOptions.countryOptions, 'Stop');
 
@@ -26085,24 +26085,24 @@ type.onChange(function (value) {
 //   countryOptions.UpdateSpeed(value)
 // });
 
-showText.onChange(function (value) {
-  _countryOptions.countryOptions.UpdateShowText(value);
-  if (!value) {
-    (0, _utils.removeDiv)();
-  }
-});
+// showText.onChange(function(value) {
+//   countryOptions.UpdateShowText(value)
+//   if(!value){
+//     removeDiv()
+//   }
+// });
 
-opacity.onChange(function (value) {
-  _countryOptions.countryOptions.UpdateOpacity(value);
-});
+// opacity.onChange(function(value) {
+//   countryOptions.UpdateOpacity(value)
+// });
 
-trail.onChange(function (value) {
-  _countryOptions.countryOptions.UpdateTrail(value);
-});
+// trail.onChange(function(value) {
+//   countryOptions.UpdateTrail(value)
+// });
 
-sound.onChange(function (value) {
-  _countryOptions.countryOptions.UpdateSound(value);
-});
+// sound.onChange(function(value) {
+//   countryOptions.UpdateSound(value)
+// });
 
 exports.controller = controller;
 

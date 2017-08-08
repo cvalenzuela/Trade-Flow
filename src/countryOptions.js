@@ -19,8 +19,8 @@ let countryOptions = {
   Color: randomColor(),
   CountryInstance: null,
   Sound: true,
-  Trail: 5,
-  "Show Text (slow)": false,
+  Trail: 2,
+  "Show Text (slow)": true,
   "Trade Type": "exports",
   CountryAndTrade: function(){return this.Country + this["Trade Type"]},
   Start: function() {
