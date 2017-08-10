@@ -20,7 +20,7 @@ let setCurrentInstrument = (reset) => {
       return 'poly'
     case 3:
       instrumentOrder++;
-      return 'drum'
+      return 'newDrum'
     case 4:
       instrumentOrder++;
       return 'HiMono'
@@ -58,8 +58,8 @@ let soundTypes = {
     sounds: createSoundGroup(7, '2poly'),
     tempo: '2n'
   },
-  drum: {
-    sounds: createSoundGroup(8, '3drum'),
+  newDrum: {
+    sounds: createSoundGroup(10, '3newDrum'),
     tempo: '3n'
   },
   HiMono: {
