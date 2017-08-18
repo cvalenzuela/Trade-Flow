@@ -21,11 +21,10 @@ const options = {
   maxZoom: 5.5,
   maxBounds: [ [-180, -75], [180, 85] ],
   pitch: 0,
-  //style: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png'
-  style: 'mapbox://styles/cvalenzuela/cj463ywav008a2spldmk3n40c'
+  style: 'http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png'
+  //style: 'mapbox://styles/cvalenzuela/cj463ywav008a2spldmk3n40c'
 }
-let mappa = new Mappa('Mapboxgl', key);
-
+let mappa = new Mappa('Leaflet', key);
 let width = window.innerWidth;
 let height = window.innerHeight;
 let canvas, map;
@@ -73,4 +72,4 @@ const sketch = (p) => {
 };
 
 let p5Instance =  new p5(sketch);
-export { p5Instance, map }
+export { p5Instance, map}

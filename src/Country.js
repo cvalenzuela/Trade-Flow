@@ -26,7 +26,9 @@ class Country {
     this.animationQue = []
     this.interval = 1;
     this.instrument = setCurrentInstrument(false);
-    this.soundType = p5.random(soundTypes[this.instrument].sounds);
+    // Uncomment this lines for random or always the same sound. only ONE should be commented.
+    this.soundType = soundTypes[this.instrument].sounds[0]; // Always the same sound.
+    // this.soundType = p5.random(soundTypes[this.instrument].sounds); // Randoms sounds.
     this.Start();
   }
 
