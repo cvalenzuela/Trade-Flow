@@ -875,7 +875,7 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 Tone.Transport.bpm.value = 108;
 Tone.Transport.start();
 
-// Filter 
+// Filter
 // Docs: https://tonejs.github.io/docs/#Filter
 var frequencyIncrease = 250; // This is the increment to frequency everytime a new country is added.
 var filter = new Tone.Filter({
@@ -886,7 +886,7 @@ var filter = new Tone.Filter({
   gain: 0
 }).toMaster();
 
-// Freeverb 
+// Freeverb
 // Docs: https://tonejs.github.io/docs/#Freeverb
 var roomSizeIncrease = 0.1; // This is the increment to roomSize everytime a new country is added.
 var dampeningIncrease = 250; // This is the increment to dampening everytime a new country is added.
@@ -894,7 +894,7 @@ var wetIncrease = 0.1; // This is the increment to wet everytime a new country i
 var freeverb = new Tone.Freeverb({
   roomSize: 0.1,
   dampening: 10,
-  wet: 0.1
+  wet: 0.2
 }).toMaster();
 
 var instrumentOrder = 1;
@@ -902,7 +902,7 @@ var instrumentOrder = 1;
 // This will run everytime a new country is added
 var setCurrentInstrument = function setCurrentInstrument(reset) {
   // This is just for debug
-  console.log("================");
+  console.log("===============");
   console.log('filter frequency: ', filter.frequency.input.value);
   console.log('freeverb room Size', freeverb.roomSize.input.value);
   console.log('freeverb dampening', freeverb.dampening.input.value);
@@ -26096,10 +26096,10 @@ Countries.add(_countryOptions.countryOptions, 'Start');
 Countries.add(_countryOptions.countryOptions, 'Stop');
 
 controller.add(_countryOptions.countryOptions, 'Clear All');
-Countries.open
+Countries.open();
 
 // Event Listeners
-();color.onChange(function (value) {
+color.onChange(function (value) {
   _countryOptions.countryOptions.UpdateColor(value);
 });
 
@@ -27737,7 +27737,8 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
       exports.Tangram = Tangram;
 
       /***/
-    }])
+    }]
+    /******/)
   );
 });
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(62)(module)))
@@ -27752,9 +27753,7 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-// Mapbox key
-
-exports.default = 'pk.eyJ1IjoiY3ZhbGVuenVlbGEiLCJhIjoiY2l2ZzkweTQ3MDFuODJ5cDM2NmRnaG4wdyJ9.P_0JJXX6sD1oX2D0RQeWFA';
+exports.default = 'abcd';
 
 /***/ }),
 /* 66 */
@@ -62933,7 +62932,7 @@ var Country = function () {
     this.instrument = (0, _sounds.setCurrentInstrument)(false);
     // Uncomment this lines for random or always the same sound. only ONE should be commented.
     this.soundType = _sounds.soundTypes[this.instrument].sounds[0]; // Always the same sound.
-    // this.soundType = p5.random(soundTypes[this.instrument].sounds); // Randoms sounds.
+    //this.soundType = p5.random(soundTypes[this.instrument].sounds); // Randoms sounds.
     this.Start();
   }
 

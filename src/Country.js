@@ -28,7 +28,7 @@ class Country {
     this.instrument = setCurrentInstrument(false);
     // Uncomment this lines for random or always the same sound. only ONE should be commented.
     this.soundType = soundTypes[this.instrument].sounds[0]; // Always the same sound.
-    // this.soundType = p5.random(soundTypes[this.instrument].sounds); // Randoms sounds.
+    //this.soundType = p5.random(soundTypes[this.instrument].sounds); // Randoms sounds.
     this.Start();
   }
 
@@ -45,16 +45,16 @@ class Country {
         let size = scale(this.trade[destinationName]);
         size = p5.constrain(size, 2, 64);
         this.system.addParticle(
-          this.origin, 
-          destination, 
-          this.Country, 
-          destinationName, 
-          size, 
-          this.Color, 
-          this.Opacity, 
-          this.Trail, 
-          this.tradeType, 
-          this.showText, 
+          this.origin,
+          destination,
+          this.Country,
+          destinationName,
+          size,
+          this.Color,
+          this.Opacity,
+          this.Trail,
+          this.tradeType,
+          this.showText,
           this.sound,
           this.soundType
         );
@@ -63,7 +63,7 @@ class Country {
       }
       if(currentDestinationCountry < destinationCountries.length){
         currentDestinationCountry++;
-      }  
+      }
     }, '1n').start(soundTypes[this.instrument].tempo);
 
 
