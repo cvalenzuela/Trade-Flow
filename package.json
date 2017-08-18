@@ -4,6 +4,7 @@
   "description": "Visualizing trade data",
   "main": "src/index.js",
   "scripts": {
+    "develop": "webpack-dev-server",
     "prebuild": "rimraf dist",
     "watch:test": "npm t -- -w",
     "build:main": "babel --copy-files --out-dir dist --ignore *.test.js",
