@@ -165,45 +165,45 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ascending", function() { return __WEBPACK_IMPORTED_MODULE_1__src_ascending__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_bisector__ = __webpack_require__(30);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "bisector", function() { return __WEBPACK_IMPORTED_MODULE_2__src_bisector__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_cross__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_cross__ = __webpack_require__(71);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "cross", function() { return __WEBPACK_IMPORTED_MODULE_3__src_cross__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_descending__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_descending__ = __webpack_require__(72);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "descending", function() { return __WEBPACK_IMPORTED_MODULE_4__src_descending__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_deviation__ = __webpack_require__(31);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "deviation", function() { return __WEBPACK_IMPORTED_MODULE_5__src_deviation__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_extent__ = __webpack_require__(32);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "extent", function() { return __WEBPACK_IMPORTED_MODULE_6__src_extent__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_histogram__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_histogram__ = __webpack_require__(73);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "histogram", function() { return __WEBPACK_IMPORTED_MODULE_7__src_histogram__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_threshold_freedmanDiaconis__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_threshold_freedmanDiaconis__ = __webpack_require__(83);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "thresholdFreedmanDiaconis", function() { return __WEBPACK_IMPORTED_MODULE_8__src_threshold_freedmanDiaconis__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_threshold_scott__ = __webpack_require__(86);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_threshold_scott__ = __webpack_require__(84);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "thresholdScott", function() { return __WEBPACK_IMPORTED_MODULE_9__src_threshold_scott__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_threshold_sturges__ = __webpack_require__(36);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "thresholdSturges", function() { return __WEBPACK_IMPORTED_MODULE_10__src_threshold_sturges__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_max__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_max__ = __webpack_require__(75);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "max", function() { return __WEBPACK_IMPORTED_MODULE_11__src_max__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_mean__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_mean__ = __webpack_require__(76);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "mean", function() { return __WEBPACK_IMPORTED_MODULE_12__src_mean__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_median__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_median__ = __webpack_require__(77);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "median", function() { return __WEBPACK_IMPORTED_MODULE_13__src_median__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_merge__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_merge__ = __webpack_require__(78);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "merge", function() { return __WEBPACK_IMPORTED_MODULE_14__src_merge__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_min__ = __webpack_require__(33);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "min", function() { return __WEBPACK_IMPORTED_MODULE_15__src_min__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_pairs__ = __webpack_require__(34);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "pairs", function() { return __WEBPACK_IMPORTED_MODULE_16__src_pairs__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_permute__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_permute__ = __webpack_require__(79);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "permute", function() { return __WEBPACK_IMPORTED_MODULE_17__src_permute__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_quantile__ = __webpack_require__(17);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "quantile", function() { return __WEBPACK_IMPORTED_MODULE_18__src_quantile__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__src_range__ = __webpack_require__(35);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "range", function() { return __WEBPACK_IMPORTED_MODULE_19__src_range__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__src_scan__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__src_scan__ = __webpack_require__(80);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scan", function() { return __WEBPACK_IMPORTED_MODULE_20__src_scan__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__src_shuffle__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__src_shuffle__ = __webpack_require__(81);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "shuffle", function() { return __WEBPACK_IMPORTED_MODULE_21__src_shuffle__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__src_sum__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__src_sum__ = __webpack_require__(82);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "sum", function() { return __WEBPACK_IMPORTED_MODULE_22__src_sum__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__src_ticks__ = __webpack_require__(37);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "ticks", function() { return __WEBPACK_IMPORTED_MODULE_23__src_ticks__["a"]; });
@@ -213,7 +213,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "transpose", function() { return __WEBPACK_IMPORTED_MODULE_24__src_transpose__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__src_variance__ = __webpack_require__(39);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "variance", function() { return __WEBPACK_IMPORTED_MODULE_25__src_variance__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__src_zip__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__src_zip__ = __webpack_require__(85);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "zip", function() { return __WEBPACK_IMPORTED_MODULE_26__src_zip__["a"]; });
 
 
@@ -270,10 +270,10 @@ var durationWeek = 6048e5;
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_0__src_color__["h"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_0__src_color__["g"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_0__src_color__["f"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_lab__ = __webpack_require__(94);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_lab__ = __webpack_require__(92);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_1__src_lab__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__src_lab__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_cubehelix__ = __webpack_require__(93);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_cubehelix__ = __webpack_require__(91);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_2__src_cubehelix__["a"]; });
 
 
@@ -315,24 +315,25 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.map = exports.p5Instance = undefined;
 
-var _p = __webpack_require__(66);
+var _p = __webpack_require__(65);
 
 var _p2 = _interopRequireDefault(_p);
 
-var _p5maps = __webpack_require__(64);
+var _mappa = __webpack_require__(63);
 
-var _p5maps2 = _interopRequireDefault(_p5maps);
+var _mappa2 = _interopRequireDefault(_mappa);
 
 var _countryOptions = __webpack_require__(27);
 
-var _private = __webpack_require__(65);
+var _private = __webpack_require__(64);
 
 var _private2 = _interopRequireDefault(_private);
 
-var _controller = __webpack_require__(63);
+var _gui = __webpack_require__(62);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+// import { controller } from './controller'; // Uncomment this for dat.gui interfce
 /*
 Visualize and listen to Trade data
 c.valenzuela
@@ -348,18 +349,24 @@ var options = {
   minZoom: 1,
   maxZoom: 5.5,
   maxBounds: [[-180, -75], [180, 85]],
-  pitch: 0,
-  style: 'http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png'
-  //style: 'mapbox://styles/cvalenzuela/cj463ywav008a2spldmk3n40c'
+  pitch: 15,
+  //style: 'http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png' // debug leaflet
+  //style: 'mapbox://styles/cvalenzuela/cj463ywav008a2spldmk3n40c' // original black
+  style: 'mapbox://styles/cvalenzuela/cj65qb6616hoj2rr822iwpwx5' // Terminal
+  //style: 'mapbox://styles/cvalenzuela/cj5n001zq3wwp2smux7pdrpkq' // decimal
 };
-var mappa = new _p5maps2.default('Leaflet', _private2.default);
+var mappa = new _mappa2.default('Mapboxgl', _private2.default);
 var width = window.innerWidth;
 var height = window.innerHeight;
 var canvas = void 0,
     map = void 0;
+var bearing = 0;
+var moveMap = false;
+var reachFullRotation = false;
+var animateBtn = document.getElementById('animateMapButton');
 
 // View/Hide the overlay
-document.getElementById('play').addEventListener("click", function () {
+document.getElementById('start').addEventListener("click", function () {
   var overlays = document.getElementsByClassName('overlay');
   for (var i = 0; i < overlays.length; i++) {
     overlays[i].style.display = 'none';
@@ -367,6 +374,7 @@ document.getElementById('play').addEventListener("click", function () {
 }, false);
 document.getElementById('getinfo').addEventListener("click", function () {
   var overlays = document.getElementsByClassName('overlay');
+  document.getElementById('start').innerHTML = 'Resume';
   for (var i = 0; i < overlays.length; i++) {
     overlays[i].style.display = 'block';
   }
@@ -377,28 +385,55 @@ var sketch = function sketch(p) {
   p.setup = function () {
     canvas = p.createCanvas(width, height);
     exports.map = map = mappa.tileMap(options);
-    map.append(canvas);
+    map.overlay(canvas);
     p.noStroke();
     p.smooth();
   };
 
   p.draw = function () {
     p.clear();
-
     for (var country in _countryOptions.allCountries) {
       _countryOptions.allCountries[country].system.run(); // run as long as there are countries
       if (_countryOptions.allCountries[country].system.ended) {
         delete _countryOptions.allCountries[country]; // erase a country once it has ended
       }
     }
+    if (moveMap) {
+      bearing > 350 && (reachFullRotation = true);
+      bearing < 3 && (reachFullRotation = false);
+      reachFullRotation ? bearing -= 0.01 : bearing += 0.01;
+      map.map.easeTo({
+        bearing: bearing,
+        zoom: 1.4
+      });
+    }
   };
 
   p.windowResized = function () {
-    p.resizeCanvas(width, height);
+    p.resizeCanvas(p.windowWidth, p.windowHeight);
   };
 };
 
+var animateMap = function animateMap() {
+  moveMap = !moveMap;
+  if (moveMap) {
+    animateBtn.innerHTML = 'Stop Map Movement';
+  } else {
+    map.map.flyTo({
+      bearing: 0,
+      zoom: 2,
+      speed: 0.6
+    });
+    animateBtn.innerHTML = 'Animate Map';
+  }
+};
+
 var p5Instance = new _p2.default(sketch);
+window.showCountriesBtn = _gui.showCountriesBtn;
+window.showTradeBtn = _gui.showTradeBtn;
+window.startCountry = _gui.startCountry;
+window.clearAll = _gui.clearAll;
+window.animateMap = animateMap;
 exports.p5Instance = p5Instance;
 exports.map = map;
 
@@ -431,31 +466,31 @@ exports.map = map;
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_5__src_number__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_object__ = __webpack_require__(51);
 /* unused harmony reexport interpolateObject */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_round__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_round__ = __webpack_require__(107);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_7__src_round__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_string__ = __webpack_require__(53);
 /* unused harmony reexport interpolateString */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_transform_index__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_transform_index__ = __webpack_require__(109);
 /* unused harmony reexport interpolateTransformCss */
 /* unused harmony reexport interpolateTransformSvg */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_zoom__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_zoom__ = __webpack_require__(111);
 /* unused harmony reexport interpolateZoom */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_rgb__ = __webpack_require__(52);
 /* unused harmony reexport interpolateRgb */
 /* unused harmony reexport interpolateRgbBasis */
 /* unused harmony reexport interpolateRgbBasisClosed */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_hsl__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_hsl__ = __webpack_require__(104);
 /* unused harmony reexport interpolateHsl */
 /* unused harmony reexport interpolateHslLong */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_lab__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_lab__ = __webpack_require__(105);
 /* unused harmony reexport interpolateLab */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_hcl__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_hcl__ = __webpack_require__(103);
 /* unused harmony reexport interpolateHcl */
 /* unused harmony reexport interpolateHclLong */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_cubehelix__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_cubehelix__ = __webpack_require__(102);
 /* unused harmony reexport interpolateCubehelix */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_15__src_cubehelix__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_quantize__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_quantize__ = __webpack_require__(106);
 /* unused harmony reexport quantize */
 
 
@@ -538,7 +573,7 @@ function nogamma(a, b) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_d3_array__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_d3_interpolate__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__continuous__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tickFormat__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__tickFormat__ = __webpack_require__(127);
 
 
 
@@ -620,9 +655,9 @@ function linear() {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.showName = exports.scale = exports.removeDiv = exports.randomColor = undefined;
+exports.colorPallet = exports.showName = exports.scale = exports.removeDiv = exports.randomColor = undefined;
 
-var _d3Scale = __webpack_require__(114);
+var _d3Scale = __webpack_require__(112);
 
 var _d3Collection = __webpack_require__(40);
 
@@ -635,11 +670,19 @@ var randomColor = function randomColor() {
     color.push(Math.floor(Math.random() * 255) + 0);
   }
   return color;
+}; // Util functions
+
+var colorPallet = function colorPallet() {
+  var index = 0;
+  var hexColors = ["#1F313F", "#1C515C", "#16736F", "#309577", "#62B773", "#A2D56A", "#EEEF63"];
+  var rgbColors = [[99, 171, 207, 1], [60, 190, 205, 1], [47, 206, 191, 1], [82, 220, 169, 1], [131, 230, 142, 1], [183, 236, 116, 1], [238, 239, 99, 1]];
+  return function () {
+    index < rgbColors.length ? index++ : index = 1;
+    return rgbColors[index - 1];
+  };
 };
 
 // Remove all p tags
-// Util functions
-
 var removeDiv = function removeDiv() {
   var elements = document.getElementsByTagName("p");
   while (elements[0]) {
@@ -650,26 +693,15 @@ var removeDiv = function removeDiv() {
 // Scale
 var scale = (0, _d3Scale.scaleLinear)().domain([0, 319, 1489, 4425, 10647, 22530, 43175.5, 79201.5, 141410, 250945, 445064, 783802, 1388819, 2480681, 4575155, 8698149.75, 17303957, 37358074, 95410812, 353652138.8, 2249660890432]).range([2, 2.8284271247461903, 3.4641016151377544, 4, 4, 5.656854249492381, 6.928203230275509, 8, 8, 11.313708498984761, 13.856406460551018, 16, 16, 22.627416997969522, 27.712812921102035, 32, 32, 45.254833995939045, 55.42562584220407, 64]);
 
-// Get Sound Scale
-// let soundScale = (data) => {
-//   let avg = mean(values(data));
-
-//   let scale = scaleLinear()
-//   .domain([0, 319, 1489, 4425, 10647, 22530, 43175.5, 79201.5, 141410, 250945, 445064, 783802, 1388819, 2480681, 4575155, 8698149.75, 17303957, 37358074, 95410812, 353652138.8, 2249660890432])
-//   .range([950, 900, 850, 800 ,750, 700, 650, 600, 550, 500, 450, 400, 350, 300, 250, 200, 150, 100, 50, 0]);
-//   // .range([0, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950]);
-
-//   return scale(avg);
-// }
-
 // Style elements
-var showName = function showName(value, position, color, origin) {
-  if (!document.getElementById(value)) {
+var showName = function showName(value, id, position, color, origin) {
+  if (!document.getElementById(id)) {
     var el = document.createElement("p");
-    el.id = value;
+    el.id = id;
     el.innerHTML = value;
     el.style.left = position.x + 'px';
     el.style.top = position.y + 'px';
+    el.style.zIndex = '20';
     if (origin) {
       el.style.background = 'rgb(' + color[0] + ',' + color[1] + ',' + color[2] + ')';
     } else {
@@ -678,8 +710,8 @@ var showName = function showName(value, position, color, origin) {
     origin ? el.className += 'origin' : el.className += 'partner';
     document.body.appendChild(el);
   }
-  if (document.getElementById(value)) {
-    var _el = document.getElementById(value);
+  if (document.getElementById(id)) {
+    var _el = document.getElementById(id);
     _el.style.left = position.x + 'px';
     _el.style.top = position.y + 'px';
     if (origin) {
@@ -694,6 +726,7 @@ exports.randomColor = randomColor;
 exports.removeDiv = removeDiv;
 exports.scale = scale;
 exports.showName = showName;
+exports.colorPallet = colorPallet;
 
 /***/ }),
 /* 13 */
@@ -901,46 +934,52 @@ var instrumentOrder = 1;
 
 // This will run everytime a new country is added
 var setCurrentInstrument = function setCurrentInstrument(reset) {
-  // This is just for debug
-  console.log("===============");
-  console.log('filter frequency: ', filter.frequency.input.value);
-  console.log('freeverb room Size', freeverb.roomSize.input.value);
-  console.log('freeverb dampening', freeverb.dampening.input.value);
-
-  // Increase the variables for filter or freeverb
-  filter.frequency.input.value += frequencyIncrease; // Increase for frequency in filter
-
-  freeverb.dampening.input.value += dampeningIncrease; // Increase for dampening in freeverb
-  freeverb.roomSize.input.value > 0.8 ? roomSizeIncrease = 0 : roomSizeIncrease = 0.1; // Logic so roomSize doesn't go over 0.8
-  freeverb.roomSize.input.value += roomSizeIncrease; // Increase for roomSize in freeverb
 
   if (reset) {
     instrumentOrder = 1;
-  }
-  // Each country gets a different sound based on the position it was clicked.
-  switch (instrumentOrder) {
-    case 1:
-      instrumentOrder++;
-      return 'mono';
-    case 2:
-      instrumentOrder++;
-      return 'poly';
-    case 3:
-      instrumentOrder++;
-      return 'newDrum';
-    case 4:
-      instrumentOrder++;
-      return 'HiMono';
-    case 5:
-      instrumentOrder++;
-      return 'LowMono';
-    case 6:
-      instrumentOrder++;
-      return 'HiPoly';
-    default:
-      instrumentOrder = 2;
-      return 'mono';
-      break;
+    filter.frequency.input.value = 350; // Increase for frequency in filter
+    freeverb.dampening.input.value = 10; // Increase for dampening in freeverb
+    freeverb.roomSize.input.value = 0.1; // Increase for roomSize in freeverb
+  } else {
+    // This is just for debug
+    console.log("===============");
+    console.log('filter frequency: ', filter.frequency.input.value);
+    console.log('freeverb room Size', freeverb.roomSize.input.value);
+    console.log('freeverb dampening', freeverb.dampening.input.value);
+
+    // Increase the variables for filter or freeverb
+    filter.frequency.input.value += frequencyIncrease; // Increase for frequency in filter
+
+    freeverb.dampening.input.value += dampeningIncrease; // Increase for dampening in freeverb
+    freeverb.roomSize.input.value > 0.8 ? roomSizeIncrease = 0 : roomSizeIncrease = 0.1; // Logic so roomSize doesn't go over 0.8
+    freeverb.roomSize.input.value += roomSizeIncrease; // Increase for roomSize in freeverb
+
+
+    // Each country gets a different sound based on the position it was clicked.
+    switch (instrumentOrder) {
+      case 1:
+        instrumentOrder++;
+        return 'mono';
+      case 2:
+        instrumentOrder++;
+        return 'poly';
+      case 3:
+        instrumentOrder++;
+        return 'newDrum';
+      case 4:
+        instrumentOrder++;
+        return 'HiMono';
+      case 5:
+        instrumentOrder++;
+        return 'LowMono';
+      case 6:
+        instrumentOrder++;
+        return 'HiPoly';
+      default:
+        instrumentOrder = 2;
+        return 'mono';
+        break;
+    }
   }
 };
 
@@ -1607,26 +1646,26 @@ function defaultLocale(definition) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_interval__ = __webpack_require__(0);
 /* unused harmony reexport timeInterval */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_millisecond__ = __webpack_require__(135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_millisecond__ = __webpack_require__(133);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_1__src_millisecond__["a"]; });
 /* unused harmony reexport timeMilliseconds */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_1__src_millisecond__["a"]; });
 /* unused harmony reexport utcMilliseconds */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_second__ = __webpack_require__(138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_second__ = __webpack_require__(136);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_2__src_second__["a"]; });
 /* unused harmony reexport timeSeconds */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_2__src_second__["a"]; });
 /* unused harmony reexport utcSeconds */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_minute__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_minute__ = __webpack_require__(134);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_3__src_minute__["a"]; });
 /* unused harmony reexport timeMinutes */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_hour__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_hour__ = __webpack_require__(132);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_4__src_hour__["a"]; });
 /* unused harmony reexport timeHours */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_day__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_day__ = __webpack_require__(131);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_5__src_day__["a"]; });
 /* unused harmony reexport timeDays */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_week__ = __webpack_require__(145);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_week__ = __webpack_require__(143);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_6__src_week__["a"]; });
 /* unused harmony reexport timeWeeks */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_6__src_week__["a"]; });
@@ -1643,22 +1682,22 @@ function defaultLocale(definition) {
 /* unused harmony reexport timeFridays */
 /* unused harmony reexport timeSaturday */
 /* unused harmony reexport timeSaturdays */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_month__ = __webpack_require__(137);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_month__ = __webpack_require__(135);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_7__src_month__["a"]; });
 /* unused harmony reexport timeMonths */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_year__ = __webpack_require__(146);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_year__ = __webpack_require__(144);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_8__src_year__["a"]; });
 /* unused harmony reexport timeYears */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_utcMinute__ = __webpack_require__(141);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_utcMinute__ = __webpack_require__(139);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_9__src_utcMinute__["a"]; });
 /* unused harmony reexport utcMinutes */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_utcHour__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_utcHour__ = __webpack_require__(138);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_10__src_utcHour__["a"]; });
 /* unused harmony reexport utcHours */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_utcDay__ = __webpack_require__(139);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_utcDay__ = __webpack_require__(137);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_11__src_utcDay__["a"]; });
 /* unused harmony reexport utcDays */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_utcWeek__ = __webpack_require__(143);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_utcWeek__ = __webpack_require__(141);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_12__src_utcWeek__["a"]; });
 /* unused harmony reexport utcWeeks */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_12__src_utcWeek__["a"]; });
@@ -1675,10 +1714,10 @@ function defaultLocale(definition) {
 /* unused harmony reexport utcFridays */
 /* unused harmony reexport utcSaturday */
 /* unused harmony reexport utcSaturdays */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_utcMonth__ = __webpack_require__(142);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_utcMonth__ = __webpack_require__(140);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_13__src_utcMonth__["a"]; });
 /* unused harmony reexport utcMonths */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_utcYear__ = __webpack_require__(144);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_utcYear__ = __webpack_require__(142);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_14__src_utcYear__["a"]; });
 /* unused harmony reexport utcYears */
 
@@ -1726,60 +1765,38 @@ exports.countryOptions = exports.allCountries = undefined;
 
 var _index = __webpack_require__(6);
 
-var _Country = __webpack_require__(67);
+var _Country = __webpack_require__(66);
 
 var _utils = __webpack_require__(12);
 
 var _sounds = __webpack_require__(16);
 
 // All the countries are store in this object
-// Hierarchy is:
-// 1) allCountries contains an array of all the Country instances.
-// 2) A Country instance has a Particle System.
-// 3) A Particle System has an array of particles to display.
+// Hierarchy is: 1) allCountries contains an array of all the Country instances.
+// 2) A Country instance has a Particle System. 3) A Particle System has an
+// array of particles to display.
 
 var allCountries = new Object();
 
 // Object as middleware to control new Countries creation with the GUI
 var countryOptions = {
-  Country: 'Chile',
-  // Speed: 3,
-  Opacity: 200,
-  Color: (0, _utils.randomColor)(),
+  Country: null,
   CountryInstance: null,
-  Sound: true,
-  Trail: 2,
-  "Show Text (slow)": true,
-  "Trade Type": "exports",
+  Elt: null,
+  "Trade Type": null,
   CountryAndTrade: function CountryAndTrade() {
     return this.Country + this["Trade Type"];
   },
   Start: function Start() {
     if (!allCountries[this.CountryAndTrade()]) {
-      this.CountryInstance = new _Country.Country([this.Country, /*this.Speed,*/this.Color, this.Opacity, this.Trail, this["Trade Type"], this["Show Text (slow)"], this.Sound]);
+      this.CountryInstance = new _Country.Country([this.Country, this["Trade Type"], this.Elt]);
       allCountries[this.CountryAndTrade()] = this.CountryInstance;
     }
   },
-  Stop: function Stop() {
-    if (allCountries[this.CountryAndTrade()]) {
-      // Clear all future timeouts (just this country)
-      for (var i = 0; i < allCountries[this.CountryAndTrade()].animationQue.length; i++) {
-        clearTimeout(allCountries[this.CountryAndTrade()].animationQue[i]);
-      };
-
-      (0, _utils.removeDiv)();
-      delete allCountries[this.CountryAndTrade()];
-      _index.p5Instance.ellipse(1, 1, 1, 1); // bug? if not the screen freezes
-    }
-  },
   "Clear All": function ClearAll() {
-    // return to the first sound
-    (0, _sounds.setCurrentInstrument)(true);
-    // Clear all future timeouts (from all countries)
+    (0, _sounds.setCurrentInstrument)(true); // return to the first sound
     for (var country in allCountries) {
-      for (var i = 0; i < allCountries[country].animationQue.length; i++) {
-        clearTimeout(allCountries[country].animationQue[i]);
-      }
+      allCountries[country].Stop();
     };
     (0, _utils.removeDiv)();
     exports.allCountries = allCountries = []; // Erase all countries
@@ -1793,43 +1810,12 @@ var countryOptions = {
       });
     }
   },
-  // UpdateSpeed: function(value) {
-  //   this.Stop();
-  //   this.Start();
-  // },
   UpdateOpacity: function UpdateOpacity(value) {
     if (allCountries[this.CountryAndTrade()]) {
       this.CountryInstance = allCountries[this.CountryAndTrade()];
       this.CountryInstance.Opacity = value; // All the new particles that will be created
       allCountries[this.CountryAndTrade()].particles.forEach(function (p) {
         p.opacity = value; // change the current ones
-      });
-    }
-  },
-  UpdateTrail: function UpdateTrail(value) {
-    if (allCountries[this.CountryAndTrade()]) {
-      this.CountryInstance = allCountries[this.CountryAndTrade()];
-      this.CountryInstance.Trail = value; // All the new particles that will be created
-      allCountries[this.CountryAndTrade()].particles.forEach(function (p) {
-        p.trail = value; // change the current ones
-      });
-    }
-  },
-  UpdateShowText: function UpdateShowText(value) {
-    if (allCountries[this.CountryAndTrade()]) {
-      this.CountryInstance = allCountries[this.CountryAndTrade()];
-      this.CountryInstance.showText = value; // All the next particles that will be created
-      allCountries[this.CountryAndTrade()].particles.forEach(function (p) {
-        p.showText = value; // change the current ones
-      });
-    }
-  },
-  UpdateSound: function UpdateSound(value) {
-    if (allCountries[this.CountryAndTrade()]) {
-      this.CountryInstance = allCountries[this.CountryAndTrade()];
-      this.CountryInstance.sound = value; // All the next particles that will be created
-      allCountries[this.CountryAndTrade()].particles.forEach(function (p) {
-        p.sound = value; // change the current ones
       });
     }
   }
@@ -2186,17 +2172,17 @@ function length(d) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_nest__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_nest__ = __webpack_require__(88);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "nest", function() { return __WEBPACK_IMPORTED_MODULE_0__src_nest__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_set__ = __webpack_require__(91);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_set__ = __webpack_require__(89);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "set", function() { return __WEBPACK_IMPORTED_MODULE_1__src_set__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_map__ = __webpack_require__(18);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "map", function() { return __WEBPACK_IMPORTED_MODULE_2__src_map__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_keys__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_keys__ = __webpack_require__(87);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "keys", function() { return __WEBPACK_IMPORTED_MODULE_3__src_keys__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_values__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_values__ = __webpack_require__(90);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "values", function() { return __WEBPACK_IMPORTED_MODULE_4__src_values__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_entries__ = __webpack_require__(88);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_entries__ = __webpack_require__(86);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "entries", function() { return __WEBPACK_IMPORTED_MODULE_5__src_entries__["a"]; });
 
 
@@ -2222,7 +2208,7 @@ var rad2deg = 180 / Math.PI;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__ = __webpack_require__(95);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__ = __webpack_require__(93);
 /* unused harmony reexport formatDefaultLocale */
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_0__src_defaultLocale__["b"]; });
@@ -2230,11 +2216,11 @@ var rad2deg = 180 / Math.PI;
 /* unused harmony reexport formatLocale */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_formatSpecifier__ = __webpack_require__(44);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_2__src_formatSpecifier__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_precisionFixed__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_precisionFixed__ = __webpack_require__(99);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_3__src_precisionFixed__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_precisionPrefix__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_precisionPrefix__ = __webpack_require__(100);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_4__src_precisionPrefix__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_precisionRound__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_precisionRound__ = __webpack_require__(101);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_5__src_precisionRound__["a"]; });
 
 
@@ -2339,9 +2325,9 @@ FormatSpecifier.prototype.toString = function() {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatDefault__ = __webpack_require__(96);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__formatDefault__ = __webpack_require__(94);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__formatPrefixAuto__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__formatRounded__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__formatRounded__ = __webpack_require__(97);
 
 
 
@@ -2370,12 +2356,12 @@ FormatSpecifier.prototype.toString = function() {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__exponent__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__formatGroup__ = __webpack_require__(97);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__formatNumerals__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__formatGroup__ = __webpack_require__(95);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__formatNumerals__ = __webpack_require__(96);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__formatSpecifier__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__formatTypes__ = __webpack_require__(45);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__formatPrefixAuto__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__identity__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__identity__ = __webpack_require__(98);
 
 
 
@@ -3005,7 +2991,7 @@ function calendar(year, month, week, day, hour, minute, second, millisecond, for
 /* unused harmony reexport timeFormatLocale */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_isoFormat__ = __webpack_require__(59);
 /* unused harmony reexport isoFormat */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_isoParse__ = __webpack_require__(132);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_isoParse__ = __webpack_require__(130);
 /* unused harmony reexport isoParse */
 
 
@@ -26019,34 +26005,6 @@ var __WEBPACK_AMD_DEFINE_RESULT__;(function(root, factory){
 
 /***/ }),
 /* 62 */
-/***/ (function(module, exports) {
-
-module.exports = function(module) {
-	if(!module.webpackPolyfill) {
-		module.deprecate = function() {};
-		module.paths = [];
-		// module.parent = undefined by default
-		if(!module.children) module.children = [];
-		Object.defineProperty(module, "loaded", {
-			enumerable: true,
-			get: function() {
-				return module.l;
-			}
-		});
-		Object.defineProperty(module, "id", {
-			enumerable: true,
-			get: function() {
-				return module.i;
-			}
-		});
-		module.webpackPolyfill = 1;
-	}
-	return module;
-};
-
-
-/***/ }),
-/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26055,89 +26013,113 @@ module.exports = function(module) {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.controller = undefined;
+exports.clearAll = exports.startCountry = exports.showTradeBtn = exports.showCountriesBtn = undefined;
 
-var _dat = __webpack_require__(70);
-
-var _dat2 = _interopRequireDefault(_dat);
-
-var _validCountries = __webpack_require__(71);
+var _validCountries = __webpack_require__(69);
 
 var _countryOptions = __webpack_require__(27);
 
 var _utils = __webpack_require__(12);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+var currentSelectedCountry = document.getElementById("currentSelectedCountry"); // Custom GUI without dat.gui.js
 
-// dat.GUI Controller
+var currentSelectedTrade = document.getElementById("currentSelectedTrade");
+var countryList = document.getElementById("countryList");
+var warning = document.getElementById("warning");
+var selectedCountry = null;
+var selectedCountries = [];
 
-var controller = new _dat2.default.GUI({
-  width: 280,
-  autoPlace: false
+// Add all Valid Countries to the dropdown
+_validCountries.validCountries.sort();
+_validCountries.validCountries.forEach(function (country) {
+  var element = document.createElement("div");
+  element.className = "country";
+  element.dataset.name = country;
+  element.appendChild(document.createTextNode(country));
+  countryList.appendChild(element);
 });
 
-var customContainer = document.getElementById('gui');
-customContainer.appendChild(controller.domElement);
+// Get element containing all countries
+var showCountriesBtn = function showCountriesBtn() {
+  document.getElementById("countryList").classList.toggle("show");
+};
+// Get element containing all trades
+var showTradeBtn = function showTradeBtn() {
+  document.getElementById("tradeList").classList.toggle("show");
+};
 
-var Countries = controller.addFolder('Countries');
-var selectedCountry = Countries.add(_countryOptions.countryOptions, 'Country', function () {
-  var c = [];_validCountries.validCountries.forEach(function (e) {
-    c.push(e);
-  });return c.sort();
-}());
-var type = Countries.add(_countryOptions.countryOptions, 'Trade Type', ["exports", "imports"]);
-//let speed = Countries.add(countryOptions, 'Speed', 1, 50).listen();
-// let opacity = Countries.add(countryOptions, 'Opacity', 0, 255).listen();
-// let trail = Countries.add(countryOptions, 'Trail', 0, 30).listen();
-var color = Countries.addColor(_countryOptions.countryOptions, 'Color').listen();
-// let showText = Countries.add(countryOptions, 'Show Text (slow)');
-// let sound = Countries.add(countryOptions, 'Sound').listen();
-Countries.add(_countryOptions.countryOptions, 'Start');
-Countries.add(_countryOptions.countryOptions, 'Stop');
+// Function to trigger when a country is selected: Get all countries and it's data-name property
+var allCountriesDropwdown = document.getElementsByClassName("country");
+var selectCountry = function selectCountry(element) {
+  var name = this.getAttribute("data-name");
+  selectedCountry = element.srcElement;
+  currentSelectedCountry.innerHTML = name;
+  _countryOptions.countryOptions.Country = name;
+};
+// Function to trigger when a trade is selected: Get trade type and it's data-name property
+var tradeTypeDropwdown = document.getElementsByClassName("tradeType");
+var selectTrade = function selectTrade(element) {
+  var type = this.getAttribute("data-name");
+  currentSelectedTrade.innerHTML = type.charAt(0).toUpperCase() + type.slice(1);
+  _countryOptions.countryOptions["Trade Type"] = type;
+};
 
-controller.add(_countryOptions.countryOptions, 'Clear All');
-Countries.open();
+// Add event-listenr for each country.
+for (var i = 0; i < allCountriesDropwdown.length; i++) {
+  allCountriesDropwdown[i].addEventListener('click', selectCountry, false);
+}
+// Add event-listenr for trade types
+for (var _i = 0; _i < tradeTypeDropwdown.length; _i++) {
+  tradeTypeDropwdown[_i].addEventListener('click', selectTrade, false);
+}
 
-// Event Listeners
-color.onChange(function (value) {
-  _countryOptions.countryOptions.UpdateColor(value);
-});
+// If clicked outside of the button
+window.onclick = function (event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var _i2 = 0; _i2 < dropdowns.length; _i2++) {
+      var openDropdown = dropdowns[_i2];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+};
 
-selectedCountry.onChange(function (value) {
-  _countryOptions.countryOptions.Color = (0, _utils.randomColor)();
-});
+// Start visualizing a country
+var startCountry = function startCountry() {
+  if (!_countryOptions.countryOptions.Country) {
+    warning.style.display = 'block';
+    warning.style.display = 'block';
+    warning.innerHTML = "Please select a Country";
+  } else if (!_countryOptions.countryOptions["Trade Type"]) {
+    warning.style.display = 'block';
+    warning.innerHTML = "Please select a Trade Type";
+  } else {
+    warning.style.display = 'none';
+    selectedCountry.style.color = '#3e3c3c';
+    selectedCountries.push(selectedCountry);
+    _countryOptions.countryOptions.Elt = selectedCountry;
+    _countryOptions.countryOptions.Start();
+    _countryOptions.countryOptions.Color = (0, _utils.randomColor)();
+  }
+};
 
-type.onChange(function (value) {
-  _countryOptions.countryOptions.Color = (0, _utils.randomColor)();
-});
+// Clear visualizing a country
+var clearAll = function clearAll() {
+  selectedCountries.forEach(function (country) {
+    country.style.color = '#c7c7c7';
+  });
+  _countryOptions.countryOptions["Clear All"]();
+};
 
-// speed.onChange(function(value) {
-//   countryOptions.UpdateSpeed(value)
-// });
-
-// showText.onChange(function(value) {
-//   countryOptions.UpdateShowText(value)
-//   if(!value){
-//     removeDiv()
-//   }
-// });
-
-// opacity.onChange(function(value) {
-//   countryOptions.UpdateOpacity(value)
-// });
-
-// trail.onChange(function(value) {
-//   countryOptions.UpdateTrail(value)
-// });
-
-// sound.onChange(function(value) {
-//   countryOptions.UpdateSound(value)
-// });
-
-exports.controller = controller;
+exports.showCountriesBtn = showCountriesBtn;
+exports.showTradeBtn = showTradeBtn;
+exports.startCountry = startCountry;
+exports.clearAll = clearAll;
 
 /***/ }),
-/* 64 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26230,12 +26212,91 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
       /******/__webpack_require__.p = "/dist/";
       /******/
       /******/ // Load entry module and return exports
-      /******/return __webpack_require__(__webpack_require__.s = 5);
+      /******/return __webpack_require__(__webpack_require__.s = 6);
       /******/
     }(
     /************************************************************************/
     /******/[
     /* 0 */
+    /***/function (module, exports, __webpack_require__) {
+
+      "use strict";
+
+      Object.defineProperty(exports, "__esModule", {
+        value: true
+      });
+      exports.StaticMap = undefined;
+
+      var _createClass = function () {
+        function defineProperties(target, props) {
+          for (var i = 0; i < props.length; i++) {
+            var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);
+          }
+        }return function (Constructor, protoProps, staticProps) {
+          if (protoProps) defineProperties(Constructor.prototype, protoProps);if (staticProps) defineProperties(Constructor, staticProps);return Constructor;
+        };
+      }(); // -----------
+      // Static Map
+      // -----------
+
+      var _parseGeoJSON = __webpack_require__(3);
+
+      function _classCallCheck(instance, Constructor) {
+        if (!(instance instanceof Constructor)) {
+          throw new TypeError("Cannot call a class as a function");
+        }
+      }
+
+      var StaticMap = function () {
+        function StaticMap(options) {
+          _classCallCheck(this, StaticMap);
+
+          this.options = options;
+          this.init();
+        }
+
+        _createClass(StaticMap, [{
+          key: 'init',
+          value: function init() {
+            this.options.pixels = 256;
+            !this.options.scale && (this.options.scale = 1);
+            if (this.options.scale == 2) {
+              this.options.pixels = 512;
+            }
+          }
+        }, {
+          key: 'latLngToPixel',
+          value: function latLngToPixel(lat, lng) {
+            return {
+              x: this.fromLngToPoint(lng) - this.fromLngToPoint(this.options.lng) + this.options.width / (2 / this.options.scale),
+              y: this.fromLatToPoint(lat) - this.fromLatToPoint(this.options.lat) + this.options.height / (2 / this.options.scale)
+            };
+          }
+        }, {
+          key: 'fromLatToPoint',
+          value: function fromLatToPoint(l) {
+            return this.options.pixels / Math.PI * Math.pow(2, this.options.zoom) * (Math.PI - Math.log(Math.tan(Math.PI / 4 + l * Math.PI / 180 / 2)));
+          }
+        }, {
+          key: 'fromLngToPoint',
+          value: function fromLngToPoint(l) {
+            return this.options.pixels / Math.PI * Math.pow(2, this.options.zoom) * (l * Math.PI / 180 + Math.PI);
+          }
+        }, {
+          key: 'geoJSON',
+          value: function geoJSON() {
+            return (0, _parseGeoJSON.parseGeoJSON)(arguments.length <= 0 ? undefined : arguments[0], arguments.length <= 1 ? undefined : arguments[1]);
+          }
+        }]);
+
+        return StaticMap;
+      }();
+
+      exports.StaticMap = StaticMap;
+
+      /***/
+    },
+    /* 1 */
     /***/function (module, exports, __webpack_require__) {
 
       "use strict";
@@ -26273,10 +26334,10 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
         if (typeof superClass !== "function" && superClass !== null) {
           throw new TypeError("Super expression must either be null or a function, not " + (typeof superClass === 'undefined' ? 'undefined' : _typeof2(superClass)));
         }subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } });if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
-      } // -----------
-      // Leaflet v1.0.3
-      // Reference: http://leafletjs.com/reference-1.0.3.html
-      // -----------
+      } // ----------- 
+      // Leaflet v1.0.3 
+      // Reference: http://leafletjs.com/reference-1.0.3.html 
+      //-----------
 
       var Leaflet = function (_TileMap) {
         _inherits(Leaflet, _TileMap);
@@ -26297,17 +26358,21 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
           value: function createMap() {
             var _this2 = this;
 
-            if (!this.options.style) {
-              Leaflet.messages().tiles();
-              return;
-            }
-
-            this.map = L.map('mappa').setView([this.options.lat, this.options.lng], this.options.zoom);
-            this.tiles = L.tileLayer(this.options.style).addTo(this.map);
-            this.tiles.on('tileload', function () {
-              _this2.ready = true;
+            this.map = L.map('mappa', {
+              center: [this.options.lat, this.options.lng],
+              zoom: this.options.zoom,
+              inertia: false
             });
 
+            if (!this.options.style) {
+              Leaflet.messages().tiles();
+              this.ready = true;
+            } else {
+              this.tiles = L.tileLayer(this.options.style).addTo(this.map);
+              this.tiles.on('tileload', function () {
+                _this2.ready = true;
+              });
+            }
             this.canvasOverlay();
           }
         }, {
@@ -26317,14 +26382,13 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
 
             if (this.tiles) {
               this.tiles.options.opacity = this.options.opacity;
-              document.getElementsByClassName('leaflet-container')[0].style.background = this.options.backgroundColor;
             }
 
             L.overlay = L.Layer.extend({
               onAdd: function onAdd() {
                 var overlayPane = overlay.getPane();
                 var _container = L.DomUtil.create('div', 'leaflet-layer');
-                _container.appendChild(_this3.canvas.elt);
+                _container.appendChild(_this3.canvas);
                 overlayPane.appendChild(_container);
               },
               drawLayer: function drawLayer() {}
@@ -26333,7 +26397,8 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
             var overlay = new L.overlay();
             this.map.addLayer(overlay);
 
-            var _canvas = this.canvas.elt.getContext('webgl') || this.canvas.elt.getContext('2d');
+            var _canvas = this.canvas.getContext('webgl') || this.canvas.getContext('2d');
+
             this.map.on('move', function () {
               var d = _this3.map.dragging._draggable;
               d._newPos && (_canvas.canvas.style.transform = 'translate(' + -d._newPos.x + 'px,' + -d._newPos.y + 'px)');
@@ -26347,6 +26412,19 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
               return { x: containerPoint.x, y: containerPoint.y };
             } else {
               return { x: -100, y: -100 };
+            }
+          }
+        }, {
+          key: 'fromPointToLatLng',
+          value: function fromPointToLatLng() {
+            if (this.ready) {
+              for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+                args[_key] = arguments[_key];
+              }
+
+              return this.map.containerPointToLatLng(args);
+            } else {
+              return { lat: -100, lng: -100 };
             }
           }
         }, {
@@ -26365,21 +26443,24 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
 
             if (this.ready) {
               callback();
-              this.map.on('move', function () {
-                callback();
-              });
+              this.map.on('move', callback);
             } else {
               setTimeout(function () {
                 _this4.onChange(callback);
               }, 200);
             }
           }
+        }, {
+          key: 'removeOnChange',
+          value: function removeOnChange(callback) {
+            this.map.off('move', callback);
+          }
         }], [{
           key: 'messages',
           value: function messages() {
             return {
               tiles: function tiles() {
-                console.warn('You need to include a style for your Leaflet map. Try with: http://{s}.tile.osm.org/{z}/{x}/{y}.png');
+                console.warn('You are not using any tiles for your map. Try with: http://{s}.tile.osm.org/{z}/' + '{x}/{y}.png');
               }
             };
           }
@@ -26392,69 +26473,6 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
 
       /***/
     },
-    /* 1 */
-    /***/function (module, exports, __webpack_require__) {
-
-      "use strict";
-
-      Object.defineProperty(exports, "__esModule", {
-        value: true
-      });
-
-      var _createClass = function () {
-        function defineProperties(target, props) {
-          for (var i = 0; i < props.length; i++) {
-            var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);
-          }
-        }return function (Constructor, protoProps, staticProps) {
-          if (protoProps) defineProperties(Constructor.prototype, protoProps);if (staticProps) defineProperties(Constructor, staticProps);return Constructor;
-        };
-      }();
-
-      function _classCallCheck(instance, Constructor) {
-        if (!(instance instanceof Constructor)) {
-          throw new TypeError("Cannot call a class as a function");
-        }
-      }
-
-      // -----------
-      // Static Map
-      // -----------
-
-      var StaticMap = function () {
-        function StaticMap(options) {
-          _classCallCheck(this, StaticMap);
-
-          this.options = options;
-        }
-
-        _createClass(StaticMap, [{
-          key: "latLng",
-          value: function latLng(lat, lng) {
-            return {
-              x: this.fromLngToPoint(lng) - this.fromLngToPoint(this.options.lng) + this.options.width / (2 / this.options.scale),
-              y: this.fromLatToPoint(lat) - this.fromLatToPoint(this.options.lat) + this.options.height / (2 / this.options.scale)
-            };
-          }
-        }, {
-          key: "fromLatToPoint",
-          value: function fromLatToPoint(l) {
-            return this.options.pixels / PI * pow(2, this.options.zoom) * (PI - log(tan(PI / 4 + radians(l) / 2)));
-          }
-        }, {
-          key: "fromLngToPoint",
-          value: function fromLngToPoint(l) {
-            return this.options.pixels / PI * pow(2, this.options.zoom) * (radians(l) + PI);
-          }
-        }]);
-
-        return StaticMap;
-      }();
-
-      exports.StaticMap = StaticMap;
-
-      /***/
-    },
     /* 2 */
     /***/function (module, exports, __webpack_require__) {
 
@@ -26463,6 +26481,13 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
       Object.defineProperty(exports, "__esModule", {
         value: true
       });
+      exports.TileMap = undefined;
+
+      var _typeof = typeof Symbol === "function" && _typeof2(Symbol.iterator) === "symbol" ? function (obj) {
+        return typeof obj === 'undefined' ? 'undefined' : _typeof2(obj);
+      } : function (obj) {
+        return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj === 'undefined' ? 'undefined' : _typeof2(obj);
+      };
 
       var _createClass = function () {
         function defineProperties(target, props) {
@@ -26472,17 +26497,17 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
         }return function (Constructor, protoProps, staticProps) {
           if (protoProps) defineProperties(Constructor.prototype, protoProps);if (staticProps) defineProperties(Constructor, staticProps);return Constructor;
         };
-      }();
+      }(); // -----------
+      // Tiled Map
+      // -----------
+
+      var _parseGeoJSON = __webpack_require__(3);
 
       function _classCallCheck(instance, Constructor) {
         if (!(instance instanceof Constructor)) {
           throw new TypeError("Cannot call a class as a function");
         }
       }
-
-      // -----------
-      // Tiled Map
-      // -----------
 
       var TileMap = function () {
         function TileMap(options) {
@@ -26510,24 +26535,36 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
             }
           }
         }, {
-          key: 'append',
-          value: function append(canvas) {
+          key: 'overlay',
+          value: function overlay(canvas, callback) {
             var _this = this;
 
             this.scriptTag.onload = function () {
               var div = document.createElement('div');
               document.body.appendChild(div);
-              div.setAttribute('style', 'position:absolute;width:' + canvas.width + 'px;height:' + canvas.height + 'px;top:0;left:0;z-index:-99');
+              div.setAttribute('style', 'position:relative;width:' + canvas.width + 'px;height:' + canvas.height + 'px;top:0;left:0;z-index:10');
               div.setAttribute('id', 'mappa');
-              _this.canvas = canvas;
+              canvas.elt != undefined ? _this.canvas = canvas.elt : _this.canvas = canvas;
               _this.createMap();
+              callback && callback();
             };
           }
         }, {
-          key: 'latLng',
-          value: function latLng() {
-            var pos = { lat: Number(arguments.length <= 0 ? undefined : arguments[0]), lng: Number(arguments.length <= 1 ? undefined : arguments[1]) };
+          key: 'latLngToPixel',
+          value: function latLngToPixel() {
+            var pos = void 0;
+            _typeof(arguments.length <= 0 ? undefined : arguments[0]) == 'object' ? pos = arguments.length <= 0 ? undefined : arguments[0] : pos = { lat: Number(arguments.length <= 0 ? undefined : arguments[0]), lng: Number(arguments.length <= 1 ? undefined : arguments[1]) };
             return this.fromLatLngtoPixel(pos);
+          }
+        }, {
+          key: 'pixelToLatLng',
+          value: function pixelToLatLng() {
+            return this.fromPointToLatLng.apply(this, arguments);
+          }
+        }, {
+          key: 'geoJSON',
+          value: function geoJSON() {
+            return (0, _parseGeoJSON.parseGeoJSON)(arguments.length <= 0 ? undefined : arguments[0], arguments.length <= 1 ? undefined : arguments[1]);
           }
         }, {
           key: 'zoom',
@@ -26551,42 +26588,39 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
       Object.defineProperty(exports, "__esModule", {
         value: true
       });
+      // -----------
+      // Parse a GeoJSON file.
+      // -----------
 
-      var _Mapbox = __webpack_require__(7);
+      var parseGeoJSON = function parseGeoJSON(data, type) {
+        var result = [];
 
-      Object.keys(_Mapbox).forEach(function (key) {
-        if (key === "default" || key === "__esModule") return;
-        Object.defineProperty(exports, key, {
-          enumerable: true,
-          get: function get() {
-            return _Mapbox[key];
+        if (data.type === 'FeatureCollection') {
+          if (data.features instanceof Array) {
+            data.features.forEach(function (feature) {
+              var f = eachFeature(feature, type);
+              f != undefined && result.push(f);
+            });
           }
-        });
-      });
+        } else {
+          result = eachFeature(data, type);
+        }
+        return result;
+      };
 
-      var _Google = __webpack_require__(6);
+      var eachFeature = function eachFeature(feature, type) {
+        if (feature.hasOwnProperty('geometry') && feature.geometry.type == type) {
+          return feature.geometry.coordinates;
+        } else if (feature.hasOwnProperty('geometries') && feature.geometries instanceof Array && feature.geometry.type == type) {
+          feature.geometries.forEach(function (geometry) {
+            return feature.geometry.coordinates;
+          });
+        } else if (feature.hasOwnProperty('coordinates') && feature.geometry.type == type) {
+          return feature.geometry.coordinates;
+        }
+      };
 
-      Object.keys(_Google).forEach(function (key) {
-        if (key === "default" || key === "__esModule") return;
-        Object.defineProperty(exports, key, {
-          enumerable: true,
-          get: function get() {
-            return _Google[key];
-          }
-        });
-      });
-
-      var _Mapquest = __webpack_require__(8);
-
-      Object.keys(_Mapquest).forEach(function (key) {
-        if (key === "default" || key === "__esModule") return;
-        Object.defineProperty(exports, key, {
-          enumerable: true,
-          get: function get() {
-            return _Mapquest[key];
-          }
-        });
-      });
+      exports.parseGeoJSON = parseGeoJSON;
 
       /***/
     },
@@ -26599,43 +26633,7 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
         value: true
       });
 
-      var _Mapboxgl = __webpack_require__(11);
-
-      Object.keys(_Mapboxgl).forEach(function (key) {
-        if (key === "default" || key === "__esModule") return;
-        Object.defineProperty(exports, key, {
-          enumerable: true,
-          get: function get() {
-            return _Mapboxgl[key];
-          }
-        });
-      });
-
-      var _Google = __webpack_require__(9);
-
-      Object.keys(_Google).forEach(function (key) {
-        if (key === "default" || key === "__esModule") return;
-        Object.defineProperty(exports, key, {
-          enumerable: true,
-          get: function get() {
-            return _Google[key];
-          }
-        });
-      });
-
-      var _Leaflet = __webpack_require__(0);
-
-      Object.keys(_Leaflet).forEach(function (key) {
-        if (key === "default" || key === "__esModule") return;
-        Object.defineProperty(exports, key, {
-          enumerable: true,
-          get: function get() {
-            return _Leaflet[key];
-          }
-        });
-      });
-
-      var _Mapbox = __webpack_require__(10);
+      var _Mapbox = __webpack_require__(8);
 
       Object.keys(_Mapbox).forEach(function (key) {
         if (key === "default" || key === "__esModule") return;
@@ -26647,7 +26645,102 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
         });
       });
 
-      var _Mapzen = __webpack_require__(12);
+      var _Google = __webpack_require__(7);
+
+      Object.keys(_Google).forEach(function (key) {
+        if (key === "default" || key === "__esModule") return;
+        Object.defineProperty(exports, key, {
+          enumerable: true,
+          get: function get() {
+            return _Google[key];
+          }
+        });
+      });
+
+      var _Mapquest = __webpack_require__(9);
+
+      Object.keys(_Mapquest).forEach(function (key) {
+        if (key === "default" || key === "__esModule") return;
+        Object.defineProperty(exports, key, {
+          enumerable: true,
+          get: function get() {
+            return _Mapquest[key];
+          }
+        });
+      });
+
+      var _StaticMap = __webpack_require__(0);
+
+      Object.keys(_StaticMap).forEach(function (key) {
+        if (key === "default" || key === "__esModule") return;
+        Object.defineProperty(exports, key, {
+          enumerable: true,
+          get: function get() {
+            return _StaticMap[key];
+          }
+        });
+      });
+
+      /***/
+    },
+    /* 5 */
+    /***/function (module, exports, __webpack_require__) {
+
+      "use strict";
+
+      Object.defineProperty(exports, "__esModule", {
+        value: true
+      });
+
+      var _Mapboxgl = __webpack_require__(12);
+
+      Object.keys(_Mapboxgl).forEach(function (key) {
+        if (key === "default" || key === "__esModule") return;
+        Object.defineProperty(exports, key, {
+          enumerable: true,
+          get: function get() {
+            return _Mapboxgl[key];
+          }
+        });
+      });
+
+      var _Google = __webpack_require__(10);
+
+      Object.keys(_Google).forEach(function (key) {
+        if (key === "default" || key === "__esModule") return;
+        Object.defineProperty(exports, key, {
+          enumerable: true,
+          get: function get() {
+            return _Google[key];
+          }
+        });
+      });
+
+      var _Leaflet = __webpack_require__(1);
+
+      Object.keys(_Leaflet).forEach(function (key) {
+        if (key === "default" || key === "__esModule") return;
+        Object.defineProperty(exports, key, {
+          enumerable: true,
+          get: function get() {
+            return _Leaflet[key];
+          }
+        });
+      });
+
+      var _Mapbox = __webpack_require__(11);
+
+      Object.keys(_Mapbox).forEach(function (key) {
+        if (key === "default" || key === "__esModule") return;
+        Object.defineProperty(exports, key, {
+          enumerable: true,
+          get: function get() {
+            return _Mapbox[key];
+          }
+        });
+      });
+
+      var _Mapzen = __webpack_require__(13);
 
       Object.keys(_Mapzen).forEach(function (key) {
         if (key === "default" || key === "__esModule") return;
@@ -26659,7 +26752,7 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
         });
       });
 
-      var _Tangram = __webpack_require__(13);
+      var _Tangram = __webpack_require__(14);
 
       Object.keys(_Tangram).forEach(function (key) {
         if (key === "default" || key === "__esModule") return;
@@ -26673,15 +26766,16 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
 
       /***/
     },
-    /* 5 */
+    /* 6 */
     /***/function (module, exports, __webpack_require__) {
 
       "use strict";
       /*
       * Mappa: A library to work with maps and p5.js
-      * https://github.com/cvalenzuela/p5.maps
+      * https://github.com/cvalenzuela/mappa
       *
       * Cristóbal Valenzuela
+      * cv965@nyu.edu
       * Google Summer of Code 2017
       */
 
@@ -26701,11 +26795,11 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
         };
       }();
 
-      var _tileMap2 = __webpack_require__(4);
+      var _tileMap2 = __webpack_require__(5);
 
       var _tileMap = _interopRequireWildcard(_tileMap2);
 
-      var _staticMap2 = __webpack_require__(3);
+      var _staticMap2 = __webpack_require__(4);
 
       var _staticMap = _interopRequireWildcard(_staticMap2);
 
@@ -26756,6 +26850,7 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
               });
             };
             options.key = this.key;
+            this.provider == undefined && (this.provider = 'StaticMap');
             return new _staticMap[this.provider](options);
           }
         }, {
@@ -26765,7 +26860,7 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
               args[_key2] = arguments[_key2];
             }
 
-            var options = void 0;
+            var options = {};
 
             if (_typeof(args[0]) == 'object') {
               options = Object.assign({}, args[0]);
@@ -26787,7 +26882,7 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
 
       /***/
     },
-    /* 6 */
+    /* 7 */
     /***/function (module, exports, __webpack_require__) {
 
       "use strict";
@@ -26807,7 +26902,7 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
         };
       }();
 
-      var _StaticMap2 = __webpack_require__(1);
+      var _StaticMap2 = __webpack_require__(0);
 
       function _classCallCheck(instance, Constructor) {
         if (!(instance instanceof Constructor)) {
@@ -26838,9 +26933,8 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
 
           var _this = _possibleConstructorReturn(this, (Google.__proto__ || Object.getPrototypeOf(Google)).call(this, options));
 
-          _this.url = 'https://maps.googleapis.com/maps/api/staticmap?';
-          _this.init();
-          _this.img = _this.createImage();
+          _this.imgUrl = 'https://maps.googleapis.com/maps/api/staticmap?';
+          _this.createImage();
           return _this;
         }
 
@@ -26872,10 +26966,10 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
             !this.options.scale && (this.options.scale = 1);
 
             for (var option in this.options) {
-              Google.options().valid.indexOf(option) > -1 && (this.url += '&' + option + '=' + this.options[option]);
+              Google.options().valid.indexOf(option) > -1 && (this.imgUrl += '&' + option + '=' + this.options[option]);
             }
 
-            return this.url;
+            return this.imgUrl;
           }
         }], [{
           key: 'options',
@@ -26906,7 +27000,7 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
 
       /***/
     },
-    /* 7 */
+    /* 8 */
     /***/function (module, exports, __webpack_require__) {
 
       "use strict";
@@ -26926,7 +27020,7 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
         };
       }();
 
-      var _StaticMap2 = __webpack_require__(1);
+      var _StaticMap2 = __webpack_require__(0);
 
       function _classCallCheck(instance, Constructor) {
         if (!(instance instanceof Constructor)) {
@@ -26957,9 +27051,8 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
 
           var _this = _possibleConstructorReturn(this, (Mapbox.__proto__ || Object.getPrototypeOf(Mapbox)).call(this, options));
 
-          _this.url = 'https://api.mapbox.com/styles/v1/';
-          _this.init();
-          _this.img = _this.createImage();
+          _this.imgUrl = 'https://api.mapbox.com/styles/v1/';
+          _this.createImage();
           return _this;
         }
 
@@ -26990,22 +27083,22 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
               Mapbox.messages().key();
               return;
             }
-            this.options.username != undefined ? this.url += this.options.username + '/' : this.url += 'mapbox/';
-            this.options.style != undefined ? this.url += this.options.style + '/' : this.url += 'streets-v10/';
-            this.url += 'static/';
-            this.options.overlay != undefined && (this.url += this.options.overlay + '/');
-            this.url += this.options.lng + ',' + this.options.lat + ',';
+            this.options.username != undefined ? this.imgUrl += this.options.username + '/' : this.imgUrl += 'mapbox/';
+            this.options.style != undefined ? this.imgUrl += this.options.style + '/' : this.imgUrl += 'streets-v10/';
+            this.imgUrl += 'static/';
+            this.options.overlay != undefined && (this.imgUrl += this.options.overlay + '/');
+            this.imgUrl += this.options.lng + ',' + this.options.lat + ',';
             this.options.auto == false || this.options.auto == undefined ? ['zoom', 'bearing', 'pitch'].forEach(function (e, i) {
-              _this2.options[e] != undefined ? _this2.url += _this2.options[e] : _this2.url += 0;
-              i < 2 && (_this2.url += ',');
-            }) : this.url += 'auto';
-            this.url += '/' + this.options.width + 'x' + this.options.height;
-            this.options.scale == 2 && (this.url += '@2x');
-            this.url += '?access_token=' + this.options.key;
-            this.options.attribution ? this.url += '&attribution=' + this.options.attribution : this.url += '&attribution=false';
-            this.options.logo ? this.url += '&logo=' + this.options.logo : this.url += '&logo=false';
-            this.options.before_layer ? this.url += '&before_layer=' + this.options.before_layer : this.url += '&before_layer=false';
-            return this.url;
+              _this2.options[e] != undefined ? _this2.imgUrl += _this2.options[e] : _this2.imgUrl += 0;
+              i < 2 && (_this2.imgUrl += ',');
+            }) : this.imgUrl += 'auto';
+            this.imgUrl += '/' + this.options.width + 'x' + this.options.height;
+            this.options.scale == 2 && (this.imgUrl += '@2x');
+            this.imgUrl += '?access_token=' + this.options.key;
+            this.options.attribution ? this.imgUrl += '&attribution=' + this.options.attribution : this.imgUrl += '&attribution=false';
+            this.options.logo ? this.imgUrl += '&logo=' + this.options.logo : this.imgUrl += '&logo=false';
+            this.options.before_layer ? this.imgUrl += '&before_layer=' + this.options.before_layer : this.imgUrl += '&before_layer=false';
+            return this.imgUrl;
           }
         }], [{
           key: 'options',
@@ -27036,7 +27129,7 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
 
       /***/
     },
-    /* 8 */
+    /* 9 */
     /***/function (module, exports, __webpack_require__) {
 
       "use strict";
@@ -27056,7 +27149,7 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
         };
       }();
 
-      var _StaticMap2 = __webpack_require__(1);
+      var _StaticMap2 = __webpack_require__(0);
 
       function _classCallCheck(instance, Constructor) {
         if (!(instance instanceof Constructor)) {
@@ -27079,7 +27172,6 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
       // Reference: https://developer.mapquest.com/documentation/static-map-api/v5/
       // -----------
 
-
       var Mapquest = function (_StaticMap) {
         _inherits(Mapquest, _StaticMap);
 
@@ -27088,9 +27180,8 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
 
           var _this = _possibleConstructorReturn(this, (Mapquest.__proto__ || Object.getPrototypeOf(Mapquest)).call(this, options));
 
-          _this.url = 'https://www.mapquestapi.com/staticmap/v5/map?';
-          _this.init();
-          _this.img = _this.createImage();
+          _this.imgUrl = 'https://www.mapquestapi.com/staticmap/v5/map?';
+          _this.createImage();
           return _this;
         }
 
@@ -27125,10 +27216,10 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
             !this.options.center && (this.options.center = this.options.lat + ',' + this.options.lng);
 
             for (var option in this.options) {
-              Mapquest.options().valid.indexOf(option) > -1 && (this.url += '&' + option + '=' + this.options[option]);
+              Mapquest.options().valid.indexOf(option) > -1 && (this.imgUrl += '&' + option + '=' + this.options[option]);
             }
 
-            return this.url;
+            return this.imgUrl;
           }
         }], [{
           key: 'options',
@@ -27159,7 +27250,7 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
 
       /***/
     },
-    /* 9 */
+    /* 10 */
     /***/function (module, exports, __webpack_require__) {
 
       "use strict";
@@ -27212,6 +27303,9 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
 
           _this.script = 'https://maps.googleapis.com/maps/api/js';
           _this.options.key && (_this.script += '?key=' + _this.options.key);
+          _this.options.language && (_this.script += '&language=' + _this.options.language);
+          _this.options.region && (_this.script += '&region=' + _this.options.region);
+          _this.onChangeMetods = {};
           _this.init();
           return _this;
         }
@@ -27226,22 +27320,25 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
             this.map = new google.maps.Map(document.getElementById('mappa'), {
               center: { lat: this.options.lat, lng: this.options.lng },
               zoom: this.options.zoom || 6,
-              mapTypeId: this.options.mapTypeId || 'terrain',
-              styles: this.options.styles || ''
+              mapTypeId: this.options.maptype || 'terrain',
+              styles: this.options.styles || '',
+              minZoom: 1 || this.options.minZoom
             });
 
             var overlay = new google.maps.OverlayView();
+            overlay.onAdd = function () {
+              overlay.getPanes().overlayLayer.appendChild(_this2.canvas);
+            };
             overlay.draw = function () {};
             overlay.setMap(this.map);
-            overlay.onAdd = function () {
-              overlay.getPanes().overlayLayer.appendChild(_this2.canvas.elt);
-            };
 
             google.maps.event.addListener(this.map, 'bounds_changed', function () {
               var center = overlay.getProjection().fromLatLngToDivPixel(_this2.map.getCenter());
-              var offsetX = -Math.round(_this2.canvas.width / 2 - center.x);
-              var offsetY = -Math.round(_this2.canvas.height / 2 - center.y);
-              var _canvas = _this2.canvas.elt.getContext('webgl') || _this2.canvas.elt.getContext('2d');
+              var pixels = void 0;
+              window.devicePixelRatio >= 2 ? pixels = 4 : pixels = 2;
+              var offsetX = -Math.round(_this2.canvas.width / pixels - center.x);
+              var offsetY = -Math.round(_this2.canvas.height / pixels - center.y);
+              var _canvas = _this2.canvas.getContext('webgl') || _this2.canvas.getContext('2d');
               _canvas.canvas.style.transform = 'translate(' + offsetX + 'px,' + offsetY + 'px)';
             });
 
@@ -27257,10 +27354,24 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
               var topRight = this.map.getProjection().fromLatLngToPoint(this.map.getBounds().getNorthEast());
               var bottomLeft = this.map.getProjection().fromLatLngToPoint(this.map.getBounds().getSouthWest());
               var scale = Math.pow(2, this.map.getZoom());
-              var worldPoint = this.map.getProjection().fromLatLngToPoint(position);
-              return new google.maps.Point((worldPoint.x - bottomLeft.x) * scale, (worldPoint.y - topRight.y) * scale);
+              var point = this.map.getProjection().fromLatLngToPoint(position);
+              return new google.maps.Point((point.x - bottomLeft.x) * scale, (point.y - topRight.y) * scale);
             } else {
               return { x: -100, y: -100 };
+            }
+          }
+        }, {
+          key: 'fromPointToLatLng',
+          value: function fromPointToLatLng() {
+            if (this.ready) {
+              var topRight = this.map.getProjection().fromLatLngToPoint(this.map.getBounds().getNorthEast());
+              var bottomLeft = this.map.getProjection().fromLatLngToPoint(this.map.getBounds().getSouthWest());
+              var scale = Math.pow(2, this.map.getZoom());
+              var point = new google.maps.Point((arguments.length <= 0 ? undefined : arguments[0]) / scale + bottomLeft.x, (arguments.length <= 1 ? undefined : arguments[1]) / scale + topRight.y);
+              var latlng = this.map.getProjection().fromPointToLatLng(point);
+              return { lat: latlng.lat(), lng: latlng.lng() };
+            } else {
+              return { lat: -100, lng: -100 };
             }
           }
         }, {
@@ -27279,14 +27390,17 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
 
             if (this.ready) {
               callback();
-              google.maps.event.addListener(this.map, 'bounds_changed', function () {
-                callback();
-              });
+              this.onChangeMetods[callback] = google.maps.event.addListener(this.map, 'bounds_changed', callback);
             } else {
               setTimeout(function () {
                 _this3.onChange(callback);
               }, 200);
             }
+          }
+        }, {
+          key: 'removeOnChange',
+          value: function removeOnChange(callback) {
+            google.maps.event.removeListener(this.onChangeMetods[callback]);
           }
         }], [{
           key: 'messages',
@@ -27306,7 +27420,7 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
 
       /***/
     },
-    /* 10 */
+    /* 11 */
     /***/function (module, exports, __webpack_require__) {
 
       "use strict";
@@ -27326,7 +27440,7 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
         };
       }();
 
-      var _Leaflet2 = __webpack_require__(0);
+      var _Leaflet2 = __webpack_require__(1);
 
       function _classCallCheck(instance, Constructor) {
         if (!(instance instanceof Constructor)) {
@@ -27404,7 +27518,7 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
 
       /***/
     },
-    /* 11 */
+    /* 12 */
     /***/function (module, exports, __webpack_require__) {
 
       "use strict";
@@ -27479,11 +27593,10 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
               renderWorldCopies: true && this.options.renderWorldCopies,
               maxBounds: this.options.maxBounds || undefined
             });
-            this.canvas.parent(this.map.getCanvasContainer());
-            this.canvas.elt.style.position = 'absolute';
 
+            this.map.getCanvasContainer().appendChild(this.canvas);
+            this.canvas.style.position = 'relative';
             this.options.opacity && (document.getElementsByClassName('mapboxgl-canvas')[0].style.opacity = this.options.opacity);
-
             this.map.on('load', function () {
               _this2.ready = true;
             });
@@ -27495,6 +27608,19 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
               return this.map.project(latLng);
             } else {
               return { x: -100, y: -100 };
+            }
+          }
+        }, {
+          key: 'fromPointToLatLng',
+          value: function fromPointToLatLng() {
+            if (this.ready) {
+              for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+                args[_key] = arguments[_key];
+              }
+
+              return this.map.unproject(args);
+            } else {
+              return { lat: -100, lng: -100 };
             }
           }
         }, {
@@ -27513,14 +27639,17 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
 
             if (this.ready) {
               callback();
-              this.map.on('render', function () {
-                callback();
-              });
+              this.map.on('render', callback);
             } else {
               setTimeout(function () {
                 _this3.onChange(callback);
               }, 200);
             }
+          }
+        }, {
+          key: 'removeOnChange',
+          value: function removeOnChange(callback) {
+            this.map.off('render', callback);
           }
         }], [{
           key: 'messages',
@@ -27540,7 +27669,7 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
 
       /***/
     },
-    /* 12 */
+    /* 13 */
     /***/function (module, exports, __webpack_require__) {
 
       "use strict";
@@ -27560,7 +27689,7 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
         };
       }();
 
-      var _Leaflet2 = __webpack_require__(0);
+      var _Leaflet2 = __webpack_require__(1);
 
       function _classCallCheck(instance, Constructor) {
         if (!(instance instanceof Constructor)) {
@@ -27641,7 +27770,7 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
 
       /***/
     },
-    /* 13 */
+    /* 14 */
     /***/function (module, exports, __webpack_require__) {
 
       "use strict";
@@ -27661,7 +27790,7 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
         };
       }();
 
-      var _Leaflet2 = __webpack_require__(0);
+      var _Leaflet2 = __webpack_require__(1);
 
       function _classCallCheck(instance, Constructor) {
         if (!(instance instanceof Constructor)) {
@@ -27713,11 +27842,9 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
             });
             this.tangramScene.addTo(this.map);
             this.map.setView([this.options.lat, this.options.lng], this.options.zoom);
-
             this.tangramScene.scene.subscribe({ load: function load() {
                 _this2.ready = true;
               } });
-
             this.canvasOverlay();
           }
         }], [{
@@ -27737,14 +27864,14 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
       exports.Tangram = Tangram;
 
       /***/
-    }]
-    /******/)
+    }])
   );
 });
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(62)(module)))
+//# sourceMappingURL=mappa.js.map
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(148)(module)))
 
 /***/ }),
-/* 65 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27753,10 +27880,12 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = 'abcd';
+// Mapbox key
+
+exports.default = 'pk.eyJ1IjoiY3ZhbGVuenVlbGEiLCJhIjoiY2l2ZzkweTQ3MDFuODJ5cDM2NmRnaG4wdyJ9.P_0JJXX6sD1oX2D0RQeWFA';
 
 /***/ }),
-/* 66 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {var require;var require;/*! p5.js v0.5.11 June 01, 2017 */
@@ -62866,10 +62995,10 @@ module.exports = {
 };
 },{}]},{},[33])(33)
 });
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(149)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(147)))
 
 /***/ }),
-/* 67 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62882,13 +63011,13 @@ exports.Country = undefined;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }(); // Country class: creates a new particle system
 
-var _ParticleSystem = __webpack_require__(69);
+var _ParticleSystem = __webpack_require__(68);
 
-var _latlng = __webpack_require__(147);
+var _latlng = __webpack_require__(145);
 
 var latlng = _interopRequireWildcard(_latlng);
 
-var _tradeData = __webpack_require__(148);
+var _tradeData = __webpack_require__(146);
 
 var trade = _interopRequireWildcard(_tradeData);
 
@@ -62906,8 +63035,12 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
+var colors = (0, _utils.colorPallet)();
+
 var Country = function () {
   function Country() {
+    var _this = this;
+
     for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
       args[_key] = arguments[_key];
     }
@@ -62915,50 +63048,68 @@ var Country = function () {
     _classCallCheck(this, Country);
 
     args = args[0];
-
     this.Country = args[0];
-    this.Color = args[1];
-    this.Opacity = args[2];
-    this.Trail = args[3];
-    this.tradeType = args[4];
-    this.showText = args[5];
-    this.sound = args[6];
+    this.tradeType = args[1];
+    this.Elt = args[2];
+    this.Color = colors();
+    this.Opacity = 200;
+    this.Trail = 2;
+    this.id = this.Country + this.tradeType;
 
-    this.trade = trade[this.Country][this.tradeType];
     this.system = new _ParticleSystem.ParticleSystem();
+    this.trade = trade[this.Country][this.tradeType];
     this.origin = latlng[this.Country];
-    this.animationQue = [];
-    this.interval = 1;
     this.instrument = (0, _sounds.setCurrentInstrument)(false);
-    // Uncomment this lines for random or always the same sound. only ONE should be commented.
-    this.soundType = _sounds.soundTypes[this.instrument].sounds[0]; // Always the same sound.
-    //this.soundType = p5.random(soundTypes[this.instrument].sounds); // Randoms sounds.
+    //this.soundType = soundTypes[this.instrument].sounds[0]; // Always the same sound.
+    this.soundType = _index.p5Instance.random(_sounds.soundTypes[this.instrument].sounds); // Randoms sounds.
+    this.showOriginName = function () {
+      (0, _utils.showName)(_this.Country, _this.id, _index.map.latLngToPixel(_this.origin), _this.Color, true);
+    };
     this.Start();
   }
 
   _createClass(Country, [{
     key: 'Start',
     value: function Start() {
-      var _this = this;
+      var _this2 = this;
 
       // Create a shuffle array with the names of the destination countries
       var destinationCountries = _index.p5Instance.shuffle(Object.keys(this.trade), true);
       var currentDestinationCountry = 0;
+      _index.map.onChange(this.showOriginName);
 
-      var loop = new Tone.Loop(function (time) {
+      this.loop = new Tone.Loop(function (time) {
         var destinationName = destinationCountries[currentDestinationCountry];
         var destination = latlng[destinationName];
         if (latlng[destinationName]) {
-          var size = (0, _utils.scale)(_this.trade[destinationName]);
+          var size = (0, _utils.scale)(_this2.trade[destinationName]);
           size = _index.p5Instance.constrain(size, 2, 64);
-          _this.system.addParticle(_this.origin, destination, _this.Country, destinationName, size, _this.Color, _this.Opacity, _this.Trail, _this.tradeType, _this.showText, _this.sound, _this.soundType);
+          _this2.system.addParticle(_this2.origin, destination, _this2.Country, destinationName, size, _this2.Color, _this2.Opacity, _this2.Trail, _this2.tradeType, _this2.soundType);
         } else {
-          console.warn(destinationName + " not found :(");
+          if (currentDestinationCountry < destinationCountries.length) {
+            console.warn(destinationName + " not found :(");
+          }
         }
         if (currentDestinationCountry < destinationCountries.length) {
           currentDestinationCountry++;
+        } else {
+          _this2.Stop();
         }
       }, '1n').start(_sounds.soundTypes[this.instrument].tempo);
+    }
+  }, {
+    key: 'Stop',
+    value: function Stop() {
+      try {
+        if (this.loop != null) {
+          this.loop.dispose();
+        };
+        _index.map.removeOnChange(this.showOriginName);
+        var name = document.getElementById(this.id);
+        name.parentNode.removeChild(name);
+      } catch (error) {
+        console.log(error);
+      }
     }
   }]);
 
@@ -62968,7 +63119,7 @@ var Country = function () {
 exports.Country = Country;
 
 /***/ }),
-/* 68 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63008,10 +63159,9 @@ var Particle = function () {
     this.opacity = args[6];
     this.trail = args[7];
     this.tradeType = args[8];
-    this.showText = args[9];
-    this.sound = args[10];
-    this.soundType = args[11];
+    this.soundType = args[9];
 
+    this.id = this.originName + this.destinationName;
     this.amount = _index.p5Instance.createVector(0, 0);
     this.position = _index.p5Instance.createVector(0, 0);
     this.steps = 0.003;
@@ -63025,63 +63175,59 @@ var Particle = function () {
     value: function display() {
 
       // Get latlng everytime since the map can change
-      this.posOrigin = _index.map.latLng(this.origin.lat, this.origin.lng);
-      this.posDestination = _index.map.latLng(this.destination.lat, this.destination.lng);
+      try {
+        this.posOrigin = _index.map.latLngToPixel(this.origin.lat, this.origin.lng);
+        this.posDestination = _index.map.latLngToPixel(this.destination.lat, this.destination.lng);
 
-      // Handle the size
-      this.size < this.maxSize && !this.reachSize && (this.size += 1);
-      this.size >= this.maxSize && (this.reachSize = true);
-      //(this.amount.x > 0.97 && this.reachSize) && (this.size -= 1);
+        // Handle the size
+        this.size < this.maxSize && !this.reachSize && (this.size += 1);
+        this.size >= this.maxSize && (this.reachSize = true);
+        //(this.amount.x > 0.97 && this.reachSize) && (this.size -= 1);
 
-      // Play sounds at start
-      if (this.sound) {
+        // Play sounds at start
         if (this.amount.x == 0) {
           (0, _sounds.playSound)(this.soundType);
         }
-      }
 
-      // Calculate distance and path
-      if (this.amount.x < 1) {
-        this.tradeType == 'imports' ? this.position.x = _index.p5Instance.lerp(this.posDestination.x, this.posOrigin.x, this.amount.x) : this.position.x = _index.p5Instance.lerp(this.posOrigin.x, this.posDestination.x, this.amount.x);
-        this.amount.x += this.steps;
-      }
-      if (this.amount.y < 1) {
-        this.tradeType == 'imports' ? this.position.y = _index.p5Instance.lerp(this.posDestination.y, this.posOrigin.y, this.amount.y) : this.position.y = _index.p5Instance.lerp(this.posOrigin.y, this.posDestination.y, this.amount.y);
-        this.amount.y += this.steps;
-      }
+        // Calculate distance and path
+        if (this.amount.x < 1) {
+          this.tradeType == 'imports' ? this.position.x = _index.p5Instance.lerp(this.posDestination.x, this.posOrigin.x, this.amount.x) : this.position.x = _index.p5Instance.lerp(this.posOrigin.x, this.posDestination.x, this.amount.x);
+          this.amount.x += this.steps;
+        }
+        if (this.amount.y < 1) {
+          this.tradeType == 'imports' ? this.position.y = _index.p5Instance.lerp(this.posDestination.y, this.posOrigin.y, this.amount.y) : this.position.y = _index.p5Instance.lerp(this.posOrigin.y, this.posDestination.y, this.amount.y);
+          this.amount.y += this.steps;
+        }
 
-      // Particle's trail
+        // Particle's trail
+        this.history.push(this.position.copy());
+        this.history.length > this.trail && this.history.splice(0, 1);
+        for (var i = 0; i < this.history.length; i++) {
+          var pos = this.history[i];
+          _index.p5Instance.fill(this.color[0], this.color[1], this.color[2], this.opacity / 15 * i);
+          _index.p5Instance.ellipse(pos.x, pos.y, this.size, this.size);
+        }
 
-      this.history.push(this.position.copy());
-      this.history.length > this.trail && this.history.splice(0, 1);
-      for (var i = 0; i < this.history.length; i++) {
-        var pos = this.history[i];
-        _index.p5Instance.fill(this.color[0], this.color[1], this.color[2], this.opacity / 15 * i);
-        _index.p5Instance.ellipse(pos.x, pos.y, this.size, this.size);
-      }
-
-      // Show Countries Name
-      if (this.showText) {
-        // Origin
-        (0, _utils.showName)(this.originName, this.posOrigin, this.color, true);
-
+        // Show Countries Name
         // Show partner country only when the particle is really close
         if (this.tradeType == 'imports') {
-          this.amount.x < 0.1 && (0, _utils.showName)(this.destinationName, this.posDestination, this.color, false);
-          this.amount.x > 0.1 && document.getElementById(this.destinationName) && document.getElementById(this.destinationName).remove(); // delete the dom text
+          this.amount.x < 0.1 && (0, _utils.showName)(this.destinationName, this.id, this.posDestination, this.color, false);
+          this.amount.x > 0.1 && document.getElementById(this.id) && document.getElementById(this.id).remove(); // delete the dom text
         } else {
-          this.amount.x > 0.9 && (0, _utils.showName)(this.destinationName, this.posDestination, this.color, false);
-          this.amount.x > 0.99 && document.getElementById(this.destinationName).remove(); // delete the dom text
+          this.amount.x > 0.9 && (0, _utils.showName)(this.destinationName, this.id, this.posDestination, this.color, false);
+          this.amount.x > 0.99 && document.getElementById(this.id).remove(); // delete the dom text
         }
-      }
 
-      // Actual Particle
-      _index.p5Instance.fill(this.color[0], this.color[1], this.color[2], this.opacity);
-      _index.p5Instance.ellipse(this.position.x, this.position.y, this.size, this.size);
+        // Actual Particle
+        _index.p5Instance.fill(this.color[0], this.color[1], this.color[2], this.opacity);
+        _index.p5Instance.ellipse(this.position.x, this.position.y, this.size, this.size);
 
-      // If arrived, erase from particle array
-      if (this.amount.x >= 1 && this.amount.y >= 1) {
-        this.lifespan = -1;
+        // If arrived, erase from particle array
+        if (this.amount.x >= 1 && this.amount.y >= 1) {
+          this.lifespan = -1;
+        }
+      } catch (error) {
+        console.log('Error! :(', error);
       }
     }
   }, {
@@ -63104,7 +63250,7 @@ var Particle = function () {
 exports.Particle = Particle;
 
 /***/ }),
-/* 69 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63117,7 +63263,7 @@ exports.ParticleSystem = undefined;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }(); // Particle System
 
-var _Particle = __webpack_require__(68);
+var _Particle = __webpack_require__(67);
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -63169,4466 +63315,7 @@ var ParticleSystem = function () {
 exports.ParticleSystem = ParticleSystem;
 
 /***/ }),
-/* 70 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(module) {var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;
-
-var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-(function webpackUniversalModuleDefinition(root, factory) {
-	if (( false ? 'undefined' : _typeof2(exports)) === 'object' && ( false ? 'undefined' : _typeof2(module)) === 'object') module.exports = factory();else if (true) !(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
-				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
-				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
-				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));else if ((typeof exports === 'undefined' ? 'undefined' : _typeof2(exports)) === 'object') exports["dat"] = factory();else root["dat"] = factory();
-})(undefined, function () {
-	return (/******/function (modules) {
-			// webpackBootstrap
-			/******/ // The module cache
-			/******/var installedModules = {};
-			/******/
-			/******/ // The require function
-			/******/function __webpack_require__(moduleId) {
-				/******/
-				/******/ // Check if module is in cache
-				/******/if (installedModules[moduleId])
-					/******/return installedModules[moduleId].exports;
-				/******/
-				/******/ // Create a new module (and put it into the cache)
-				/******/var module = installedModules[moduleId] = {
-					/******/exports: {},
-					/******/id: moduleId,
-					/******/loaded: false
-					/******/ };
-				/******/
-				/******/ // Execute the module function
-				/******/modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-				/******/
-				/******/ // Flag the module as loaded
-				/******/module.loaded = true;
-				/******/
-				/******/ // Return the exports of the module
-				/******/return module.exports;
-				/******/
-			}
-			/******/
-			/******/
-			/******/ // expose the modules object (__webpack_modules__)
-			/******/__webpack_require__.m = modules;
-			/******/
-			/******/ // expose the module cache
-			/******/__webpack_require__.c = installedModules;
-			/******/
-			/******/ // __webpack_public_path__
-			/******/__webpack_require__.p = "";
-			/******/
-			/******/ // Load entry module and return exports
-			/******/return __webpack_require__(0);
-			/******/
-		}(
-		/************************************************************************/
-		/******/[
-		/* 0 */
-		/***/function (module, exports, __webpack_require__) {
-
-			'use strict';
-
-			exports.__esModule = true;
-
-			var _index = __webpack_require__(1);
-
-			var _index2 = _interopRequireDefault(_index);
-
-			function _interopRequireDefault(obj) {
-				return obj && obj.__esModule ? obj : { default: obj };
-			}
-
-			exports.default = _index2.default; /**
-                                       * dat-gui JavaScript Controller Library
-                                       * http://code.google.com/p/dat-gui
-                                       *
-                                       * Copyright 2011 Data Arts Team, Google Creative Lab
-                                       *
-                                       * Licensed under the Apache License, Version 2.0 (the "License");
-                                       * you may not use this file except in compliance with the License.
-                                       * You may obtain a copy of the License at
-                                       *
-                                       * http://www.apache.org/licenses/LICENSE-2.0
-                                       */
-
-			module.exports = exports['default'];
-
-			/***/
-		},
-		/* 1 */
-		/***/function (module, exports, __webpack_require__) {
-
-			'use strict';
-
-			exports.__esModule = true;
-
-			var _Color = __webpack_require__(2);
-
-			var _Color2 = _interopRequireDefault(_Color);
-
-			var _math = __webpack_require__(6);
-
-			var _math2 = _interopRequireDefault(_math);
-
-			var _interpret = __webpack_require__(3);
-
-			var _interpret2 = _interopRequireDefault(_interpret);
-
-			var _Controller = __webpack_require__(7);
-
-			var _Controller2 = _interopRequireDefault(_Controller);
-
-			var _BooleanController = __webpack_require__(8);
-
-			var _BooleanController2 = _interopRequireDefault(_BooleanController);
-
-			var _OptionController = __webpack_require__(10);
-
-			var _OptionController2 = _interopRequireDefault(_OptionController);
-
-			var _StringController = __webpack_require__(11);
-
-			var _StringController2 = _interopRequireDefault(_StringController);
-
-			var _NumberController = __webpack_require__(12);
-
-			var _NumberController2 = _interopRequireDefault(_NumberController);
-
-			var _NumberControllerBox = __webpack_require__(13);
-
-			var _NumberControllerBox2 = _interopRequireDefault(_NumberControllerBox);
-
-			var _NumberControllerSlider = __webpack_require__(14);
-
-			var _NumberControllerSlider2 = _interopRequireDefault(_NumberControllerSlider);
-
-			var _FunctionController = __webpack_require__(15);
-
-			var _FunctionController2 = _interopRequireDefault(_FunctionController);
-
-			var _ColorController = __webpack_require__(16);
-
-			var _ColorController2 = _interopRequireDefault(_ColorController);
-
-			var _dom = __webpack_require__(9);
-
-			var _dom2 = _interopRequireDefault(_dom);
-
-			var _GUI = __webpack_require__(17);
-
-			var _GUI2 = _interopRequireDefault(_GUI);
-
-			function _interopRequireDefault(obj) {
-				return obj && obj.__esModule ? obj : { default: obj };
-			}
-
-			/**
-    * dat-gui JavaScript Controller Library
-    * http://code.google.com/p/dat-gui
-    *
-    * Copyright 2011 Data Arts Team, Google Creative Lab
-    *
-    * Licensed under the Apache License, Version 2.0 (the "License");
-    * you may not use this file except in compliance with the License.
-    * You may obtain a copy of the License at
-    *
-    * http://www.apache.org/licenses/LICENSE-2.0
-    */
-
-			exports.default = {
-				color: {
-					Color: _Color2.default,
-					math: _math2.default,
-					interpret: _interpret2.default
-				},
-
-				controllers: {
-					Controller: _Controller2.default,
-					BooleanController: _BooleanController2.default,
-					OptionController: _OptionController2.default,
-					StringController: _StringController2.default,
-					NumberController: _NumberController2.default,
-					NumberControllerBox: _NumberControllerBox2.default,
-					NumberControllerSlider: _NumberControllerSlider2.default,
-					FunctionController: _FunctionController2.default,
-					ColorController: _ColorController2.default
-				},
-
-				dom: {
-					dom: _dom2.default
-				},
-
-				gui: {
-					GUI: _GUI2.default
-				},
-
-				GUI: _GUI2.default
-			};
-			module.exports = exports['default'];
-
-			/***/
-		},
-		/* 2 */
-		/***/function (module, exports, __webpack_require__) {
-
-			'use strict';
-
-			exports.__esModule = true;
-
-			var _interpret = __webpack_require__(3);
-
-			var _interpret2 = _interopRequireDefault(_interpret);
-
-			var _math = __webpack_require__(6);
-
-			var _math2 = _interopRequireDefault(_math);
-
-			var _toString = __webpack_require__(4);
-
-			var _toString2 = _interopRequireDefault(_toString);
-
-			var _common = __webpack_require__(5);
-
-			var _common2 = _interopRequireDefault(_common);
-
-			function _interopRequireDefault(obj) {
-				return obj && obj.__esModule ? obj : { default: obj };
-			}
-
-			function _classCallCheck(instance, Constructor) {
-				if (!(instance instanceof Constructor)) {
-					throw new TypeError("Cannot call a class as a function");
-				}
-			} /**
-      * dat-gui JavaScript Controller Library
-      * http://code.google.com/p/dat-gui
-      *
-      * Copyright 2011 Data Arts Team, Google Creative Lab
-      *
-      * Licensed under the Apache License, Version 2.0 (the "License");
-      * you may not use this file except in compliance with the License.
-      * You may obtain a copy of the License at
-      *
-      * http://www.apache.org/licenses/LICENSE-2.0
-      */
-
-			var Color = function () {
-				function Color() {
-					_classCallCheck(this, Color);
-
-					this.__state = _interpret2.default.apply(this, arguments);
-
-					if (this.__state === false) {
-						throw new Error('Failed to interpret color arguments');
-					}
-
-					this.__state.a = this.__state.a || 1;
-				}
-
-				Color.prototype.toString = function toString() {
-					return (0, _toString2.default)(this);
-				};
-
-				Color.prototype.toHexString = function toHexString() {
-					return (0, _toString2.default)(this, true);
-				};
-
-				Color.prototype.toOriginal = function toOriginal() {
-					return this.__state.conversion.write(this);
-				};
-
-				return Color;
-			}();
-
-			function defineRGBComponent(target, component, componentHexIndex) {
-				Object.defineProperty(target, component, {
-					get: function get() {
-						if (this.__state.space === 'RGB') {
-							return this.__state[component];
-						}
-
-						Color.recalculateRGB(this, component, componentHexIndex);
-
-						return this.__state[component];
-					},
-
-					set: function set(v) {
-						if (this.__state.space !== 'RGB') {
-							Color.recalculateRGB(this, component, componentHexIndex);
-							this.__state.space = 'RGB';
-						}
-
-						this.__state[component] = v;
-					}
-				});
-			}
-
-			function defineHSVComponent(target, component) {
-				Object.defineProperty(target, component, {
-					get: function get() {
-						if (this.__state.space === 'HSV') {
-							return this.__state[component];
-						}
-
-						Color.recalculateHSV(this);
-
-						return this.__state[component];
-					},
-
-					set: function set(v) {
-						if (this.__state.space !== 'HSV') {
-							Color.recalculateHSV(this);
-							this.__state.space = 'HSV';
-						}
-
-						this.__state[component] = v;
-					}
-				});
-			}
-
-			Color.recalculateRGB = function (color, component, componentHexIndex) {
-				if (color.__state.space === 'HEX') {
-					color.__state[component] = _math2.default.component_from_hex(color.__state.hex, componentHexIndex);
-				} else if (color.__state.space === 'HSV') {
-					_common2.default.extend(color.__state, _math2.default.hsv_to_rgb(color.__state.h, color.__state.s, color.__state.v));
-				} else {
-					throw new Error('Corrupted color state');
-				}
-			};
-
-			Color.recalculateHSV = function (color) {
-				var result = _math2.default.rgb_to_hsv(color.r, color.g, color.b);
-
-				_common2.default.extend(color.__state, {
-					s: result.s,
-					v: result.v
-				});
-
-				if (!_common2.default.isNaN(result.h)) {
-					color.__state.h = result.h;
-				} else if (_common2.default.isUndefined(color.__state.h)) {
-					color.__state.h = 0;
-				}
-			};
-
-			Color.COMPONENTS = ['r', 'g', 'b', 'h', 's', 'v', 'hex', 'a'];
-
-			defineRGBComponent(Color.prototype, 'r', 2);
-			defineRGBComponent(Color.prototype, 'g', 1);
-			defineRGBComponent(Color.prototype, 'b', 0);
-
-			defineHSVComponent(Color.prototype, 'h');
-			defineHSVComponent(Color.prototype, 's');
-			defineHSVComponent(Color.prototype, 'v');
-
-			Object.defineProperty(Color.prototype, 'a', {
-				get: function get() {
-					return this.__state.a;
-				},
-
-				set: function set(v) {
-					this.__state.a = v;
-				}
-			});
-
-			Object.defineProperty(Color.prototype, 'hex', {
-				get: function get() {
-					if (!this.__state.space !== 'HEX') {
-						this.__state.hex = _math2.default.rgb_to_hex(this.r, this.g, this.b);
-					}
-
-					return this.__state.hex;
-				},
-
-				set: function set(v) {
-					this.__state.space = 'HEX';
-					this.__state.hex = v;
-				}
-			});
-
-			exports.default = Color;
-			module.exports = exports['default'];
-
-			/***/
-		},
-		/* 3 */
-		/***/function (module, exports, __webpack_require__) {
-
-			'use strict';
-
-			exports.__esModule = true;
-
-			var _toString = __webpack_require__(4);
-
-			var _toString2 = _interopRequireDefault(_toString);
-
-			var _common = __webpack_require__(5);
-
-			var _common2 = _interopRequireDefault(_common);
-
-			function _interopRequireDefault(obj) {
-				return obj && obj.__esModule ? obj : { default: obj };
-			}
-
-			/**
-    * dat-gui JavaScript Controller Library
-    * http://code.google.com/p/dat-gui
-    *
-    * Copyright 2011 Data Arts Team, Google Creative Lab
-    *
-    * Licensed under the Apache License, Version 2.0 (the "License");
-    * you may not use this file except in compliance with the License.
-    * You may obtain a copy of the License at
-    *
-    * http://www.apache.org/licenses/LICENSE-2.0
-    */
-
-			var INTERPRETATIONS = [
-			// Strings
-			{
-				litmus: _common2.default.isString,
-				conversions: {
-					THREE_CHAR_HEX: {
-						read: function read(original) {
-							var test = original.match(/^#([A-F0-9])([A-F0-9])([A-F0-9])$/i);
-							if (test === null) {
-								return false;
-							}
-
-							return {
-								space: 'HEX',
-								hex: parseInt('0x' + test[1].toString() + test[1].toString() + test[2].toString() + test[2].toString() + test[3].toString() + test[3].toString(), 0)
-							};
-						},
-
-						write: _toString2.default
-					},
-
-					SIX_CHAR_HEX: {
-						read: function read(original) {
-							var test = original.match(/^#([A-F0-9]{6})$/i);
-							if (test === null) {
-								return false;
-							}
-
-							return {
-								space: 'HEX',
-								hex: parseInt('0x' + test[1].toString(), 0)
-							};
-						},
-
-						write: _toString2.default
-					},
-
-					CSS_RGB: {
-						read: function read(original) {
-							var test = original.match(/^rgb\(\s*(.+)\s*,\s*(.+)\s*,\s*(.+)\s*\)/);
-							if (test === null) {
-								return false;
-							}
-
-							return {
-								space: 'RGB',
-								r: parseFloat(test[1]),
-								g: parseFloat(test[2]),
-								b: parseFloat(test[3])
-							};
-						},
-
-						write: _toString2.default
-					},
-
-					CSS_RGBA: {
-						read: function read(original) {
-							var test = original.match(/^rgba\(\s*(.+)\s*,\s*(.+)\s*,\s*(.+)\s*,\s*(.+)\s*\)/);
-							if (test === null) {
-								return false;
-							}
-
-							return {
-								space: 'RGB',
-								r: parseFloat(test[1]),
-								g: parseFloat(test[2]),
-								b: parseFloat(test[3]),
-								a: parseFloat(test[4])
-							};
-						},
-
-						write: _toString2.default
-					}
-				}
-			},
-
-			// Numbers
-			{
-				litmus: _common2.default.isNumber,
-
-				conversions: {
-
-					HEX: {
-						read: function read(original) {
-							return {
-								space: 'HEX',
-								hex: original,
-								conversionName: 'HEX'
-							};
-						},
-
-						write: function write(color) {
-							return color.hex;
-						}
-					}
-
-				}
-
-			},
-
-			// Arrays
-			{
-				litmus: _common2.default.isArray,
-				conversions: {
-					RGB_ARRAY: {
-						read: function read(original) {
-							if (original.length !== 3) {
-								return false;
-							}
-
-							return {
-								space: 'RGB',
-								r: original[0],
-								g: original[1],
-								b: original[2]
-							};
-						},
-
-						write: function write(color) {
-							return [color.r, color.g, color.b];
-						}
-					},
-
-					RGBA_ARRAY: {
-						read: function read(original) {
-							if (original.length !== 4) return false;
-							return {
-								space: 'RGB',
-								r: original[0],
-								g: original[1],
-								b: original[2],
-								a: original[3]
-							};
-						},
-
-						write: function write(color) {
-							return [color.r, color.g, color.b, color.a];
-						}
-					}
-				}
-			},
-
-			// Objects
-			{
-				litmus: _common2.default.isObject,
-				conversions: {
-
-					RGBA_OBJ: {
-						read: function read(original) {
-							if (_common2.default.isNumber(original.r) && _common2.default.isNumber(original.g) && _common2.default.isNumber(original.b) && _common2.default.isNumber(original.a)) {
-								return {
-									space: 'RGB',
-									r: original.r,
-									g: original.g,
-									b: original.b,
-									a: original.a
-								};
-							}
-							return false;
-						},
-
-						write: function write(color) {
-							return {
-								r: color.r,
-								g: color.g,
-								b: color.b,
-								a: color.a
-							};
-						}
-					},
-
-					RGB_OBJ: {
-						read: function read(original) {
-							if (_common2.default.isNumber(original.r) && _common2.default.isNumber(original.g) && _common2.default.isNumber(original.b)) {
-								return {
-									space: 'RGB',
-									r: original.r,
-									g: original.g,
-									b: original.b
-								};
-							}
-							return false;
-						},
-
-						write: function write(color) {
-							return {
-								r: color.r,
-								g: color.g,
-								b: color.b
-							};
-						}
-					},
-
-					HSVA_OBJ: {
-						read: function read(original) {
-							if (_common2.default.isNumber(original.h) && _common2.default.isNumber(original.s) && _common2.default.isNumber(original.v) && _common2.default.isNumber(original.a)) {
-								return {
-									space: 'HSV',
-									h: original.h,
-									s: original.s,
-									v: original.v,
-									a: original.a
-								};
-							}
-							return false;
-						},
-
-						write: function write(color) {
-							return {
-								h: color.h,
-								s: color.s,
-								v: color.v,
-								a: color.a
-							};
-						}
-					},
-
-					HSV_OBJ: {
-						read: function read(original) {
-							if (_common2.default.isNumber(original.h) && _common2.default.isNumber(original.s) && _common2.default.isNumber(original.v)) {
-								return {
-									space: 'HSV',
-									h: original.h,
-									s: original.s,
-									v: original.v
-								};
-							}
-							return false;
-						},
-
-						write: function write(color) {
-							return {
-								h: color.h,
-								s: color.s,
-								v: color.v
-							};
-						}
-					}
-				}
-			}];
-
-			var result = void 0;
-			var toReturn = void 0;
-
-			var interpret = function interpret() {
-				toReturn = false;
-
-				var original = arguments.length > 1 ? _common2.default.toArray(arguments) : arguments[0];
-				_common2.default.each(INTERPRETATIONS, function (family) {
-					if (family.litmus(original)) {
-						_common2.default.each(family.conversions, function (conversion, conversionName) {
-							result = conversion.read(original);
-
-							if (toReturn === false && result !== false) {
-								toReturn = result;
-								result.conversionName = conversionName;
-								result.conversion = conversion;
-								return _common2.default.BREAK;
-							}
-						});
-
-						return _common2.default.BREAK;
-					}
-				});
-
-				return toReturn;
-			};
-
-			exports.default = interpret;
-			module.exports = exports['default'];
-
-			/***/
-		},
-		/* 4 */
-		/***/function (module, exports) {
-
-			'use strict';
-
-			exports.__esModule = true;
-
-			exports.default = function (color, forceCSSHex) {
-				var colorFormat = color.__state.conversionName.toString();
-
-				var r = Math.round(color.r);
-				var g = Math.round(color.g);
-				var b = Math.round(color.b);
-				var a = color.a;
-				var h = Math.round(color.h);
-				var s = color.s.toFixed(1);
-				var v = color.v.toFixed(1);
-
-				if (forceCSSHex || colorFormat === 'THREE_CHAR_HEX' || colorFormat === 'SIX_CHAR_HEX') {
-					var str = color.hex.toString(16);
-					while (str.length < 6) {
-						str = '0' + str;
-					}
-					return '#' + str;
-				} else if (colorFormat === 'CSS_RGB') {
-					return 'rgb(' + r + ',' + g + ',' + b + ')';
-				} else if (colorFormat === 'CSS_RGBA') {
-					return 'rgba(' + r + ',' + g + ',' + b + ',' + a + ')';
-				} else if (colorFormat === 'HEX') {
-					return '0x' + color.hex.toString(16);
-				} else if (colorFormat === 'RGB_ARRAY') {
-					return '[' + r + ',' + g + ',' + b + ']';
-				} else if (colorFormat === 'RGBA_ARRAY') {
-					return '[' + r + ',' + g + ',' + b + ',' + a + ']';
-				} else if (colorFormat === 'RGB_OBJ') {
-					return '{r:' + r + ',g:' + g + ',b:' + b + '}';
-				} else if (colorFormat === 'RGBA_OBJ') {
-					return '{r:' + r + ',g:' + g + ',b:' + b + ',a:' + a + '}';
-				} else if (colorFormat === 'HSV_OBJ') {
-					return '{h:' + h + ',s:' + s + ',v:' + v + '}';
-				} else if (colorFormat === 'HSVA_OBJ') {
-					return '{h:' + h + ',s:' + s + ',v:' + v + ',a:' + a + '}';
-				}
-
-				return 'unknown format';
-			};
-
-			module.exports = exports['default']; /**
-                                         * dat-gui JavaScript Controller Library
-                                         * http://code.google.com/p/dat-gui
-                                         *
-                                         * Copyright 2011 Data Arts Team, Google Creative Lab
-                                         *
-                                         * Licensed under the Apache License, Version 2.0 (the "License");
-                                         * you may not use this file except in compliance with the License.
-                                         * You may obtain a copy of the License at
-                                         *
-                                         * http://www.apache.org/licenses/LICENSE-2.0
-                                         */
-
-			/***/
-		},
-		/* 5 */
-		/***/function (module, exports) {
-
-			'use strict';
-
-			exports.__esModule = true;
-			/**
-    * dat-gui JavaScript Controller Library
-    * http://code.google.com/p/dat-gui
-    *
-    * Copyright 2011 Data Arts Team, Google Creative Lab
-    *
-    * Licensed under the Apache License, Version 2.0 (the "License");
-    * you may not use this file except in compliance with the License.
-    * You may obtain a copy of the License at
-    *
-    * http://www.apache.org/licenses/LICENSE-2.0
-    */
-
-			var ARR_EACH = Array.prototype.forEach;
-			var ARR_SLICE = Array.prototype.slice;
-
-			/**
-    * Band-aid methods for things that should be a lot easier in JavaScript.
-    * Implementation and structure inspired by underscore.js
-    * http://documentcloud.github.com/underscore/
-    */
-
-			var Common = {
-				BREAK: {},
-
-				extend: function extend(target) {
-					this.each(ARR_SLICE.call(arguments, 1), function (obj) {
-						var keys = this.isObject(obj) ? Object.keys(obj) : [];
-						keys.forEach(function (key) {
-							if (!this.isUndefined(obj[key])) {
-								target[key] = obj[key];
-							}
-						}.bind(this));
-					}, this);
-
-					return target;
-				},
-
-				defaults: function defaults(target) {
-					this.each(ARR_SLICE.call(arguments, 1), function (obj) {
-						var keys = this.isObject(obj) ? Object.keys(obj) : [];
-						keys.forEach(function (key) {
-							if (this.isUndefined(target[key])) {
-								target[key] = obj[key];
-							}
-						}.bind(this));
-					}, this);
-
-					return target;
-				},
-
-				compose: function compose() {
-					var toCall = ARR_SLICE.call(arguments);
-					return function () {
-						var args = ARR_SLICE.call(arguments);
-						for (var i = toCall.length - 1; i >= 0; i--) {
-							args = [toCall[i].apply(this, args)];
-						}
-						return args[0];
-					};
-				},
-
-				each: function each(obj, itr, scope) {
-					if (!obj) {
-						return;
-					}
-
-					if (ARR_EACH && obj.forEach && obj.forEach === ARR_EACH) {
-						obj.forEach(itr, scope);
-					} else if (obj.length === obj.length + 0) {
-						// Is number but not NaN
-						var key = void 0;
-						var l = void 0;
-						for (key = 0, l = obj.length; key < l; key++) {
-							if (key in obj && itr.call(scope, obj[key], key) === this.BREAK) {
-								return;
-							}
-						}
-					} else {
-						for (var _key in obj) {
-							if (itr.call(scope, obj[_key], _key) === this.BREAK) {
-								return;
-							}
-						}
-					}
-				},
-
-				defer: function defer(fnc) {
-					setTimeout(fnc, 0);
-				},
-
-				// if the function is called repeatedly, wait until threshold passes until we execute the function
-				debounce: function debounce(func, threshold, callImmediately) {
-					var timeout = void 0;
-
-					return function () {
-						var obj = this;
-						var args = arguments;
-						function delayed() {
-							timeout = null;
-							if (!callImmediately) func.apply(obj, args);
-						}
-
-						var callNow = callImmediately || !timeout;
-
-						clearTimeout(timeout);
-						timeout = setTimeout(delayed, threshold);
-
-						if (callNow) {
-							func.apply(obj, args);
-						}
-					};
-				},
-
-				toArray: function toArray(obj) {
-					if (obj.toArray) return obj.toArray();
-					return ARR_SLICE.call(obj);
-				},
-
-				isUndefined: function isUndefined(obj) {
-					return obj === undefined;
-				},
-
-				isNull: function isNull(obj) {
-					return obj === null;
-				},
-
-				isNaN: function (_isNaN) {
-					function isNaN(_x) {
-						return _isNaN.apply(this, arguments);
-					}
-
-					isNaN.toString = function () {
-						return _isNaN.toString();
-					};
-
-					return isNaN;
-				}(function (obj) {
-					return isNaN(obj);
-				}),
-
-				isArray: Array.isArray || function (obj) {
-					return obj.constructor === Array;
-				},
-
-				isObject: function isObject(obj) {
-					return obj === Object(obj);
-				},
-
-				isNumber: function isNumber(obj) {
-					return obj === obj + 0;
-				},
-
-				isString: function isString(obj) {
-					return obj === obj + '';
-				},
-
-				isBoolean: function isBoolean(obj) {
-					return obj === false || obj === true;
-				},
-
-				isFunction: function isFunction(obj) {
-					return Object.prototype.toString.call(obj) === '[object Function]';
-				}
-
-			};
-
-			exports.default = Common;
-			module.exports = exports['default'];
-
-			/***/
-		},
-		/* 6 */
-		/***/function (module, exports) {
-
-			"use strict";
-
-			exports.__esModule = true;
-			/**
-    * dat-gui JavaScript Controller Library
-    * http://code.google.com/p/dat-gui
-    *
-    * Copyright 2011 Data Arts Team, Google Creative Lab
-    *
-    * Licensed under the Apache License, Version 2.0 (the "License");
-    * you may not use this file except in compliance with the License.
-    * You may obtain a copy of the License at
-    *
-    * http://www.apache.org/licenses/LICENSE-2.0
-    */
-
-			var tmpComponent = void 0;
-
-			var ColorMath = {
-				hsv_to_rgb: function hsv_to_rgb(h, s, v) {
-					var hi = Math.floor(h / 60) % 6;
-
-					var f = h / 60 - Math.floor(h / 60);
-					var p = v * (1.0 - s);
-					var q = v * (1.0 - f * s);
-					var t = v * (1.0 - (1.0 - f) * s);
-
-					var c = [[v, t, p], [q, v, p], [p, v, t], [p, q, v], [t, p, v], [v, p, q]][hi];
-
-					return {
-						r: c[0] * 255,
-						g: c[1] * 255,
-						b: c[2] * 255
-					};
-				},
-
-				rgb_to_hsv: function rgb_to_hsv(r, g, b) {
-					var min = Math.min(r, g, b);
-					var max = Math.max(r, g, b);
-					var delta = max - min;
-					var h = void 0;
-					var s = void 0;
-
-					if (max !== 0) {
-						s = delta / max;
-					} else {
-						return {
-							h: NaN,
-							s: 0,
-							v: 0
-						};
-					}
-
-					if (r === max) {
-						h = (g - b) / delta;
-					} else if (g === max) {
-						h = 2 + (b - r) / delta;
-					} else {
-						h = 4 + (r - g) / delta;
-					}
-					h /= 6;
-					if (h < 0) {
-						h += 1;
-					}
-
-					return {
-						h: h * 360,
-						s: s,
-						v: max / 255
-					};
-				},
-
-				rgb_to_hex: function rgb_to_hex(r, g, b) {
-					var hex = this.hex_with_component(0, 2, r);
-					hex = this.hex_with_component(hex, 1, g);
-					hex = this.hex_with_component(hex, 0, b);
-					return hex;
-				},
-
-				component_from_hex: function component_from_hex(hex, componentIndex) {
-					return hex >> componentIndex * 8 & 0xFF;
-				},
-
-				hex_with_component: function hex_with_component(hex, componentIndex, value) {
-					return value << (tmpComponent = componentIndex * 8) | hex & ~(0xFF << tmpComponent);
-				}
-			};
-
-			exports.default = ColorMath;
-			module.exports = exports["default"];
-
-			/***/
-		},
-		/* 7 */
-		/***/function (module, exports) {
-
-			'use strict';
-
-			exports.__esModule = true;
-
-			function _classCallCheck(instance, Constructor) {
-				if (!(instance instanceof Constructor)) {
-					throw new TypeError("Cannot call a class as a function");
-				}
-			}
-
-			/**
-    * dat-gui JavaScript Controller Library
-    * http://code.google.com/p/dat-gui
-    *
-    * Copyright 2011 Data Arts Team, Google Creative Lab
-    *
-    * Licensed under the Apache License, Version 2.0 (the "License");
-    * you may not use this file except in compliance with the License.
-    * You may obtain a copy of the License at
-    *
-    * http://www.apache.org/licenses/LICENSE-2.0
-    */
-
-			/**
-    * @class An "abstract" class that represents a given property of an object.
-    *
-    * @param {Object} object The object to be manipulated
-    * @param {string} property The name of the property to be manipulated
-    *
-    * @member dat.controllers
-    */
-			var Controller = function () {
-				function Controller(object, property) {
-					_classCallCheck(this, Controller);
-
-					this.initialValue = object[property];
-
-					/**
-      * Those who extend this class will put their DOM elements in here.
-      * @type {DOMElement}
-      */
-					this.domElement = document.createElement('div');
-
-					/**
-      * The object to manipulate
-      * @type {Object}
-      */
-					this.object = object;
-
-					/**
-      * The name of the property to manipulate
-      * @type {String}
-      */
-					this.property = property;
-
-					/**
-      * The function to be called on change.
-      * @type {Function}
-      * @ignore
-      */
-					this.__onChange = undefined;
-
-					/**
-      * The function to be called on finishing change.
-      * @type {Function}
-      * @ignore
-      */
-					this.__onFinishChange = undefined;
-				}
-
-				/**
-     * Specify that a function fire every time someone changes the value with
-     * this Controller.
-     *
-     * @param {Function} fnc This function will be called whenever the value
-     * is modified via this Controller.
-     * @returns {Controller} this
-     */
-
-				Controller.prototype.onChange = function onChange(fnc) {
-					this.__onChange = fnc;
-					return this;
-				};
-
-				/**
-     * Specify that a function fire every time someone "finishes" changing
-     * the value wih this Controller. Useful for values that change
-     * incrementally like numbers or strings.
-     *
-     * @param {Function} fnc This function will be called whenever
-     * someone "finishes" changing the value via this Controller.
-     * @returns {Controller} this
-     */
-
-				Controller.prototype.onFinishChange = function onFinishChange(fnc) {
-					this.__onFinishChange = fnc;
-					return this;
-				};
-
-				/**
-     * Change the value of <code>object[property]</code>
-     *
-     * @param {Object} newValue The new value of <code>object[property]</code>
-     */
-
-				Controller.prototype.setValue = function setValue(newValue) {
-					this.object[this.property] = newValue;
-					if (this.__onChange) {
-						this.__onChange.call(this, newValue);
-					}
-
-					this.updateDisplay();
-					return this;
-				};
-
-				/**
-     * Gets the value of <code>object[property]</code>
-     *
-     * @returns {Object} The current value of <code>object[property]</code>
-     */
-
-				Controller.prototype.getValue = function getValue() {
-					return this.object[this.property];
-				};
-
-				/**
-     * Refreshes the visual display of a Controller in order to keep sync
-     * with the object's current value.
-     * @returns {Controller} this
-     */
-
-				Controller.prototype.updateDisplay = function updateDisplay() {
-					return this;
-				};
-
-				/**
-     * @returns {Boolean} true if the value has deviated from initialValue
-     */
-
-				Controller.prototype.isModified = function isModified() {
-					return this.initialValue !== this.getValue();
-				};
-
-				return Controller;
-			}();
-
-			exports.default = Controller;
-			module.exports = exports['default'];
-
-			/***/
-		},
-		/* 8 */
-		/***/function (module, exports, __webpack_require__) {
-
-			'use strict';
-
-			exports.__esModule = true;
-
-			var _Controller2 = __webpack_require__(7);
-
-			var _Controller3 = _interopRequireDefault(_Controller2);
-
-			var _dom = __webpack_require__(9);
-
-			var _dom2 = _interopRequireDefault(_dom);
-
-			function _interopRequireDefault(obj) {
-				return obj && obj.__esModule ? obj : { default: obj };
-			}
-
-			function _classCallCheck(instance, Constructor) {
-				if (!(instance instanceof Constructor)) {
-					throw new TypeError("Cannot call a class as a function");
-				}
-			}
-
-			function _possibleConstructorReturn(self, call) {
-				if (!self) {
-					throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-				}return call && ((typeof call === 'undefined' ? 'undefined' : _typeof2(call)) === "object" || typeof call === "function") ? call : self;
-			}
-
-			function _inherits(subClass, superClass) {
-				if (typeof superClass !== "function" && superClass !== null) {
-					throw new TypeError("Super expression must either be null or a function, not " + (typeof superClass === 'undefined' ? 'undefined' : _typeof2(superClass)));
-				}subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } });if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
-			} /**
-      * dat-gui JavaScript Controller Library
-      * http://code.google.com/p/dat-gui
-      *
-      * Copyright 2011 Data Arts Team, Google Creative Lab
-      *
-      * Licensed under the Apache License, Version 2.0 (the "License");
-      * you may not use this file except in compliance with the License.
-      * You may obtain a copy of the License at
-      *
-      * http://www.apache.org/licenses/LICENSE-2.0
-      */
-
-			/**
-    * @class Provides a checkbox input to alter the boolean property of an object.
-    * @extends dat.controllers.Controller
-    *
-    * @param {Object} object The object to be manipulated
-    * @param {string} property The name of the property to be manipulated
-    *
-    * @member dat.controllers
-    */
-			var BooleanController = function (_Controller) {
-				_inherits(BooleanController, _Controller);
-
-				function BooleanController(object, property) {
-					_classCallCheck(this, BooleanController);
-
-					var _this2 = _possibleConstructorReturn(this, _Controller.call(this, object, property));
-
-					var _this = _this2;
-					_this2.__prev = _this2.getValue();
-
-					_this2.__checkbox = document.createElement('input');
-					_this2.__checkbox.setAttribute('type', 'checkbox');
-
-					function onChange() {
-						_this.setValue(!_this.__prev);
-					}
-
-					_dom2.default.bind(_this2.__checkbox, 'change', onChange, false);
-
-					_this2.domElement.appendChild(_this2.__checkbox);
-
-					// Match original value
-					_this2.updateDisplay();
-					return _this2;
-				}
-
-				BooleanController.prototype.setValue = function setValue(v) {
-					var toReturn = _Controller.prototype.setValue.call(this, v);
-					if (this.__onFinishChange) {
-						this.__onFinishChange.call(this, this.getValue());
-					}
-					this.__prev = this.getValue();
-					return toReturn;
-				};
-
-				BooleanController.prototype.updateDisplay = function updateDisplay() {
-					if (this.getValue() === true) {
-						this.__checkbox.setAttribute('checked', 'checked');
-						this.__checkbox.checked = true;
-						this.__prev = true;
-					} else {
-						this.__checkbox.checked = false;
-						this.__prev = false;
-					}
-
-					return _Controller.prototype.updateDisplay.call(this);
-				};
-
-				return BooleanController;
-			}(_Controller3.default);
-
-			exports.default = BooleanController;
-			module.exports = exports['default'];
-
-			/***/
-		},
-		/* 9 */
-		/***/function (module, exports, __webpack_require__) {
-
-			'use strict';
-
-			exports.__esModule = true;
-
-			var _common = __webpack_require__(5);
-
-			var _common2 = _interopRequireDefault(_common);
-
-			function _interopRequireDefault(obj) {
-				return obj && obj.__esModule ? obj : { default: obj };
-			}
-
-			var EVENT_MAP = {
-				HTMLEvents: ['change'],
-				MouseEvents: ['click', 'mousemove', 'mousedown', 'mouseup', 'mouseover'],
-				KeyboardEvents: ['keydown']
-			}; /**
-       * dat-gui JavaScript Controller Library
-       * http://code.google.com/p/dat-gui
-       *
-       * Copyright 2011 Data Arts Team, Google Creative Lab
-       *
-       * Licensed under the Apache License, Version 2.0 (the "License");
-       * you may not use this file except in compliance with the License.
-       * You may obtain a copy of the License at
-       *
-       * http://www.apache.org/licenses/LICENSE-2.0
-       */
-
-			var EVENT_MAP_INV = {};
-			_common2.default.each(EVENT_MAP, function (v, k) {
-				_common2.default.each(v, function (e) {
-					EVENT_MAP_INV[e] = k;
-				});
-			});
-
-			var CSS_VALUE_PIXELS = /(\d+(\.\d+)?)px/;
-
-			function cssValueToPixels(val) {
-				if (val === '0' || _common2.default.isUndefined(val)) {
-					return 0;
-				}
-
-				var match = val.match(CSS_VALUE_PIXELS);
-
-				if (!_common2.default.isNull(match)) {
-					return parseFloat(match[1]);
-				}
-
-				// TODO ...ems? %?
-
-				return 0;
-			}
-
-			/**
-    * @namespace
-    * @member dat.dom
-    */
-			var dom = {
-
-				/**
-     *
-     * @param elem
-     * @param selectable
-     */
-				makeSelectable: function makeSelectable(elem, selectable) {
-					if (elem === undefined || elem.style === undefined) return;
-
-					elem.onselectstart = selectable ? function () {
-						return false;
-					} : function () {};
-
-					elem.style.MozUserSelect = selectable ? 'auto' : 'none';
-					elem.style.KhtmlUserSelect = selectable ? 'auto' : 'none';
-					elem.unselectable = selectable ? 'on' : 'off';
-				},
-
-				/**
-     *
-     * @param elem
-     * @param horizontal
-     * @param vert
-     */
-				makeFullscreen: function makeFullscreen(elem, hor, vert) {
-					var vertical = vert;
-					var horizontal = hor;
-
-					if (_common2.default.isUndefined(horizontal)) {
-						horizontal = true;
-					}
-
-					if (_common2.default.isUndefined(vertical)) {
-						vertical = true;
-					}
-
-					elem.style.position = 'absolute';
-
-					if (horizontal) {
-						elem.style.left = 0;
-						elem.style.right = 0;
-					}
-					if (vertical) {
-						elem.style.top = 0;
-						elem.style.bottom = 0;
-					}
-				},
-
-				/**
-     *
-     * @param elem
-     * @param eventType
-     * @param params
-     */
-				fakeEvent: function fakeEvent(elem, eventType, pars, aux) {
-					var params = pars || {};
-					var className = EVENT_MAP_INV[eventType];
-					if (!className) {
-						throw new Error('Event type ' + eventType + ' not supported.');
-					}
-					var evt = document.createEvent(className);
-					switch (className) {
-						case 'MouseEvents':
-							{
-								var clientX = params.x || params.clientX || 0;
-								var clientY = params.y || params.clientY || 0;
-								evt.initMouseEvent(eventType, params.bubbles || false, params.cancelable || true, window, params.clickCount || 1, 0, // screen X
-								0, // screen Y
-								clientX, // client X
-								clientY, // client Y
-								false, false, false, false, 0, null);
-								break;
-							}
-						case 'KeyboardEvents':
-							{
-								var init = evt.initKeyboardEvent || evt.initKeyEvent; // webkit || moz
-								_common2.default.defaults(params, {
-									cancelable: true,
-									ctrlKey: false,
-									altKey: false,
-									shiftKey: false,
-									metaKey: false,
-									keyCode: undefined,
-									charCode: undefined
-								});
-								init(eventType, params.bubbles || false, params.cancelable, window, params.ctrlKey, params.altKey, params.shiftKey, params.metaKey, params.keyCode, params.charCode);
-								break;
-							}
-						default:
-							{
-								evt.initEvent(eventType, params.bubbles || false, params.cancelable || true);
-								break;
-							}
-					}
-					_common2.default.defaults(evt, aux);
-					elem.dispatchEvent(evt);
-				},
-
-				/**
-     *
-     * @param elem
-     * @param event
-     * @param func
-     * @param bool
-     */
-				bind: function bind(elem, event, func, newBool) {
-					var bool = newBool || false;
-					if (elem.addEventListener) {
-						elem.addEventListener(event, func, bool);
-					} else if (elem.attachEvent) {
-						elem.attachEvent('on' + event, func);
-					}
-					return dom;
-				},
-
-				/**
-     *
-     * @param elem
-     * @param event
-     * @param func
-     * @param bool
-     */
-				unbind: function unbind(elem, event, func, newBool) {
-					var bool = newBool || false;
-					if (elem.removeEventListener) {
-						elem.removeEventListener(event, func, bool);
-					} else if (elem.detachEvent) {
-						elem.detachEvent('on' + event, func);
-					}
-					return dom;
-				},
-
-				/**
-     *
-     * @param elem
-     * @param className
-     */
-				addClass: function addClass(elem, className) {
-					if (elem.className === undefined) {
-						elem.className = className;
-					} else if (elem.className !== className) {
-						var classes = elem.className.split(/ +/);
-						if (classes.indexOf(className) === -1) {
-							classes.push(className);
-							elem.className = classes.join(' ').replace(/^\s+/, '').replace(/\s+$/, '');
-						}
-					}
-					return dom;
-				},
-
-				/**
-     *
-     * @param elem
-     * @param className
-     */
-				removeClass: function removeClass(elem, className) {
-					if (className) {
-						if (elem.className === className) {
-							elem.removeAttribute('class');
-						} else {
-							var classes = elem.className.split(/ +/);
-							var index = classes.indexOf(className);
-							if (index !== -1) {
-								classes.splice(index, 1);
-								elem.className = classes.join(' ');
-							}
-						}
-					} else {
-						elem.className = undefined;
-					}
-					return dom;
-				},
-
-				hasClass: function hasClass(elem, className) {
-					return new RegExp('(?:^|\\s+)' + className + '(?:\\s+|$)').test(elem.className) || false;
-				},
-
-				/**
-     *
-     * @param elem
-     */
-				getWidth: function getWidth(elem) {
-					var style = getComputedStyle(elem);
-
-					return cssValueToPixels(style['border-left-width']) + cssValueToPixels(style['border-right-width']) + cssValueToPixels(style['padding-left']) + cssValueToPixels(style['padding-right']) + cssValueToPixels(style.width);
-				},
-
-				/**
-     *
-     * @param elem
-     */
-				getHeight: function getHeight(elem) {
-					var style = getComputedStyle(elem);
-
-					return cssValueToPixels(style['border-top-width']) + cssValueToPixels(style['border-bottom-width']) + cssValueToPixels(style['padding-top']) + cssValueToPixels(style['padding-bottom']) + cssValueToPixels(style.height);
-				},
-
-				/**
-     *
-     * @param el
-     */
-				getOffset: function getOffset(el) {
-					var elem = el;
-					var offset = { left: 0, top: 0 };
-					if (elem.offsetParent) {
-						do {
-							offset.left += elem.offsetLeft;
-							offset.top += elem.offsetTop;
-							elem = elem.offsetParent;
-						} while (elem);
-					}
-					return offset;
-				},
-
-				// http://stackoverflow.com/posts/2684561/revisions
-				/**
-     *
-     * @param elem
-     */
-				isActive: function isActive(elem) {
-					return elem === document.activeElement && (elem.type || elem.href);
-				}
-
-			};
-
-			exports.default = dom;
-			module.exports = exports['default'];
-
-			/***/
-		},
-		/* 10 */
-		/***/function (module, exports, __webpack_require__) {
-
-			'use strict';
-
-			exports.__esModule = true;
-
-			var _Controller2 = __webpack_require__(7);
-
-			var _Controller3 = _interopRequireDefault(_Controller2);
-
-			var _dom = __webpack_require__(9);
-
-			var _dom2 = _interopRequireDefault(_dom);
-
-			var _common = __webpack_require__(5);
-
-			var _common2 = _interopRequireDefault(_common);
-
-			function _interopRequireDefault(obj) {
-				return obj && obj.__esModule ? obj : { default: obj };
-			}
-
-			function _classCallCheck(instance, Constructor) {
-				if (!(instance instanceof Constructor)) {
-					throw new TypeError("Cannot call a class as a function");
-				}
-			}
-
-			function _possibleConstructorReturn(self, call) {
-				if (!self) {
-					throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-				}return call && ((typeof call === 'undefined' ? 'undefined' : _typeof2(call)) === "object" || typeof call === "function") ? call : self;
-			}
-
-			function _inherits(subClass, superClass) {
-				if (typeof superClass !== "function" && superClass !== null) {
-					throw new TypeError("Super expression must either be null or a function, not " + (typeof superClass === 'undefined' ? 'undefined' : _typeof2(superClass)));
-				}subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } });if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
-			} /**
-      * dat-gui JavaScript Controller Library
-      * http://code.google.com/p/dat-gui
-      *
-      * Copyright 2011 Data Arts Team, Google Creative Lab
-      *
-      * Licensed under the Apache License, Version 2.0 (the "License");
-      * you may not use this file except in compliance with the License.
-      * You may obtain a copy of the License at
-      *
-      * http://www.apache.org/licenses/LICENSE-2.0
-      */
-
-			/**
-    * @class Provides a select input to alter the property of an object, using a
-    * list of accepted values.
-    *
-    * @extends dat.controllers.Controller
-    *
-    * @param {Object} object The object to be manipulated
-    * @param {string} property The name of the property to be manipulated
-    * @param {Object|string[]} options A map of labels to acceptable values, or
-    * a list of acceptable string values.
-    *
-    * @member dat.controllers
-    */
-			var OptionController = function (_Controller) {
-				_inherits(OptionController, _Controller);
-
-				function OptionController(object, property, opts) {
-					_classCallCheck(this, OptionController);
-
-					var _this2 = _possibleConstructorReturn(this, _Controller.call(this, object, property));
-
-					var options = opts;
-
-					var _this = _this2;
-
-					/**
-      * The drop down menu
-      * @ignore
-      */
-					_this2.__select = document.createElement('select');
-
-					if (_common2.default.isArray(options)) {
-						var map = {};
-						_common2.default.each(options, function (element) {
-							map[element] = element;
-						});
-						options = map;
-					}
-
-					_common2.default.each(options, function (value, key) {
-						var opt = document.createElement('option');
-						opt.innerHTML = key;
-						opt.setAttribute('value', value);
-						_this.__select.appendChild(opt);
-					});
-
-					// Acknowledge original value
-					_this2.updateDisplay();
-
-					_dom2.default.bind(_this2.__select, 'change', function () {
-						var desiredValue = this.options[this.selectedIndex].value;
-						_this.setValue(desiredValue);
-					});
-
-					_this2.domElement.appendChild(_this2.__select);
-					return _this2;
-				}
-
-				OptionController.prototype.setValue = function setValue(v) {
-					var toReturn = _Controller.prototype.setValue.call(this, v);
-
-					if (this.__onFinishChange) {
-						this.__onFinishChange.call(this, this.getValue());
-					}
-					return toReturn;
-				};
-
-				OptionController.prototype.updateDisplay = function updateDisplay() {
-					if (_dom2.default.isActive(this.__select)) return this; // prevent number from updating if user is trying to manually update
-					this.__select.value = this.getValue();
-					return _Controller.prototype.updateDisplay.call(this);
-				};
-
-				return OptionController;
-			}(_Controller3.default);
-
-			exports.default = OptionController;
-			module.exports = exports['default'];
-
-			/***/
-		},
-		/* 11 */
-		/***/function (module, exports, __webpack_require__) {
-
-			'use strict';
-
-			exports.__esModule = true;
-
-			var _Controller2 = __webpack_require__(7);
-
-			var _Controller3 = _interopRequireDefault(_Controller2);
-
-			var _dom = __webpack_require__(9);
-
-			var _dom2 = _interopRequireDefault(_dom);
-
-			function _interopRequireDefault(obj) {
-				return obj && obj.__esModule ? obj : { default: obj };
-			}
-
-			function _classCallCheck(instance, Constructor) {
-				if (!(instance instanceof Constructor)) {
-					throw new TypeError("Cannot call a class as a function");
-				}
-			}
-
-			function _possibleConstructorReturn(self, call) {
-				if (!self) {
-					throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-				}return call && ((typeof call === 'undefined' ? 'undefined' : _typeof2(call)) === "object" || typeof call === "function") ? call : self;
-			}
-
-			function _inherits(subClass, superClass) {
-				if (typeof superClass !== "function" && superClass !== null) {
-					throw new TypeError("Super expression must either be null or a function, not " + (typeof superClass === 'undefined' ? 'undefined' : _typeof2(superClass)));
-				}subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } });if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
-			} /**
-      * dat-gui JavaScript Controller Library
-      * http://code.google.com/p/dat-gui
-      *
-      * Copyright 2011 Data Arts Team, Google Creative Lab
-      *
-      * Licensed under the Apache License, Version 2.0 (the "License");
-      * you may not use this file except in compliance with the License.
-      * You may obtain a copy of the License at
-      *
-      * http://www.apache.org/licenses/LICENSE-2.0
-      */
-
-			/**
-    * @class Provides a text input to alter the string property of an object.
-    *
-    * @extends dat.controllers.Controller
-    *
-    * @param {Object} object The object to be manipulated
-    * @param {string} property The name of the property to be manipulated
-    *
-    * @member dat.controllers
-    */
-			var StringController = function (_Controller) {
-				_inherits(StringController, _Controller);
-
-				function StringController(object, property) {
-					_classCallCheck(this, StringController);
-
-					var _this2 = _possibleConstructorReturn(this, _Controller.call(this, object, property));
-
-					var _this = _this2;
-
-					function onChange() {
-						_this.setValue(_this.__input.value);
-					}
-
-					function onBlur() {
-						if (_this.__onFinishChange) {
-							_this.__onFinishChange.call(_this, _this.getValue());
-						}
-					}
-
-					_this2.__input = document.createElement('input');
-					_this2.__input.setAttribute('type', 'text');
-
-					_dom2.default.bind(_this2.__input, 'keyup', onChange);
-					_dom2.default.bind(_this2.__input, 'change', onChange);
-					_dom2.default.bind(_this2.__input, 'blur', onBlur);
-					_dom2.default.bind(_this2.__input, 'keydown', function (e) {
-						if (e.keyCode === 13) {
-							this.blur();
-						}
-					});
-
-					_this2.updateDisplay();
-
-					_this2.domElement.appendChild(_this2.__input);
-					return _this2;
-				}
-
-				StringController.prototype.updateDisplay = function updateDisplay() {
-					// Stops the caret from moving on account of:
-					// keyup -> setValue -> updateDisplay
-					if (!_dom2.default.isActive(this.__input)) {
-						this.__input.value = this.getValue();
-					}
-					return _Controller.prototype.updateDisplay.call(this);
-				};
-
-				return StringController;
-			}(_Controller3.default);
-
-			exports.default = StringController;
-			module.exports = exports['default'];
-
-			/***/
-		},
-		/* 12 */
-		/***/function (module, exports, __webpack_require__) {
-
-			'use strict';
-
-			exports.__esModule = true;
-
-			var _Controller2 = __webpack_require__(7);
-
-			var _Controller3 = _interopRequireDefault(_Controller2);
-
-			var _common = __webpack_require__(5);
-
-			var _common2 = _interopRequireDefault(_common);
-
-			function _interopRequireDefault(obj) {
-				return obj && obj.__esModule ? obj : { default: obj };
-			}
-
-			function _classCallCheck(instance, Constructor) {
-				if (!(instance instanceof Constructor)) {
-					throw new TypeError("Cannot call a class as a function");
-				}
-			}
-
-			function _possibleConstructorReturn(self, call) {
-				if (!self) {
-					throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-				}return call && ((typeof call === 'undefined' ? 'undefined' : _typeof2(call)) === "object" || typeof call === "function") ? call : self;
-			}
-
-			function _inherits(subClass, superClass) {
-				if (typeof superClass !== "function" && superClass !== null) {
-					throw new TypeError("Super expression must either be null or a function, not " + (typeof superClass === 'undefined' ? 'undefined' : _typeof2(superClass)));
-				}subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } });if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
-			} /**
-      * dat-gui JavaScript Controller Library
-      * http://code.google.com/p/dat-gui
-      *
-      * Copyright 2011 Data Arts Team, Google Creative Lab
-      *
-      * Licensed under the Apache License, Version 2.0 (the "License");
-      * you may not use this file except in compliance with the License.
-      * You may obtain a copy of the License at
-      *
-      * http://www.apache.org/licenses/LICENSE-2.0
-      */
-
-			function numDecimals(x) {
-				var _x = x.toString();
-				if (_x.indexOf('.') > -1) {
-					return _x.length - _x.indexOf('.') - 1;
-				}
-
-				return 0;
-			}
-
-			/**
-    * @class Represents a given property of an object that is a number.
-    *
-    * @extends dat.controllers.Controller
-    *
-    * @param {Object} object The object to be manipulated
-    * @param {string} property The name of the property to be manipulated
-    * @param {Object} [params] Optional parameters
-    * @param {Number} [params.min] Minimum allowed value
-    * @param {Number} [params.max] Maximum allowed value
-    * @param {Number} [params.step] Increment by which to change value
-    *
-    * @member dat.controllers
-    */
-
-			var NumberController = function (_Controller) {
-				_inherits(NumberController, _Controller);
-
-				function NumberController(object, property, params) {
-					_classCallCheck(this, NumberController);
-
-					var _this = _possibleConstructorReturn(this, _Controller.call(this, object, property));
-
-					var _params = params || {};
-
-					_this.__min = _params.min;
-					_this.__max = _params.max;
-					_this.__step = _params.step;
-
-					if (_common2.default.isUndefined(_this.__step)) {
-						if (_this.initialValue === 0) {
-							_this.__impliedStep = 1; // What are we, psychics?
-						} else {
-							// Hey Doug, check this out.
-							_this.__impliedStep = Math.pow(10, Math.floor(Math.log(Math.abs(_this.initialValue)) / Math.LN10)) / 10;
-						}
-					} else {
-						_this.__impliedStep = _this.__step;
-					}
-
-					_this.__precision = numDecimals(_this.__impliedStep);
-					return _this;
-				}
-
-				NumberController.prototype.setValue = function setValue(v) {
-					var _v = v;
-
-					if (this.__min !== undefined && _v < this.__min) {
-						_v = this.__min;
-					} else if (this.__max !== undefined && _v > this.__max) {
-						_v = this.__max;
-					}
-
-					if (this.__step !== undefined && _v % this.__step !== 0) {
-						_v = Math.round(_v / this.__step) * this.__step;
-					}
-
-					return _Controller.prototype.setValue.call(this, _v);
-				};
-
-				/**
-     * Specify a minimum value for <code>object[property]</code>.
-     *
-     * @param {Number} minValue The minimum value for
-     * <code>object[property]</code>
-     * @returns {dat.controllers.NumberController} this
-     */
-
-				NumberController.prototype.min = function min(v) {
-					this.__min = v;
-					return this;
-				};
-
-				/**
-     * Specify a maximum value for <code>object[property]</code>.
-     *
-     * @param {Number} maxValue The maximum value for
-     * <code>object[property]</code>
-     * @returns {dat.controllers.NumberController} this
-     */
-
-				NumberController.prototype.max = function max(v) {
-					this.__max = v;
-					return this;
-				};
-
-				/**
-     * Specify a step value that dat.controllers.NumberController
-     * increments by.
-     *
-     * @param {Number} stepValue The step value for
-     * dat.controllers.NumberController
-     * @default if minimum and maximum specified increment is 1% of the
-     * difference otherwise stepValue is 1
-     * @returns {dat.controllers.NumberController} this
-     */
-
-				NumberController.prototype.step = function step(v) {
-					this.__step = v;
-					this.__impliedStep = v;
-					this.__precision = numDecimals(v);
-					return this;
-				};
-
-				return NumberController;
-			}(_Controller3.default);
-
-			exports.default = NumberController;
-			module.exports = exports['default'];
-
-			/***/
-		},
-		/* 13 */
-		/***/function (module, exports, __webpack_require__) {
-
-			'use strict';
-
-			exports.__esModule = true;
-
-			var _NumberController2 = __webpack_require__(12);
-
-			var _NumberController3 = _interopRequireDefault(_NumberController2);
-
-			var _dom = __webpack_require__(9);
-
-			var _dom2 = _interopRequireDefault(_dom);
-
-			var _common = __webpack_require__(5);
-
-			var _common2 = _interopRequireDefault(_common);
-
-			function _interopRequireDefault(obj) {
-				return obj && obj.__esModule ? obj : { default: obj };
-			}
-
-			function _classCallCheck(instance, Constructor) {
-				if (!(instance instanceof Constructor)) {
-					throw new TypeError("Cannot call a class as a function");
-				}
-			}
-
-			function _possibleConstructorReturn(self, call) {
-				if (!self) {
-					throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-				}return call && ((typeof call === 'undefined' ? 'undefined' : _typeof2(call)) === "object" || typeof call === "function") ? call : self;
-			}
-
-			function _inherits(subClass, superClass) {
-				if (typeof superClass !== "function" && superClass !== null) {
-					throw new TypeError("Super expression must either be null or a function, not " + (typeof superClass === 'undefined' ? 'undefined' : _typeof2(superClass)));
-				}subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } });if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
-			} /**
-      * dat-gui JavaScript Controller Library
-      * http://code.google.com/p/dat-gui
-      *
-      * Copyright 2011 Data Arts Team, Google Creative Lab
-      *
-      * Licensed under the Apache License, Version 2.0 (the "License");
-      * you may not use this file except in compliance with the License.
-      * You may obtain a copy of the License at
-      *
-      * http://www.apache.org/licenses/LICENSE-2.0
-      */
-
-			function roundToDecimal(value, decimals) {
-				var tenTo = Math.pow(10, decimals);
-				return Math.round(value * tenTo) / tenTo;
-			}
-
-			/**
-    * @class Represents a given property of an object that is a number and
-    * provides an input element with which to manipulate it.
-    *
-    * @extends dat.controllers.Controller
-    * @extends dat.controllers.NumberController
-    *
-    * @param {Object} object The object to be manipulated
-    * @param {string} property The name of the property to be manipulated
-    * @param {Object} [params] Optional parameters
-    * @param {Number} [params.min] Minimum allowed value
-    * @param {Number} [params.max] Maximum allowed value
-    * @param {Number} [params.step] Increment by which to change value
-    *
-    * @member dat.controllers
-    */
-
-			var NumberControllerBox = function (_NumberController) {
-				_inherits(NumberControllerBox, _NumberController);
-
-				function NumberControllerBox(object, property, params) {
-					_classCallCheck(this, NumberControllerBox);
-
-					var _this2 = _possibleConstructorReturn(this, _NumberController.call(this, object, property, params));
-
-					_this2.__truncationSuspended = false;
-
-					var _this = _this2;
-
-					/**
-      * {Number} Previous mouse y position
-      * @ignore
-      */
-					var prevY = void 0;
-
-					function onChange() {
-						var attempted = parseFloat(_this.__input.value);
-						if (!_common2.default.isNaN(attempted)) {
-							_this.setValue(attempted);
-						}
-					}
-
-					function onFinish() {
-						if (_this.__onFinishChange) {
-							_this.__onFinishChange.call(_this, _this.getValue());
-						}
-					}
-
-					function onBlur() {
-						onFinish();
-					}
-
-					function onMouseDrag(e) {
-						var diff = prevY - e.clientY;
-						_this.setValue(_this.getValue() + diff * _this.__impliedStep);
-
-						prevY = e.clientY;
-					}
-
-					function onMouseUp() {
-						_dom2.default.unbind(window, 'mousemove', onMouseDrag);
-						_dom2.default.unbind(window, 'mouseup', onMouseUp);
-						onFinish();
-					}
-
-					function onMouseDown(e) {
-						_dom2.default.bind(window, 'mousemove', onMouseDrag);
-						_dom2.default.bind(window, 'mouseup', onMouseUp);
-						prevY = e.clientY;
-					}
-
-					_this2.__input = document.createElement('input');
-					_this2.__input.setAttribute('type', 'text');
-
-					// Makes it so manually specified values are not truncated.
-
-					_dom2.default.bind(_this2.__input, 'change', onChange);
-					_dom2.default.bind(_this2.__input, 'blur', onBlur);
-					_dom2.default.bind(_this2.__input, 'mousedown', onMouseDown);
-					_dom2.default.bind(_this2.__input, 'keydown', function (e) {
-						// When pressing enter, you can be as precise as you want.
-						if (e.keyCode === 13) {
-							_this.__truncationSuspended = true;
-							this.blur();
-							_this.__truncationSuspended = false;
-							onFinish();
-						}
-					});
-
-					_this2.updateDisplay();
-
-					_this2.domElement.appendChild(_this2.__input);
-					return _this2;
-				}
-
-				NumberControllerBox.prototype.updateDisplay = function updateDisplay() {
-					this.__input.value = this.__truncationSuspended ? this.getValue() : roundToDecimal(this.getValue(), this.__precision);
-					return _NumberController.prototype.updateDisplay.call(this);
-				};
-
-				return NumberControllerBox;
-			}(_NumberController3.default);
-
-			exports.default = NumberControllerBox;
-			module.exports = exports['default'];
-
-			/***/
-		},
-		/* 14 */
-		/***/function (module, exports, __webpack_require__) {
-
-			'use strict';
-
-			exports.__esModule = true;
-
-			var _NumberController2 = __webpack_require__(12);
-
-			var _NumberController3 = _interopRequireDefault(_NumberController2);
-
-			var _dom = __webpack_require__(9);
-
-			var _dom2 = _interopRequireDefault(_dom);
-
-			function _interopRequireDefault(obj) {
-				return obj && obj.__esModule ? obj : { default: obj };
-			}
-
-			function _classCallCheck(instance, Constructor) {
-				if (!(instance instanceof Constructor)) {
-					throw new TypeError("Cannot call a class as a function");
-				}
-			}
-
-			function _possibleConstructorReturn(self, call) {
-				if (!self) {
-					throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-				}return call && ((typeof call === 'undefined' ? 'undefined' : _typeof2(call)) === "object" || typeof call === "function") ? call : self;
-			}
-
-			function _inherits(subClass, superClass) {
-				if (typeof superClass !== "function" && superClass !== null) {
-					throw new TypeError("Super expression must either be null or a function, not " + (typeof superClass === 'undefined' ? 'undefined' : _typeof2(superClass)));
-				}subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } });if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
-			} /**
-      * dat-gui JavaScript Controller Library
-      * http://code.google.com/p/dat-gui
-      *
-      * Copyright 2011 Data Arts Team, Google Creative Lab
-      *
-      * Licensed under the Apache License, Version 2.0 (the "License");
-      * you may not use this file except in compliance with the License.
-      * You may obtain a copy of the License at
-      *
-      * http://www.apache.org/licenses/LICENSE-2.0
-      */
-
-			function map(v, i1, i2, o1, o2) {
-				return o1 + (o2 - o1) * ((v - i1) / (i2 - i1));
-			}
-
-			/**
-    * @class Represents a given property of an object that is a number, contains
-    * a minimum and maximum, and provides a slider element with which to
-    * manipulate it. It should be noted that the slider element is made up of
-    * <code>&lt;div&gt;</code> tags, <strong>not</strong> the html5
-    * <code>&lt;slider&gt;</code> element.
-    *
-    * @extends dat.controllers.Controller
-    * @extends dat.controllers.NumberController
-    *
-    * @param {Object} object The object to be manipulated
-    * @param {string} property The name of the property to be manipulated
-    * @param {Number} minValue Minimum allowed value
-    * @param {Number} maxValue Maximum allowed value
-    * @param {Number} stepValue Increment by which to change value
-    *
-    * @member dat.controllers
-    */
-
-			var NumberControllerSlider = function (_NumberController) {
-				_inherits(NumberControllerSlider, _NumberController);
-
-				function NumberControllerSlider(object, property, min, max, step) {
-					_classCallCheck(this, NumberControllerSlider);
-
-					var _this2 = _possibleConstructorReturn(this, _NumberController.call(this, object, property, { min: min, max: max, step: step }));
-
-					var _this = _this2;
-
-					_this2.__background = document.createElement('div');
-					_this2.__foreground = document.createElement('div');
-
-					_dom2.default.bind(_this2.__background, 'mousedown', onMouseDown);
-
-					_dom2.default.addClass(_this2.__background, 'slider');
-					_dom2.default.addClass(_this2.__foreground, 'slider-fg');
-
-					function onMouseDown(e) {
-						document.activeElement.blur();
-
-						_dom2.default.bind(window, 'mousemove', onMouseDrag);
-						_dom2.default.bind(window, 'mouseup', onMouseUp);
-
-						onMouseDrag(e);
-					}
-
-					function onMouseDrag(e) {
-						e.preventDefault();
-
-						var bgRect = _this.__background.getBoundingClientRect();
-
-						_this.setValue(map(e.clientX, bgRect.left, bgRect.right, _this.__min, _this.__max));
-
-						return false;
-					}
-
-					function onMouseUp() {
-						_dom2.default.unbind(window, 'mousemove', onMouseDrag);
-						_dom2.default.unbind(window, 'mouseup', onMouseUp);
-						if (_this.__onFinishChange) {
-							_this.__onFinishChange.call(_this, _this.getValue());
-						}
-					}
-
-					_this2.updateDisplay();
-
-					_this2.__background.appendChild(_this2.__foreground);
-					_this2.domElement.appendChild(_this2.__background);
-					return _this2;
-				}
-
-				NumberControllerSlider.prototype.updateDisplay = function updateDisplay() {
-					var pct = (this.getValue() - this.__min) / (this.__max - this.__min);
-					this.__foreground.style.width = pct * 100 + '%';
-					return _NumberController.prototype.updateDisplay.call(this);
-				};
-
-				return NumberControllerSlider;
-			}(_NumberController3.default);
-
-			exports.default = NumberControllerSlider;
-			module.exports = exports['default'];
-
-			/***/
-		},
-		/* 15 */
-		/***/function (module, exports, __webpack_require__) {
-
-			'use strict';
-
-			exports.__esModule = true;
-
-			var _Controller2 = __webpack_require__(7);
-
-			var _Controller3 = _interopRequireDefault(_Controller2);
-
-			var _dom = __webpack_require__(9);
-
-			var _dom2 = _interopRequireDefault(_dom);
-
-			function _interopRequireDefault(obj) {
-				return obj && obj.__esModule ? obj : { default: obj };
-			}
-
-			function _classCallCheck(instance, Constructor) {
-				if (!(instance instanceof Constructor)) {
-					throw new TypeError("Cannot call a class as a function");
-				}
-			}
-
-			function _possibleConstructorReturn(self, call) {
-				if (!self) {
-					throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-				}return call && ((typeof call === 'undefined' ? 'undefined' : _typeof2(call)) === "object" || typeof call === "function") ? call : self;
-			}
-
-			function _inherits(subClass, superClass) {
-				if (typeof superClass !== "function" && superClass !== null) {
-					throw new TypeError("Super expression must either be null or a function, not " + (typeof superClass === 'undefined' ? 'undefined' : _typeof2(superClass)));
-				}subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } });if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
-			} /**
-      * dat-gui JavaScript Controller Library
-      * http://code.google.com/p/dat-gui
-      *
-      * Copyright 2011 Data Arts Team, Google Creative Lab
-      *
-      * Licensed under the Apache License, Version 2.0 (the "License");
-      * you may not use this file except in compliance with the License.
-      * You may obtain a copy of the License at
-      *
-      * http://www.apache.org/licenses/LICENSE-2.0
-      */
-
-			/**
-    * @class Provides a GUI interface to fire a specified method, a property of an object.
-    *
-    * @extends dat.controllers.Controller
-    *
-    * @param {Object} object The object to be manipulated
-    * @param {string} property The name of the property to be manipulated
-    *
-    * @member dat.controllers
-    */
-			var FunctionController = function (_Controller) {
-				_inherits(FunctionController, _Controller);
-
-				function FunctionController(object, property, text) {
-					_classCallCheck(this, FunctionController);
-
-					var _this2 = _possibleConstructorReturn(this, _Controller.call(this, object, property));
-
-					var _this = _this2;
-
-					_this2.__button = document.createElement('div');
-					_this2.__button.innerHTML = text === undefined ? 'Fire' : text;
-
-					_dom2.default.bind(_this2.__button, 'click', function (e) {
-						e.preventDefault();
-						_this.fire();
-						return false;
-					});
-
-					_dom2.default.addClass(_this2.__button, 'button');
-
-					_this2.domElement.appendChild(_this2.__button);
-					return _this2;
-				}
-
-				FunctionController.prototype.fire = function fire() {
-					if (this.__onChange) {
-						this.__onChange.call(this);
-					}
-					this.getValue().call(this.object);
-					if (this.__onFinishChange) {
-						this.__onFinishChange.call(this, this.getValue());
-					}
-				};
-
-				return FunctionController;
-			}(_Controller3.default);
-
-			exports.default = FunctionController;
-			module.exports = exports['default'];
-
-			/***/
-		},
-		/* 16 */
-		/***/function (module, exports, __webpack_require__) {
-
-			'use strict';
-
-			exports.__esModule = true;
-
-			var _Controller2 = __webpack_require__(7);
-
-			var _Controller3 = _interopRequireDefault(_Controller2);
-
-			var _dom = __webpack_require__(9);
-
-			var _dom2 = _interopRequireDefault(_dom);
-
-			var _Color = __webpack_require__(2);
-
-			var _Color2 = _interopRequireDefault(_Color);
-
-			var _interpret = __webpack_require__(3);
-
-			var _interpret2 = _interopRequireDefault(_interpret);
-
-			var _common = __webpack_require__(5);
-
-			var _common2 = _interopRequireDefault(_common);
-
-			function _interopRequireDefault(obj) {
-				return obj && obj.__esModule ? obj : { default: obj };
-			}
-
-			function _classCallCheck(instance, Constructor) {
-				if (!(instance instanceof Constructor)) {
-					throw new TypeError("Cannot call a class as a function");
-				}
-			}
-
-			function _possibleConstructorReturn(self, call) {
-				if (!self) {
-					throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-				}return call && ((typeof call === 'undefined' ? 'undefined' : _typeof2(call)) === "object" || typeof call === "function") ? call : self;
-			}
-
-			function _inherits(subClass, superClass) {
-				if (typeof superClass !== "function" && superClass !== null) {
-					throw new TypeError("Super expression must either be null or a function, not " + (typeof superClass === 'undefined' ? 'undefined' : _typeof2(superClass)));
-				}subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } });if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
-			} /**
-      * dat-gui JavaScript Controller Library
-      * http://code.google.com/p/dat-gui
-      *
-      * Copyright 2011 Data Arts Team, Google Creative Lab
-      *
-      * Licensed under the Apache License, Version 2.0 (the "License");
-      * you may not use this file except in compliance with the License.
-      * You may obtain a copy of the License at
-      *
-      * http://www.apache.org/licenses/LICENSE-2.0
-      */
-
-			var ColorController = function (_Controller) {
-				_inherits(ColorController, _Controller);
-
-				function ColorController(object, property) {
-					_classCallCheck(this, ColorController);
-
-					var _this2 = _possibleConstructorReturn(this, _Controller.call(this, object, property));
-
-					_this2.__color = new _Color2.default(_this2.getValue());
-					_this2.__temp = new _Color2.default(0);
-
-					var _this = _this2;
-
-					_this2.domElement = document.createElement('div');
-
-					_dom2.default.makeSelectable(_this2.domElement, false);
-
-					_this2.__selector = document.createElement('div');
-					_this2.__selector.className = 'selector';
-
-					_this2.__saturation_field = document.createElement('div');
-					_this2.__saturation_field.className = 'saturation-field';
-
-					_this2.__field_knob = document.createElement('div');
-					_this2.__field_knob.className = 'field-knob';
-					_this2.__field_knob_border = '2px solid ';
-
-					_this2.__hue_knob = document.createElement('div');
-					_this2.__hue_knob.className = 'hue-knob';
-
-					_this2.__hue_field = document.createElement('div');
-					_this2.__hue_field.className = 'hue-field';
-
-					_this2.__input = document.createElement('input');
-					_this2.__input.type = 'text';
-					_this2.__input_textShadow = '0 1px 1px ';
-
-					_dom2.default.bind(_this2.__input, 'keydown', function (e) {
-						if (e.keyCode === 13) {
-							// on enter
-							onBlur.call(this);
-						}
-					});
-
-					_dom2.default.bind(_this2.__input, 'blur', onBlur);
-
-					_dom2.default.bind(_this2.__selector, 'mousedown', function () /* e */{
-						_dom2.default.addClass(this, 'drag').bind(window, 'mouseup', function () /* e */{
-							_dom2.default.removeClass(_this.__selector, 'drag');
-						});
-					});
-
-					var valueField = document.createElement('div');
-
-					_common2.default.extend(_this2.__selector.style, {
-						width: '122px',
-						height: '102px',
-						padding: '3px',
-						backgroundColor: '#222',
-						boxShadow: '0px 1px 3px rgba(0,0,0,0.3)'
-					});
-
-					_common2.default.extend(_this2.__field_knob.style, {
-						position: 'absolute',
-						width: '12px',
-						height: '12px',
-						border: _this2.__field_knob_border + (_this2.__color.v < 0.5 ? '#fff' : '#000'),
-						boxShadow: '0px 1px 3px rgba(0,0,0,0.5)',
-						borderRadius: '12px',
-						zIndex: 1
-					});
-
-					_common2.default.extend(_this2.__hue_knob.style, {
-						position: 'absolute',
-						width: '15px',
-						height: '2px',
-						borderRight: '4px solid #fff',
-						zIndex: 1
-					});
-
-					_common2.default.extend(_this2.__saturation_field.style, {
-						width: '100px',
-						height: '100px',
-						border: '1px solid #555',
-						marginRight: '3px',
-						display: 'inline-block',
-						cursor: 'pointer'
-					});
-
-					_common2.default.extend(valueField.style, {
-						width: '100%',
-						height: '100%',
-						background: 'none'
-					});
-
-					linearGradient(valueField, 'top', 'rgba(0,0,0,0)', '#000');
-
-					_common2.default.extend(_this2.__hue_field.style, {
-						width: '15px',
-						height: '100px',
-						border: '1px solid #555',
-						cursor: 'ns-resize',
-						position: 'absolute',
-						top: '3px',
-						right: '3px'
-					});
-
-					hueGradient(_this2.__hue_field);
-
-					_common2.default.extend(_this2.__input.style, {
-						outline: 'none',
-						//      width: '120px',
-						textAlign: 'center',
-						//      padding: '4px',
-						//      marginBottom: '6px',
-						color: '#fff',
-						border: 0,
-						fontWeight: 'bold',
-						textShadow: _this2.__input_textShadow + 'rgba(0,0,0,0.7)'
-					});
-
-					_dom2.default.bind(_this2.__saturation_field, 'mousedown', fieldDown);
-					_dom2.default.bind(_this2.__field_knob, 'mousedown', fieldDown);
-
-					_dom2.default.bind(_this2.__hue_field, 'mousedown', function (e) {
-						setH(e);
-						_dom2.default.bind(window, 'mousemove', setH);
-						_dom2.default.bind(window, 'mouseup', fieldUpH);
-					});
-
-					function fieldDown(e) {
-						setSV(e);
-						// document.body.style.cursor = 'none';
-						_dom2.default.bind(window, 'mousemove', setSV);
-						_dom2.default.bind(window, 'mouseup', fieldUpSV);
-					}
-
-					function fieldUpSV() {
-						_dom2.default.unbind(window, 'mousemove', setSV);
-						_dom2.default.unbind(window, 'mouseup', fieldUpSV);
-						// document.body.style.cursor = 'default';
-						onFinish();
-					}
-
-					function onBlur() {
-						var i = (0, _interpret2.default)(this.value);
-						if (i !== false) {
-							_this.__color.__state = i;
-							_this.setValue(_this.__color.toOriginal());
-						} else {
-							this.value = _this.__color.toString();
-						}
-					}
-
-					function fieldUpH() {
-						_dom2.default.unbind(window, 'mousemove', setH);
-						_dom2.default.unbind(window, 'mouseup', fieldUpH);
-						onFinish();
-					}
-
-					function onFinish() {
-						if (_this.__onFinishChange) {
-							_this.__onFinishChange.call(_this, _this.__color.toOriginal());
-						}
-					}
-
-					_this2.__saturation_field.appendChild(valueField);
-					_this2.__selector.appendChild(_this2.__field_knob);
-					_this2.__selector.appendChild(_this2.__saturation_field);
-					_this2.__selector.appendChild(_this2.__hue_field);
-					_this2.__hue_field.appendChild(_this2.__hue_knob);
-
-					_this2.domElement.appendChild(_this2.__input);
-					_this2.domElement.appendChild(_this2.__selector);
-
-					_this2.updateDisplay();
-
-					function setSV(e) {
-						e.preventDefault();
-
-						var fieldRect = _this.__saturation_field.getBoundingClientRect();
-						var s = (e.clientX - fieldRect.left) / (fieldRect.right - fieldRect.left);
-						var v = 1 - (e.clientY - fieldRect.top) / (fieldRect.bottom - fieldRect.top);
-
-						if (v > 1) {
-							v = 1;
-						} else if (v < 0) {
-							v = 0;
-						}
-
-						if (s > 1) {
-							s = 1;
-						} else if (s < 0) {
-							s = 0;
-						}
-
-						_this.__color.v = v;
-						_this.__color.s = s;
-
-						_this.setValue(_this.__color.toOriginal());
-
-						return false;
-					}
-
-					function setH(e) {
-						e.preventDefault();
-
-						var fieldRect = _this.__hue_field.getBoundingClientRect();
-						var h = 1 - (e.clientY - fieldRect.top) / (fieldRect.bottom - fieldRect.top);
-
-						if (h > 1) {
-							h = 1;
-						} else if (h < 0) {
-							h = 0;
-						}
-
-						_this.__color.h = h * 360;
-
-						_this.setValue(_this.__color.toOriginal());
-
-						return false;
-					}
-					return _this2;
-				}
-
-				ColorController.prototype.updateDisplay = function updateDisplay() {
-					var i = (0, _interpret2.default)(this.getValue());
-
-					if (i !== false) {
-						var mismatch = false;
-
-						// Check for mismatch on the interpreted value.
-
-						_common2.default.each(_Color2.default.COMPONENTS, function (component) {
-							if (!_common2.default.isUndefined(i[component]) && !_common2.default.isUndefined(this.__color.__state[component]) && i[component] !== this.__color.__state[component]) {
-								mismatch = true;
-								return {}; // break
-							}
-						}, this);
-
-						// If nothing diverges, we keep our previous values
-						// for statefulness, otherwise we recalculate fresh
-						if (mismatch) {
-							_common2.default.extend(this.__color.__state, i);
-						}
-					}
-
-					_common2.default.extend(this.__temp.__state, this.__color.__state);
-
-					this.__temp.a = 1;
-
-					var flip = this.__color.v < 0.5 || this.__color.s > 0.5 ? 255 : 0;
-					var _flip = 255 - flip;
-
-					_common2.default.extend(this.__field_knob.style, {
-						marginLeft: 100 * this.__color.s - 7 + 'px',
-						marginTop: 100 * (1 - this.__color.v) - 7 + 'px',
-						backgroundColor: this.__temp.toHexString(),
-						border: this.__field_knob_border + 'rgb(' + flip + ',' + flip + ',' + flip + ')'
-					});
-
-					this.__hue_knob.style.marginTop = (1 - this.__color.h / 360) * 100 + 'px';
-
-					this.__temp.s = 1;
-					this.__temp.v = 1;
-
-					linearGradient(this.__saturation_field, 'left', '#fff', this.__temp.toHexString());
-
-					this.__input.value = this.__color.toString();
-
-					_common2.default.extend(this.__input.style, {
-						backgroundColor: this.__color.toHexString(),
-						color: 'rgb(' + flip + ',' + flip + ',' + flip + ')',
-						textShadow: this.__input_textShadow + 'rgba(' + _flip + ',' + _flip + ',' + _flip + ',.7)'
-					});
-				};
-
-				return ColorController;
-			}(_Controller3.default);
-
-			var vendors = ['-moz-', '-o-', '-webkit-', '-ms-', ''];
-
-			function linearGradient(elem, x, a, b) {
-				elem.style.background = '';
-				_common2.default.each(vendors, function (vendor) {
-					elem.style.cssText += 'background: ' + vendor + 'linear-gradient(' + x + ', ' + a + ' 0%, ' + b + ' 100%); ';
-				});
-			}
-
-			function hueGradient(elem) {
-				elem.style.background = '';
-				elem.style.cssText += 'background: -moz-linear-gradient(top,  #ff0000 0%, #ff00ff 17%, #0000ff 34%, #00ffff 50%, #00ff00 67%, #ffff00 84%, #ff0000 100%);';
-				elem.style.cssText += 'background: -webkit-linear-gradient(top,  #ff0000 0%,#ff00ff 17%,#0000ff 34%,#00ffff 50%,#00ff00 67%,#ffff00 84%,#ff0000 100%);';
-				elem.style.cssText += 'background: -o-linear-gradient(top,  #ff0000 0%,#ff00ff 17%,#0000ff 34%,#00ffff 50%,#00ff00 67%,#ffff00 84%,#ff0000 100%);';
-				elem.style.cssText += 'background: -ms-linear-gradient(top,  #ff0000 0%,#ff00ff 17%,#0000ff 34%,#00ffff 50%,#00ff00 67%,#ffff00 84%,#ff0000 100%);';
-				elem.style.cssText += 'background: linear-gradient(top,  #ff0000 0%,#ff00ff 17%,#0000ff 34%,#00ffff 50%,#00ff00 67%,#ffff00 84%,#ff0000 100%);';
-			}
-
-			exports.default = ColorController;
-			module.exports = exports['default'];
-
-			/***/
-		},
-		/* 17 */
-		/***/function (module, exports, __webpack_require__) {
-
-			'use strict';
-
-			exports.__esModule = true;
-
-			var _typeof = typeof Symbol === "function" && _typeof2(Symbol.iterator) === "symbol" ? function (obj) {
-				return typeof obj === 'undefined' ? 'undefined' : _typeof2(obj);
-			} : function (obj) {
-				return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj === 'undefined' ? 'undefined' : _typeof2(obj);
-			}; /**
-       * dat-gui JavaScript Controller Library
-       * http://code.google.com/p/dat-gui
-       *
-       * Copyright 2011 Data Arts Team, Google Creative Lab
-       *
-       * Licensed under the Apache License, Version 2.0 (the "License");
-       * you may not use this file except in compliance with the License.
-       * You may obtain a copy of the License at
-       *
-       * http://www.apache.org/licenses/LICENSE-2.0
-       */
-
-			var _css = __webpack_require__(18);
-
-			var _css2 = _interopRequireDefault(_css);
-
-			var _saveDialogue = __webpack_require__(19);
-
-			var _saveDialogue2 = _interopRequireDefault(_saveDialogue);
-
-			var _ControllerFactory = __webpack_require__(20);
-
-			var _ControllerFactory2 = _interopRequireDefault(_ControllerFactory);
-
-			var _Controller = __webpack_require__(7);
-
-			var _Controller2 = _interopRequireDefault(_Controller);
-
-			var _BooleanController = __webpack_require__(8);
-
-			var _BooleanController2 = _interopRequireDefault(_BooleanController);
-
-			var _FunctionController = __webpack_require__(15);
-
-			var _FunctionController2 = _interopRequireDefault(_FunctionController);
-
-			var _NumberControllerBox = __webpack_require__(13);
-
-			var _NumberControllerBox2 = _interopRequireDefault(_NumberControllerBox);
-
-			var _NumberControllerSlider = __webpack_require__(14);
-
-			var _NumberControllerSlider2 = _interopRequireDefault(_NumberControllerSlider);
-
-			var _ColorController = __webpack_require__(16);
-
-			var _ColorController2 = _interopRequireDefault(_ColorController);
-
-			var _requestAnimationFrame = __webpack_require__(21);
-
-			var _requestAnimationFrame2 = _interopRequireDefault(_requestAnimationFrame);
-
-			var _CenteredDiv = __webpack_require__(22);
-
-			var _CenteredDiv2 = _interopRequireDefault(_CenteredDiv);
-
-			var _dom = __webpack_require__(9);
-
-			var _dom2 = _interopRequireDefault(_dom);
-
-			var _common = __webpack_require__(5);
-
-			var _common2 = _interopRequireDefault(_common);
-
-			var _style = __webpack_require__(23);
-
-			var _style2 = _interopRequireDefault(_style);
-
-			function _interopRequireDefault(obj) {
-				return obj && obj.__esModule ? obj : { default: obj };
-			}
-
-			// CSS to embed in build
-
-			_css2.default.inject(_style2.default);
-
-			/** Outer-most className for GUI's */
-			var CSS_NAMESPACE = 'dg';
-
-			var HIDE_KEY_CODE = 72;
-
-			/** The only value shared between the JS and SCSS. Use caution. */
-			var CLOSE_BUTTON_HEIGHT = 20;
-
-			var DEFAULT_DEFAULT_PRESET_NAME = 'Default';
-
-			var SUPPORTS_LOCAL_STORAGE = function () {
-				try {
-					return 'localStorage' in window && window.localStorage !== null;
-				} catch (e) {
-					return false;
-				}
-			}();
-
-			var SAVE_DIALOGUE = void 0;
-
-			/** Have we yet to create an autoPlace GUI? */
-			var autoPlaceVirgin = true;
-
-			/** Fixed position div that auto place GUI's go inside */
-			var autoPlaceContainer = void 0;
-
-			/** Are we hiding the GUI's ? */
-			var hide = false;
-
-			/** GUI's which should be hidden */
-			var hideableGuis = [];
-
-			/**
-    * A lightweight controller library for JavaScript. It allows you to easily
-    * manipulate variables and fire functions on the fly.
-    * @class
-    *
-    * @member dat.gui
-    *
-    * @param {Object} [params]
-    * @param {String} [params.name] The name of this GUI.
-    * @param {Object} [params.load] JSON object representing the saved state of
-    * this GUI.
-    * @param {Boolean} [params.auto=true]
-    * @param {dat.gui.GUI} [params.parent] The GUI I'm nested in.
-    * @param {Boolean} [params.closed] If true, starts closed
-    * @param {Boolean} [params.closeOnTop] If true, close/open button shows on top of the GUI
-    */
-			var GUI = function GUI(pars) {
-				var _this = this;
-
-				var params = pars || {};
-
-				/**
-     * Outermost DOM Element
-     * @type DOMElement
-     */
-				this.domElement = document.createElement('div');
-				this.__ul = document.createElement('ul');
-				this.domElement.appendChild(this.__ul);
-
-				_dom2.default.addClass(this.domElement, CSS_NAMESPACE);
-
-				/**
-     * Nested GUI's by name
-     * @ignore
-     */
-				this.__folders = {};
-
-				this.__controllers = [];
-
-				/**
-     * List of objects I'm remembering for save, only used in top level GUI
-     * @ignore
-     */
-				this.__rememberedObjects = [];
-
-				/**
-     * Maps the index of remembered objects to a map of controllers, only used
-     * in top level GUI.
-     *
-     * @private
-     * @ignore
-     *
-     * @example
-     * [
-     *  {
-       *    propertyName: Controller,
-       *    anotherPropertyName: Controller
-       *  },
-     *  {
-       *    propertyName: Controller
-       *  }
-     * ]
-     */
-				this.__rememberedObjectIndecesToControllers = [];
-
-				this.__listening = [];
-
-				// Default parameters
-				params = _common2.default.defaults(params, {
-					closeOnTop: false,
-					autoPlace: true,
-					width: GUI.DEFAULT_WIDTH
-				});
-
-				params = _common2.default.defaults(params, {
-					resizable: params.autoPlace,
-					hideable: params.autoPlace
-				});
-
-				if (!_common2.default.isUndefined(params.load)) {
-					// Explicit preset
-					if (params.preset) {
-						params.load.preset = params.preset;
-					}
-				} else {
-					params.load = { preset: DEFAULT_DEFAULT_PRESET_NAME };
-				}
-
-				if (_common2.default.isUndefined(params.parent) && params.hideable) {
-					hideableGuis.push(this);
-				}
-
-				// Only root level GUI's are resizable.
-				params.resizable = _common2.default.isUndefined(params.parent) && params.resizable;
-
-				if (params.autoPlace && _common2.default.isUndefined(params.scrollable)) {
-					params.scrollable = true;
-				}
-				//    params.scrollable = common.isUndefined(params.parent) && params.scrollable === true;
-
-				// Not part of params because I don't want people passing this in via
-				// constructor. Should be a 'remembered' value.
-				var useLocalStorage = SUPPORTS_LOCAL_STORAGE && localStorage.getItem(getLocalStorageHash(this, 'isLocal')) === 'true';
-
-				var saveToLocalStorage = void 0;
-
-				Object.defineProperties(this,
-				/** @lends dat.gui.GUI.prototype */
-				{
-					/**
-      * The parent <code>GUI</code>
-      * @type dat.gui.GUI
-      */
-					parent: {
-						get: function get() {
-							return params.parent;
-						}
-					},
-
-					scrollable: {
-						get: function get() {
-							return params.scrollable;
-						}
-					},
-
-					/**
-      * Handles <code>GUI</code>'s element placement for you
-      * @type Boolean
-      */
-					autoPlace: {
-						get: function get() {
-							return params.autoPlace;
-						}
-					},
-
-					/**
-      * Handles <code>GUI</code>'s position of open/close button
-      * @type Boolean
-      */
-					closeOnTop: {
-						get: function get() {
-							return params.closeOnTop;
-						}
-					},
-
-					/**
-      * The identifier for a set of saved values
-      * @type String
-      */
-					preset: {
-						get: function get() {
-							if (_this.parent) {
-								return _this.getRoot().preset;
-							}
-
-							return params.load.preset;
-						},
-
-						set: function set(v) {
-							if (_this.parent) {
-								_this.getRoot().preset = v;
-							} else {
-								params.load.preset = v;
-							}
-							setPresetSelectIndex(this);
-							_this.revert();
-						}
-					},
-
-					/**
-      * The width of <code>GUI</code> element
-      * @type Number
-      */
-					width: {
-						get: function get() {
-							return params.width;
-						},
-						set: function set(v) {
-							params.width = v;
-							setWidth(_this, v);
-						}
-					},
-
-					/**
-      * The name of <code>GUI</code>. Used for folders. i.e
-      * a folder's name
-      * @type String
-      */
-					name: {
-						get: function get() {
-							return params.name;
-						},
-						set: function set(v) {
-							// TODO Check for collisions among sibling folders
-							params.name = v;
-							if (titleRowName) {
-								titleRowName.innerHTML = params.name;
-							}
-						}
-					},
-
-					/**
-      * Whether the <code>GUI</code> is collapsed or not
-      * @type Boolean
-      */
-					closed: {
-						get: function get() {
-							return params.closed;
-						},
-						set: function set(v) {
-							params.closed = v;
-							if (params.closed) {
-								_dom2.default.addClass(_this.__ul, GUI.CLASS_CLOSED);
-							} else {
-								_dom2.default.removeClass(_this.__ul, GUI.CLASS_CLOSED);
-							}
-							// For browsers that aren't going to respect the CSS transition,
-							// Lets just check our height against the window height right off
-							// the bat.
-							this.onResize();
-
-							if (_this.__closeButton) {
-								_this.__closeButton.innerHTML = v ? GUI.TEXT_OPEN : GUI.TEXT_CLOSED;
-							}
-						}
-					},
-
-					/**
-      * Contains all presets
-      * @type Object
-      */
-					load: {
-						get: function get() {
-							return params.load;
-						}
-					},
-
-					/**
-      * Determines whether or not to use <a href="https://developer.mozilla.org/en/DOM/Storage#localStorage">localStorage</a> as the means for
-      * <code>remember</code>ing
-      * @type Boolean
-      */
-					useLocalStorage: {
-
-						get: function get() {
-							return useLocalStorage;
-						},
-						set: function set(bool) {
-							if (SUPPORTS_LOCAL_STORAGE) {
-								useLocalStorage = bool;
-								if (bool) {
-									_dom2.default.bind(window, 'unload', saveToLocalStorage);
-								} else {
-									_dom2.default.unbind(window, 'unload', saveToLocalStorage);
-								}
-								localStorage.setItem(getLocalStorageHash(_this, 'isLocal'), bool);
-							}
-						}
-					}
-				});
-
-				// Are we a root level GUI?
-				if (_common2.default.isUndefined(params.parent)) {
-					params.closed = false;
-
-					_dom2.default.addClass(this.domElement, GUI.CLASS_MAIN);
-					_dom2.default.makeSelectable(this.domElement, false);
-
-					// Are we supposed to be loading locally?
-					if (SUPPORTS_LOCAL_STORAGE) {
-						if (useLocalStorage) {
-							_this.useLocalStorage = true;
-
-							var savedGui = localStorage.getItem(getLocalStorageHash(this, 'gui'));
-
-							if (savedGui) {
-								params.load = JSON.parse(savedGui);
-							}
-						}
-					}
-
-					this.__closeButton = document.createElement('div');
-					this.__closeButton.innerHTML = GUI.TEXT_CLOSED;
-					_dom2.default.addClass(this.__closeButton, GUI.CLASS_CLOSE_BUTTON);
-					if (params.closeOnTop) {
-						_dom2.default.addClass(this.__closeButton, GUI.CLASS_CLOSE_TOP);
-						this.domElement.insertBefore(this.__closeButton, this.domElement.childNodes[0]);
-					} else {
-						_dom2.default.addClass(this.__closeButton, GUI.CLASS_CLOSE_BOTTOM);
-						this.domElement.appendChild(this.__closeButton);
-					}
-
-					_dom2.default.bind(this.__closeButton, 'click', function () {
-						_this.closed = !_this.closed;
-					});
-					// Oh, you're a nested GUI!
-				} else {
-					if (params.closed === undefined) {
-						params.closed = true;
-					}
-
-					var _titleRowName = document.createTextNode(params.name);
-					_dom2.default.addClass(_titleRowName, 'controller-name');
-
-					var titleRow = addRow(_this, _titleRowName);
-
-					var onClickTitle = function onClickTitle(e) {
-						e.preventDefault();
-						_this.closed = !_this.closed;
-						return false;
-					};
-
-					_dom2.default.addClass(this.__ul, GUI.CLASS_CLOSED);
-
-					_dom2.default.addClass(titleRow, 'title');
-					_dom2.default.bind(titleRow, 'click', onClickTitle);
-
-					if (!params.closed) {
-						this.closed = false;
-					}
-				}
-
-				if (params.autoPlace) {
-					if (_common2.default.isUndefined(params.parent)) {
-						if (autoPlaceVirgin) {
-							autoPlaceContainer = document.createElement('div');
-							_dom2.default.addClass(autoPlaceContainer, CSS_NAMESPACE);
-							_dom2.default.addClass(autoPlaceContainer, GUI.CLASS_AUTO_PLACE_CONTAINER);
-							document.body.appendChild(autoPlaceContainer);
-							autoPlaceVirgin = false;
-						}
-
-						// Put it in the dom for you.
-						autoPlaceContainer.appendChild(this.domElement);
-
-						// Apply the auto styles
-						_dom2.default.addClass(this.domElement, GUI.CLASS_AUTO_PLACE);
-					}
-
-					// Make it not elastic.
-					if (!this.parent) {
-						setWidth(_this, params.width);
-					}
-				}
-
-				this.__resizeHandler = function () {
-					_this.onResizeDebounced();
-				};
-
-				_dom2.default.bind(window, 'resize', this.__resizeHandler);
-				_dom2.default.bind(this.__ul, 'webkitTransitionEnd', this.__resizeHandler);
-				_dom2.default.bind(this.__ul, 'transitionend', this.__resizeHandler);
-				_dom2.default.bind(this.__ul, 'oTransitionEnd', this.__resizeHandler);
-				this.onResize();
-
-				if (params.resizable) {
-					addResizeHandle(this);
-				}
-
-				saveToLocalStorage = function saveToLocalStorage() {
-					if (SUPPORTS_LOCAL_STORAGE && localStorage.getItem(getLocalStorageHash(_this, 'isLocal')) === 'true') {
-						localStorage.setItem(getLocalStorageHash(_this, 'gui'), JSON.stringify(_this.getSaveObject()));
-					}
-				};
-
-				// expose this method publicly
-				this.saveToLocalStorageIfPossible = saveToLocalStorage;
-
-				function resetWidth() {
-					var root = _this.getRoot();
-					root.width += 1;
-					_common2.default.defer(function () {
-						root.width -= 1;
-					});
-				}
-
-				if (!params.parent) {
-					resetWidth();
-				}
-			};
-
-			GUI.toggleHide = function () {
-				hide = !hide;
-				_common2.default.each(hideableGuis, function (gui) {
-					gui.domElement.style.display = hide ? 'none' : '';
-				});
-			};
-
-			GUI.CLASS_AUTO_PLACE = 'a';
-			GUI.CLASS_AUTO_PLACE_CONTAINER = 'ac';
-			GUI.CLASS_MAIN = 'main';
-			GUI.CLASS_CONTROLLER_ROW = 'cr';
-			GUI.CLASS_TOO_TALL = 'taller-than-window';
-			GUI.CLASS_CLOSED = 'closed';
-			GUI.CLASS_CLOSE_BUTTON = 'close-button';
-			GUI.CLASS_CLOSE_TOP = 'close-top';
-			GUI.CLASS_CLOSE_BOTTOM = 'close-bottom';
-			GUI.CLASS_DRAG = 'drag';
-
-			GUI.DEFAULT_WIDTH = 245;
-			GUI.TEXT_CLOSED = 'Close Controls';
-			GUI.TEXT_OPEN = 'Open Controls';
-
-			GUI._keydownHandler = function (e) {
-				if (document.activeElement.type !== 'text' && (e.which === HIDE_KEY_CODE || e.keyCode === HIDE_KEY_CODE)) {
-					GUI.toggleHide();
-				}
-			};
-			_dom2.default.bind(window, 'keydown', GUI._keydownHandler, false);
-
-			_common2.default.extend(GUI.prototype,
-
-			/** @lends dat.gui.GUI */
-			{
-
-				/**
-     * @param object
-     * @param property
-     * @returns {dat.controllers.Controller} The new controller that was added.
-     * @instance
-     */
-				add: function add(object, property) {
-					return _add(this, object, property, {
-						factoryArgs: Array.prototype.slice.call(arguments, 2)
-					});
-				},
-
-				/**
-     * @param object
-     * @param property
-     * @returns {dat.controllers.ColorController} The new controller that was added.
-     * @instance
-     */
-				addColor: function addColor(object, property) {
-					return _add(this, object, property, {
-						color: true
-					});
-				},
-
-				/**
-     * @param controller
-     * @instance
-     */
-				remove: function remove(controller) {
-					// TODO listening?
-					this.__ul.removeChild(controller.__li);
-					this.__controllers.splice(this.__controllers.indexOf(controller), 1);
-					var _this = this;
-					_common2.default.defer(function () {
-						_this.onResize();
-					});
-				},
-
-				destroy: function destroy() {
-					if (this.autoPlace) {
-						autoPlaceContainer.removeChild(this.domElement);
-					}
-
-					_dom2.default.unbind(window, 'keydown', GUI._keydownHandler, false);
-					_dom2.default.unbind(window, 'resize', this.__resizeHandler);
-
-					if (this.saveToLocalStorageIfPossible) {
-						_dom2.default.unbind(window, 'unload', this.saveToLocalStorageIfPossible);
-					}
-				},
-
-				/**
-     * @param name
-     * @returns {dat.gui.GUI} The new folder.
-     * @throws {Error} if this GUI already has a folder by the specified
-     * name
-     * @instance
-     */
-				addFolder: function addFolder(name) {
-					// We have to prevent collisions on names in order to have a key
-					// by which to remember saved values
-					if (this.__folders[name] !== undefined) {
-						throw new Error('You already have a folder in this GUI by the' + ' name "' + name + '"');
-					}
-
-					var newGuiParams = { name: name, parent: this };
-
-					// We need to pass down the autoPlace trait so that we can
-					// attach event listeners to open/close folder actions to
-					// ensure that a scrollbar appears if the window is too short.
-					newGuiParams.autoPlace = this.autoPlace;
-
-					// Do we have saved appearance data for this folder?
-					if (this.load && // Anything loaded?
-					this.load.folders && // Was my parent a dead-end?
-					this.load.folders[name]) {
-						// Did daddy remember me?
-						// Start me closed if I was closed
-						newGuiParams.closed = this.load.folders[name].closed;
-
-						// Pass down the loaded data
-						newGuiParams.load = this.load.folders[name];
-					}
-
-					var gui = new GUI(newGuiParams);
-					this.__folders[name] = gui;
-
-					var li = addRow(this, gui.domElement);
-					_dom2.default.addClass(li, 'folder');
-					return gui;
-				},
-
-				open: function open() {
-					this.closed = false;
-				},
-
-				close: function close() {
-					this.closed = true;
-				},
-
-				onResize: function onResize() {
-					// we debounce this function to prevent performance issues when rotating on tablet/mobile
-					var root = this.getRoot();
-					if (root.scrollable) {
-						var top = _dom2.default.getOffset(root.__ul).top;
-						var h = 0;
-
-						_common2.default.each(root.__ul.childNodes, function (node) {
-							if (!(root.autoPlace && node === root.__save_row)) {
-								h += _dom2.default.getHeight(node);
-							}
-						});
-
-						if (window.innerHeight - top - CLOSE_BUTTON_HEIGHT < h) {
-							_dom2.default.addClass(root.domElement, GUI.CLASS_TOO_TALL);
-							root.__ul.style.height = window.innerHeight - top - CLOSE_BUTTON_HEIGHT + 'px';
-						} else {
-							_dom2.default.removeClass(root.domElement, GUI.CLASS_TOO_TALL);
-							root.__ul.style.height = 'auto';
-						}
-					}
-
-					if (root.__resize_handle) {
-						_common2.default.defer(function () {
-							root.__resize_handle.style.height = root.__ul.offsetHeight + 'px';
-						});
-					}
-
-					if (root.__closeButton) {
-						root.__closeButton.style.width = root.width + 'px';
-					}
-				},
-
-				onResizeDebounced: _common2.default.debounce(function () {
-					this.onResize();
-				}, 50),
-
-				/**
-     * Mark objects for saving. The order of these objects cannot change as
-     * the GUI grows. When remembering new objects, append them to the end
-     * of the list.
-     *
-     * @param {Object...} objects
-     * @throws {Error} if not called on a top level GUI.
-     * @instance
-     */
-				remember: function remember() {
-					if (_common2.default.isUndefined(SAVE_DIALOGUE)) {
-						SAVE_DIALOGUE = new _CenteredDiv2.default();
-						SAVE_DIALOGUE.domElement.innerHTML = _saveDialogue2.default;
-					}
-
-					if (this.parent) {
-						throw new Error('You can only call remember on a top level GUI.');
-					}
-
-					var _this = this;
-
-					_common2.default.each(Array.prototype.slice.call(arguments), function (object) {
-						if (_this.__rememberedObjects.length === 0) {
-							addSaveMenu(_this);
-						}
-						if (_this.__rememberedObjects.indexOf(object) === -1) {
-							_this.__rememberedObjects.push(object);
-						}
-					});
-
-					if (this.autoPlace) {
-						// Set save row width
-						setWidth(this, this.width);
-					}
-				},
-
-				/**
-     * @returns {dat.gui.GUI} the topmost parent GUI of a nested GUI.
-     * @instance
-     */
-				getRoot: function getRoot() {
-					var gui = this;
-					while (gui.parent) {
-						gui = gui.parent;
-					}
-					return gui;
-				},
-
-				/**
-     * @returns {Object} a JSON object representing the current state of
-     * this GUI as well as its remembered properties.
-     * @instance
-     */
-				getSaveObject: function getSaveObject() {
-					var toReturn = this.load;
-					toReturn.closed = this.closed;
-
-					// Am I remembering any values?
-					if (this.__rememberedObjects.length > 0) {
-						toReturn.preset = this.preset;
-
-						if (!toReturn.remembered) {
-							toReturn.remembered = {};
-						}
-
-						toReturn.remembered[this.preset] = getCurrentPreset(this);
-					}
-
-					toReturn.folders = {};
-					_common2.default.each(this.__folders, function (element, key) {
-						toReturn.folders[key] = element.getSaveObject();
-					});
-
-					return toReturn;
-				},
-
-				save: function save() {
-					if (!this.load.remembered) {
-						this.load.remembered = {};
-					}
-
-					this.load.remembered[this.preset] = getCurrentPreset(this);
-					markPresetModified(this, false);
-					this.saveToLocalStorageIfPossible();
-				},
-
-				saveAs: function saveAs(presetName) {
-					if (!this.load.remembered) {
-						// Retain default values upon first save
-						this.load.remembered = {};
-						this.load.remembered[DEFAULT_DEFAULT_PRESET_NAME] = getCurrentPreset(this, true);
-					}
-
-					this.load.remembered[presetName] = getCurrentPreset(this);
-					this.preset = presetName;
-					addPresetOption(this, presetName, true);
-					this.saveToLocalStorageIfPossible();
-				},
-
-				revert: function revert(gui) {
-					_common2.default.each(this.__controllers, function (controller) {
-						// Make revert work on Default.
-						if (!this.getRoot().load.remembered) {
-							controller.setValue(controller.initialValue);
-						} else {
-							recallSavedValue(gui || this.getRoot(), controller);
-						}
-
-						// fire onFinishChange callback
-						if (controller.__onFinishChange) {
-							controller.__onFinishChange.call(controller, controller.getValue());
-						}
-					}, this);
-
-					_common2.default.each(this.__folders, function (folder) {
-						folder.revert(folder);
-					});
-
-					if (!gui) {
-						markPresetModified(this.getRoot(), false);
-					}
-				},
-
-				listen: function listen(controller) {
-					var init = this.__listening.length === 0;
-					this.__listening.push(controller);
-					if (init) {
-						updateDisplays(this.__listening);
-					}
-				},
-
-				updateDisplay: function updateDisplay() {
-					_common2.default.each(this.__controllers, function (controller) {
-						controller.updateDisplay();
-					});
-					_common2.default.each(this.__folders, function (folder) {
-						folder.updateDisplay();
-					});
-				}
-			});
-
-			/**
-    * Add a row to the end of the GUI or before another row.
-    *
-    * @param gui
-    * @param [newDom] If specified, inserts the dom content in the new row
-    * @param [liBefore] If specified, places the new row before another row
-    */
-			function addRow(gui, newDom, liBefore) {
-				var li = document.createElement('li');
-				if (newDom) {
-					li.appendChild(newDom);
-				}
-
-				if (liBefore) {
-					gui.__ul.insertBefore(li, liBefore);
-				} else {
-					gui.__ul.appendChild(li);
-				}
-				gui.onResize();
-				return li;
-			}
-
-			function markPresetModified(gui, modified) {
-				var opt = gui.__preset_select[gui.__preset_select.selectedIndex];
-
-				// console.log('mark', modified, opt);
-				if (modified) {
-					opt.innerHTML = opt.value + '*';
-				} else {
-					opt.innerHTML = opt.value;
-				}
-			}
-
-			function augmentController(gui, li, controller) {
-				controller.__li = li;
-				controller.__gui = gui;
-
-				_common2.default.extend(controller, {
-					options: function options(_options) {
-						if (arguments.length > 1) {
-							var nextSibling = controller.__li.nextElementSibling;
-							controller.remove();
-
-							return _add(gui, controller.object, controller.property, {
-								before: nextSibling,
-								factoryArgs: [_common2.default.toArray(arguments)]
-							});
-						}
-
-						if (_common2.default.isArray(_options) || _common2.default.isObject(_options)) {
-							var _nextSibling = controller.__li.nextElementSibling;
-							controller.remove();
-
-							return _add(gui, controller.object, controller.property, {
-								before: _nextSibling,
-								factoryArgs: [_options]
-							});
-						}
-					},
-
-					name: function name(v) {
-						controller.__li.firstElementChild.firstElementChild.innerHTML = v;
-						return controller;
-					},
-
-					listen: function listen() {
-						controller.__gui.listen(controller);
-						return controller;
-					},
-
-					remove: function remove() {
-						controller.__gui.remove(controller);
-						return controller;
-					}
-				});
-
-				// All sliders should be accompanied by a box.
-				if (controller instanceof _NumberControllerSlider2.default) {
-					var box = new _NumberControllerBox2.default(controller.object, controller.property, { min: controller.__min, max: controller.__max, step: controller.__step });
-
-					_common2.default.each(['updateDisplay', 'onChange', 'onFinishChange', 'step'], function (method) {
-						var pc = controller[method];
-						var pb = box[method];
-						controller[method] = box[method] = function () {
-							var args = Array.prototype.slice.call(arguments);
-							pb.apply(box, args);
-							return pc.apply(controller, args);
-						};
-					});
-
-					_dom2.default.addClass(li, 'has-slider');
-					controller.domElement.insertBefore(box.domElement, controller.domElement.firstElementChild);
-				} else if (controller instanceof _NumberControllerBox2.default) {
-					var r = function r(returned) {
-						// Have we defined both boundaries?
-						if (_common2.default.isNumber(controller.__min) && _common2.default.isNumber(controller.__max)) {
-							// Well, then lets just replace this with a slider.
-
-							// lets remember if the old controller had a specific name or was listening
-							var oldName = controller.__li.firstElementChild.firstElementChild.innerHTML;
-							var wasListening = controller.__gui.__listening.indexOf(controller) > -1;
-
-							controller.remove();
-							var newController = _add(gui, controller.object, controller.property, {
-								before: controller.__li.nextElementSibling,
-								factoryArgs: [controller.__min, controller.__max, controller.__step]
-							});
-
-							newController.name(oldName);
-							if (wasListening) newController.listen();
-
-							return newController;
-						}
-
-						return returned;
-					};
-
-					controller.min = _common2.default.compose(r, controller.min);
-					controller.max = _common2.default.compose(r, controller.max);
-				} else if (controller instanceof _BooleanController2.default) {
-					_dom2.default.bind(li, 'click', function () {
-						_dom2.default.fakeEvent(controller.__checkbox, 'click');
-					});
-
-					_dom2.default.bind(controller.__checkbox, 'click', function (e) {
-						e.stopPropagation(); // Prevents double-toggle
-					});
-				} else if (controller instanceof _FunctionController2.default) {
-					_dom2.default.bind(li, 'click', function () {
-						_dom2.default.fakeEvent(controller.__button, 'click');
-					});
-
-					_dom2.default.bind(li, 'mouseover', function () {
-						_dom2.default.addClass(controller.__button, 'hover');
-					});
-
-					_dom2.default.bind(li, 'mouseout', function () {
-						_dom2.default.removeClass(controller.__button, 'hover');
-					});
-				} else if (controller instanceof _ColorController2.default) {
-					_dom2.default.addClass(li, 'color');
-					controller.updateDisplay = _common2.default.compose(function (val) {
-						li.style.borderLeftColor = controller.__color.toString();
-						return val;
-					}, controller.updateDisplay);
-
-					controller.updateDisplay();
-				}
-
-				controller.setValue = _common2.default.compose(function (val) {
-					if (gui.getRoot().__preset_select && controller.isModified()) {
-						markPresetModified(gui.getRoot(), true);
-					}
-
-					return val;
-				}, controller.setValue);
-			}
-
-			function recallSavedValue(gui, controller) {
-				// Find the topmost GUI, that's where remembered objects live.
-				var root = gui.getRoot();
-
-				// Does the object we're controlling match anything we've been told to
-				// remember?
-				var matchedIndex = root.__rememberedObjects.indexOf(controller.object);
-
-				// Why yes, it does!
-				if (matchedIndex !== -1) {
-					// Let me fetch a map of controllers for thcommon.isObject.
-					var controllerMap = root.__rememberedObjectIndecesToControllers[matchedIndex];
-
-					// Ohp, I believe this is the first controller we've created for this
-					// object. Lets make the map fresh.
-					if (controllerMap === undefined) {
-						controllerMap = {};
-						root.__rememberedObjectIndecesToControllers[matchedIndex] = controllerMap;
-					}
-
-					// Keep track of this controller
-					controllerMap[controller.property] = controller;
-
-					// Okay, now have we saved any values for this controller?
-					if (root.load && root.load.remembered) {
-						var presetMap = root.load.remembered;
-
-						// Which preset are we trying to load?
-						var preset = void 0;
-
-						if (presetMap[gui.preset]) {
-							preset = presetMap[gui.preset];
-						} else if (presetMap[DEFAULT_DEFAULT_PRESET_NAME]) {
-							// Uhh, you can have the default instead?
-							preset = presetMap[DEFAULT_DEFAULT_PRESET_NAME];
-						} else {
-							// Nada.
-							return;
-						}
-
-						// Did the loaded object remember thcommon.isObject? &&  Did we remember this particular property?
-						if (preset[matchedIndex] && preset[matchedIndex][controller.property] !== undefined) {
-							// We did remember something for this guy ...
-							var value = preset[matchedIndex][controller.property];
-
-							// And that's what it is.
-							controller.initialValue = value;
-							controller.setValue(value);
-						}
-					}
-				}
-			}
-
-			function _add(gui, object, property, params) {
-				if (object[property] === undefined) {
-					throw new Error('Object "' + object + '" has no property "' + property + '"');
-				}
-
-				var controller = void 0;
-
-				if (params.color) {
-					controller = new _ColorController2.default(object, property);
-				} else {
-					var factoryArgs = [object, property].concat(params.factoryArgs);
-					controller = _ControllerFactory2.default.apply(gui, factoryArgs);
-				}
-
-				if (params.before instanceof _Controller2.default) {
-					params.before = params.before.__li;
-				}
-
-				recallSavedValue(gui, controller);
-
-				_dom2.default.addClass(controller.domElement, 'c');
-
-				var name = document.createElement('span');
-				_dom2.default.addClass(name, 'property-name');
-				name.innerHTML = controller.property;
-
-				var container = document.createElement('div');
-				container.appendChild(name);
-				container.appendChild(controller.domElement);
-
-				var li = addRow(gui, container, params.before);
-
-				_dom2.default.addClass(li, GUI.CLASS_CONTROLLER_ROW);
-				if (controller instanceof _ColorController2.default) {
-					_dom2.default.addClass(li, 'color');
-				} else {
-					_dom2.default.addClass(li, _typeof(controller.getValue()));
-				}
-
-				augmentController(gui, li, controller);
-
-				gui.__controllers.push(controller);
-
-				return controller;
-			}
-
-			function getLocalStorageHash(gui, key) {
-				// TODO how does this deal with multiple GUI's?
-				return document.location.href + '.' + key;
-			}
-
-			function addPresetOption(gui, name, setSelected) {
-				var opt = document.createElement('option');
-				opt.innerHTML = name;
-				opt.value = name;
-				gui.__preset_select.appendChild(opt);
-				if (setSelected) {
-					gui.__preset_select.selectedIndex = gui.__preset_select.length - 1;
-				}
-			}
-
-			function showHideExplain(gui, explain) {
-				explain.style.display = gui.useLocalStorage ? 'block' : 'none';
-			}
-
-			function addSaveMenu(gui) {
-				var div = gui.__save_row = document.createElement('li');
-
-				_dom2.default.addClass(gui.domElement, 'has-save');
-
-				gui.__ul.insertBefore(div, gui.__ul.firstChild);
-
-				_dom2.default.addClass(div, 'save-row');
-
-				var gears = document.createElement('span');
-				gears.innerHTML = '&nbsp;';
-				_dom2.default.addClass(gears, 'button gears');
-
-				// TODO replace with FunctionController
-				var button = document.createElement('span');
-				button.innerHTML = 'Save';
-				_dom2.default.addClass(button, 'button');
-				_dom2.default.addClass(button, 'save');
-
-				var button2 = document.createElement('span');
-				button2.innerHTML = 'New';
-				_dom2.default.addClass(button2, 'button');
-				_dom2.default.addClass(button2, 'save-as');
-
-				var button3 = document.createElement('span');
-				button3.innerHTML = 'Revert';
-				_dom2.default.addClass(button3, 'button');
-				_dom2.default.addClass(button3, 'revert');
-
-				var select = gui.__preset_select = document.createElement('select');
-
-				if (gui.load && gui.load.remembered) {
-					_common2.default.each(gui.load.remembered, function (value, key) {
-						addPresetOption(gui, key, key === gui.preset);
-					});
-				} else {
-					addPresetOption(gui, DEFAULT_DEFAULT_PRESET_NAME, false);
-				}
-
-				_dom2.default.bind(select, 'change', function () {
-					for (var index = 0; index < gui.__preset_select.length; index++) {
-						gui.__preset_select[index].innerHTML = gui.__preset_select[index].value;
-					}
-
-					gui.preset = this.value;
-				});
-
-				div.appendChild(select);
-				div.appendChild(gears);
-				div.appendChild(button);
-				div.appendChild(button2);
-				div.appendChild(button3);
-
-				if (SUPPORTS_LOCAL_STORAGE) {
-					var explain = document.getElementById('dg-local-explain');
-					var localStorageCheckBox = document.getElementById('dg-local-storage');
-					var saveLocally = document.getElementById('dg-save-locally');
-
-					saveLocally.style.display = 'block';
-
-					if (localStorage.getItem(getLocalStorageHash(gui, 'isLocal')) === 'true') {
-						localStorageCheckBox.setAttribute('checked', 'checked');
-					}
-
-					showHideExplain(gui, explain);
-
-					// TODO: Use a boolean controller, fool!
-					_dom2.default.bind(localStorageCheckBox, 'change', function () {
-						gui.useLocalStorage = !gui.useLocalStorage;
-						showHideExplain(gui, explain);
-					});
-				}
-
-				var newConstructorTextArea = document.getElementById('dg-new-constructor');
-
-				_dom2.default.bind(newConstructorTextArea, 'keydown', function (e) {
-					if (e.metaKey && (e.which === 67 || e.keyCode === 67)) {
-						SAVE_DIALOGUE.hide();
-					}
-				});
-
-				_dom2.default.bind(gears, 'click', function () {
-					newConstructorTextArea.innerHTML = JSON.stringify(gui.getSaveObject(), undefined, 2);
-					SAVE_DIALOGUE.show();
-					newConstructorTextArea.focus();
-					newConstructorTextArea.select();
-				});
-
-				_dom2.default.bind(button, 'click', function () {
-					gui.save();
-				});
-
-				_dom2.default.bind(button2, 'click', function () {
-					var presetName = prompt('Enter a new preset name.');
-					if (presetName) {
-						gui.saveAs(presetName);
-					}
-				});
-
-				_dom2.default.bind(button3, 'click', function () {
-					gui.revert();
-				});
-
-				// div.appendChild(button2);
-			}
-
-			function addResizeHandle(gui) {
-				var pmouseX = void 0;
-
-				gui.__resize_handle = document.createElement('div');
-
-				_common2.default.extend(gui.__resize_handle.style, {
-
-					width: '6px',
-					marginLeft: '-3px',
-					height: '200px',
-					cursor: 'ew-resize',
-					position: 'absolute'
-					// border: '1px solid blue'
-
-				});
-
-				function drag(e) {
-					e.preventDefault();
-
-					gui.width += pmouseX - e.clientX;
-					gui.onResize();
-					pmouseX = e.clientX;
-
-					return false;
-				}
-
-				function dragStop() {
-					_dom2.default.removeClass(gui.__closeButton, GUI.CLASS_DRAG);
-					_dom2.default.unbind(window, 'mousemove', drag);
-					_dom2.default.unbind(window, 'mouseup', dragStop);
-				}
-
-				function dragStart(e) {
-					e.preventDefault();
-
-					pmouseX = e.clientX;
-
-					_dom2.default.addClass(gui.__closeButton, GUI.CLASS_DRAG);
-					_dom2.default.bind(window, 'mousemove', drag);
-					_dom2.default.bind(window, 'mouseup', dragStop);
-
-					return false;
-				}
-
-				_dom2.default.bind(gui.__resize_handle, 'mousedown', dragStart);
-				_dom2.default.bind(gui.__closeButton, 'mousedown', dragStart);
-
-				gui.domElement.insertBefore(gui.__resize_handle, gui.domElement.firstElementChild);
-			}
-
-			function setWidth(gui, w) {
-				gui.domElement.style.width = w + 'px';
-				// Auto placed save-rows are position fixed, so we have to
-				// set the width manually if we want it to bleed to the edge
-				if (gui.__save_row && gui.autoPlace) {
-					gui.__save_row.style.width = w + 'px';
-				}
-				if (gui.__closeButton) {
-					gui.__closeButton.style.width = w + 'px';
-				}
-			}
-
-			function getCurrentPreset(gui, useInitialValues) {
-				var toReturn = {};
-
-				// For each object I'm remembering
-				_common2.default.each(gui.__rememberedObjects, function (val, index) {
-					var savedValues = {};
-
-					// The controllers I've made for thcommon.isObject by property
-					var controllerMap = gui.__rememberedObjectIndecesToControllers[index];
-
-					// Remember each value for each property
-					_common2.default.each(controllerMap, function (controller, property) {
-						savedValues[property] = useInitialValues ? controller.initialValue : controller.getValue();
-					});
-
-					// Save the values for thcommon.isObject
-					toReturn[index] = savedValues;
-				});
-
-				return toReturn;
-			}
-
-			function setPresetSelectIndex(gui) {
-				for (var index = 0; index < gui.__preset_select.length; index++) {
-					if (gui.__preset_select[index].value === gui.preset) {
-						gui.__preset_select.selectedIndex = index;
-					}
-				}
-			}
-
-			function updateDisplays(controllerArray) {
-				if (controllerArray.length !== 0) {
-					_requestAnimationFrame2.default.call(window, function () {
-						updateDisplays(controllerArray);
-					});
-				}
-
-				_common2.default.each(controllerArray, function (c) {
-					c.updateDisplay();
-				});
-			}
-
-			exports.default = GUI;
-			module.exports = exports['default'];
-
-			/***/
-		},
-		/* 18 */
-		/***/function (module, exports) {
-
-			'use strict';
-
-			/**
-    * dat-gui JavaScript Controller Library
-    * http://code.google.com/p/dat-gui
-    *
-    * Copyright 2011 Data Arts Team, Google Creative Lab
-    *
-    * Licensed under the Apache License, Version 2.0 (the "License");
-    * you may not use this file except in compliance with the License.
-    * You may obtain a copy of the License at
-    *
-    * http://www.apache.org/licenses/LICENSE-2.0
-    */
-
-			module.exports = {
-				load: function load(url, indoc) {
-					var doc = indoc || document;
-					var link = doc.createElement('link');
-					link.type = 'text/css';
-					link.rel = 'stylesheet';
-					link.href = url;
-					doc.getElementsByTagName('head')[0].appendChild(link);
-				},
-
-				inject: function inject(css, indoc) {
-					var doc = indoc || document;
-					var injected = document.createElement('style');
-					injected.type = 'text/css';
-					injected.innerHTML = css;
-					var head = doc.getElementsByTagName('head')[0];
-					try {
-						head.appendChild(injected);
-					} catch (e) {// Unable to inject CSS, probably because of a Content Security Policy
-					}
-				}
-			};
-
-			/***/
-		},
-		/* 19 */
-		/***/function (module, exports) {
-
-			module.exports = "<div id=\"dg-save\" class=\"dg dialogue\">\n\n  Here's the new load parameter for your <code>GUI</code>'s constructor:\n\n  <textarea id=\"dg-new-constructor\"></textarea>\n\n  <div id=\"dg-save-locally\">\n\n    <input id=\"dg-local-storage\" type=\"checkbox\"/> Automatically save\n    values to <code>localStorage</code> on exit.\n\n    <div id=\"dg-local-explain\">The values saved to <code>localStorage</code> will\n      override those passed to <code>dat.GUI</code>'s constructor. This makes it\n      easier to work incrementally, but <code>localStorage</code> is fragile,\n      and your friends may not see the same values you do.\n\n    </div>\n\n  </div>\n\n</div>";
-
-			/***/
-		},
-		/* 20 */
-		/***/function (module, exports, __webpack_require__) {
-
-			'use strict';
-
-			exports.__esModule = true;
-
-			var _OptionController = __webpack_require__(10);
-
-			var _OptionController2 = _interopRequireDefault(_OptionController);
-
-			var _NumberControllerBox = __webpack_require__(13);
-
-			var _NumberControllerBox2 = _interopRequireDefault(_NumberControllerBox);
-
-			var _NumberControllerSlider = __webpack_require__(14);
-
-			var _NumberControllerSlider2 = _interopRequireDefault(_NumberControllerSlider);
-
-			var _StringController = __webpack_require__(11);
-
-			var _StringController2 = _interopRequireDefault(_StringController);
-
-			var _FunctionController = __webpack_require__(15);
-
-			var _FunctionController2 = _interopRequireDefault(_FunctionController);
-
-			var _BooleanController = __webpack_require__(8);
-
-			var _BooleanController2 = _interopRequireDefault(_BooleanController);
-
-			var _common = __webpack_require__(5);
-
-			var _common2 = _interopRequireDefault(_common);
-
-			function _interopRequireDefault(obj) {
-				return obj && obj.__esModule ? obj : { default: obj };
-			}
-
-			var ControllerFactory = function ControllerFactory(object, property) {
-				var initialValue = object[property];
-
-				// Providing options?
-				if (_common2.default.isArray(arguments[2]) || _common2.default.isObject(arguments[2])) {
-					return new _OptionController2.default(object, property, arguments[2]);
-				}
-
-				// Providing a map?
-				if (_common2.default.isNumber(initialValue)) {
-					// Has min and max? (slider)
-					if (_common2.default.isNumber(arguments[2]) && _common2.default.isNumber(arguments[3])) {
-						// has step?
-						if (_common2.default.isNumber(arguments[4])) {
-							return new _NumberControllerSlider2.default(object, property, arguments[2], arguments[3], arguments[4]);
-						}
-
-						return new _NumberControllerSlider2.default(object, property, arguments[2], arguments[3]);
-					}
-
-					// number box
-					if (_common2.default.isNumber(arguments[4])) {
-						// has step
-						return new _NumberControllerBox2.default(object, property, { min: arguments[2], max: arguments[3], step: arguments[4] });
-					}
-					return new _NumberControllerBox2.default(object, property, { min: arguments[2], max: arguments[3] });
-				}
-
-				if (_common2.default.isString(initialValue)) {
-					return new _StringController2.default(object, property);
-				}
-
-				if (_common2.default.isFunction(initialValue)) {
-					return new _FunctionController2.default(object, property, '');
-				}
-
-				if (_common2.default.isBoolean(initialValue)) {
-					return new _BooleanController2.default(object, property);
-				}
-
-				return null;
-			}; /**
-       * dat-gui JavaScript Controller Library
-       * http://code.google.com/p/dat-gui
-       *
-       * Copyright 2011 Data Arts Team, Google Creative Lab
-       *
-       * Licensed under the Apache License, Version 2.0 (the "License");
-       * you may not use this file except in compliance with the License.
-       * You may obtain a copy of the License at
-       *
-       * http://www.apache.org/licenses/LICENSE-2.0
-       */
-
-			exports.default = ControllerFactory;
-			module.exports = exports['default'];
-
-			/***/
-		},
-		/* 21 */
-		/***/function (module, exports) {
-
-			"use strict";
-
-			exports.__esModule = true;
-			/**
-    * dat-gui JavaScript Controller Library
-    * http://code.google.com/p/dat-gui
-    *
-    * Copyright 2011 Data Arts Team, Google Creative Lab
-    *
-    * Licensed under the Apache License, Version 2.0 (the "License");
-    * you may not use this file except in compliance with the License.
-    * You may obtain a copy of the License at
-    *
-    * http://www.apache.org/licenses/LICENSE-2.0
-    */
-
-			function requestAnimationFrame(callback) {
-				setTimeout(callback, 1000 / 60);
-			}
-
-			exports.default = window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || requestAnimationFrame;
-			module.exports = exports["default"];
-
-			/***/
-		},
-		/* 22 */
-		/***/function (module, exports, __webpack_require__) {
-
-			'use strict';
-
-			exports.__esModule = true;
-
-			var _dom = __webpack_require__(9);
-
-			var _dom2 = _interopRequireDefault(_dom);
-
-			var _common = __webpack_require__(5);
-
-			var _common2 = _interopRequireDefault(_common);
-
-			function _interopRequireDefault(obj) {
-				return obj && obj.__esModule ? obj : { default: obj };
-			}
-
-			function _classCallCheck(instance, Constructor) {
-				if (!(instance instanceof Constructor)) {
-					throw new TypeError("Cannot call a class as a function");
-				}
-			} /**
-      * dat-gui JavaScript Controller Library
-      * http://code.google.com/p/dat-gui
-      *
-      * Copyright 2011 Data Arts Team, Google Creative Lab
-      *
-      * Licensed under the Apache License, Version 2.0 (the "License");
-      * you may not use this file except in compliance with the License.
-      * You may obtain a copy of the License at
-      *
-      * http://www.apache.org/licenses/LICENSE-2.0
-      */
-
-			var CenteredDiv = function () {
-				function CenteredDiv() {
-					_classCallCheck(this, CenteredDiv);
-
-					this.backgroundElement = document.createElement('div');
-					_common2.default.extend(this.backgroundElement.style, {
-						backgroundColor: 'rgba(0,0,0,0.8)',
-						top: 0,
-						left: 0,
-						display: 'none',
-						zIndex: '1000',
-						opacity: 0,
-						WebkitTransition: 'opacity 0.2s linear',
-						transition: 'opacity 0.2s linear'
-					});
-
-					_dom2.default.makeFullscreen(this.backgroundElement);
-					this.backgroundElement.style.position = 'fixed';
-
-					this.domElement = document.createElement('div');
-					_common2.default.extend(this.domElement.style, {
-						position: 'fixed',
-						display: 'none',
-						zIndex: '1001',
-						opacity: 0,
-						WebkitTransition: '-webkit-transform 0.2s ease-out, opacity 0.2s linear',
-						transition: 'transform 0.2s ease-out, opacity 0.2s linear'
-					});
-
-					document.body.appendChild(this.backgroundElement);
-					document.body.appendChild(this.domElement);
-
-					var _this = this;
-					_dom2.default.bind(this.backgroundElement, 'click', function () {
-						_this.hide();
-					});
-				}
-
-				CenteredDiv.prototype.show = function show() {
-					var _this = this;
-
-					this.backgroundElement.style.display = 'block';
-
-					this.domElement.style.display = 'block';
-					this.domElement.style.opacity = 0;
-					//    this.domElement.style.top = '52%';
-					this.domElement.style.webkitTransform = 'scale(1.1)';
-
-					this.layout();
-
-					_common2.default.defer(function () {
-						_this.backgroundElement.style.opacity = 1;
-						_this.domElement.style.opacity = 1;
-						_this.domElement.style.webkitTransform = 'scale(1)';
-					});
-				};
-
-				/**
-     * Hide centered div
-     */
-
-				CenteredDiv.prototype.hide = function hide() {
-					var _this = this;
-
-					var hide = function hide() {
-						_this.domElement.style.display = 'none';
-						_this.backgroundElement.style.display = 'none';
-
-						_dom2.default.unbind(_this.domElement, 'webkitTransitionEnd', hide);
-						_dom2.default.unbind(_this.domElement, 'transitionend', hide);
-						_dom2.default.unbind(_this.domElement, 'oTransitionEnd', hide);
-					};
-
-					_dom2.default.bind(this.domElement, 'webkitTransitionEnd', hide);
-					_dom2.default.bind(this.domElement, 'transitionend', hide);
-					_dom2.default.bind(this.domElement, 'oTransitionEnd', hide);
-
-					this.backgroundElement.style.opacity = 0;
-					//    this.domElement.style.top = '48%';
-					this.domElement.style.opacity = 0;
-					this.domElement.style.webkitTransform = 'scale(1.1)';
-				};
-
-				CenteredDiv.prototype.layout = function layout() {
-					this.domElement.style.left = window.innerWidth / 2 - _dom2.default.getWidth(this.domElement) / 2 + 'px';
-					this.domElement.style.top = window.innerHeight / 2 - _dom2.default.getHeight(this.domElement) / 2 + 'px';
-				};
-
-				return CenteredDiv;
-			}();
-
-			exports.default = CenteredDiv;
-			module.exports = exports['default'];
-
-			/***/
-		},
-		/* 23 */
-		/***/function (module, exports, __webpack_require__) {
-
-			exports = module.exports = __webpack_require__(24)();
-			// imports
-
-
-			// module
-			exports.push([module.id, ".dg {\n  /** Clear list styles */\n  /* Auto-place container */\n  /* Auto-placed GUI's */\n  /* Line items that don't contain folders. */\n  /** Folder names */\n  /** Hides closed items */\n  /** Controller row */\n  /** Name-half (left) */\n  /** Controller-half (right) */\n  /** Controller placement */\n  /** Shorter number boxes when slider is present. */\n  /** Ensure the entire boolean and function row shows a hand */\n  /** allow overflow for color selector */ }\n  .dg ul {\n    list-style: none;\n    margin: 0;\n    padding: 0;\n    width: 100%;\n    clear: both; }\n  .dg.ac {\n    position: fixed;\n    top: 0;\n    left: 0;\n    right: 0;\n    height: 0;\n    z-index: 0; }\n  .dg:not(.ac) .main {\n    /** Exclude mains in ac so that we don't hide close button */\n    overflow: hidden; }\n  .dg.main {\n    -webkit-transition: opacity 0.1s linear;\n    -o-transition: opacity 0.1s linear;\n    -moz-transition: opacity 0.1s linear;\n    transition: opacity 0.1s linear; }\n    .dg.main.taller-than-window {\n      overflow-y: auto; }\n      .dg.main.taller-than-window .close-button {\n        opacity: 1;\n        /* TODO, these are style notes */\n        margin-top: -1px;\n        border-top: 1px solid #2c2c2c; }\n    .dg.main ul.closed .close-button {\n      opacity: 1 !important; }\n    .dg.main:hover .close-button,\n    .dg.main .close-button.drag {\n      opacity: 1; }\n    .dg.main .close-button {\n      /*opacity: 0;*/\n      -webkit-transition: opacity 0.1s linear;\n      -o-transition: opacity 0.1s linear;\n      -moz-transition: opacity 0.1s linear;\n      transition: opacity 0.1s linear;\n      border: 0;\n      line-height: 19px;\n      height: 20px;\n      /* TODO, these are style notes */\n      cursor: pointer;\n      text-align: center;\n      background-color: #000; }\n      .dg.main .close-button.close-top {\n        position: relative; }\n      .dg.main .close-button.close-bottom {\n        position: absolute; }\n      .dg.main .close-button:hover {\n        background-color: #111; }\n  .dg.a {\n    float: right;\n    margin-right: 15px;\n    overflow-y: visible; }\n    .dg.a.has-save > ul.close-top {\n      margin-top: 0; }\n    .dg.a.has-save > ul.close-bottom {\n      margin-top: 27px; }\n    .dg.a.has-save > ul.closed {\n      margin-top: 0; }\n    .dg.a .save-row {\n      top: 0;\n      z-index: 1002; }\n      .dg.a .save-row.close-top {\n        position: relative; }\n      .dg.a .save-row.close-bottom {\n        position: fixed; }\n  .dg li {\n    -webkit-transition: height 0.1s ease-out;\n    -o-transition: height 0.1s ease-out;\n    -moz-transition: height 0.1s ease-out;\n    transition: height 0.1s ease-out;\n    -webkit-transition: overflow 0.1s linear;\n    -o-transition: overflow 0.1s linear;\n    -moz-transition: overflow 0.1s linear;\n    transition: overflow 0.1s linear; }\n  .dg li:not(.folder) {\n    cursor: auto;\n    height: 27px;\n    line-height: 27px;\n    padding: 0 4px 0 5px; }\n  .dg li.folder {\n    padding: 0;\n    border-left: 4px solid transparent; }\n  .dg li.title {\n    cursor: pointer;\n    margin-left: -4px; }\n  .dg .closed li:not(.title),\n  .dg .closed ul li,\n  .dg .closed ul li > * {\n    height: 0;\n    overflow: hidden;\n    border: 0; }\n  .dg .cr {\n    clear: both;\n    padding-left: 3px;\n    height: 27px;\n    overflow: hidden; }\n  .dg .property-name {\n    cursor: default;\n    float: left;\n    clear: left;\n    width: 40%;\n    overflow: hidden;\n    text-overflow: ellipsis; }\n  .dg .c {\n    float: left;\n    width: 60%;\n    position: relative; }\n  .dg .c input[type=text] {\n    border: 0;\n    margin-top: 4px;\n    padding: 3px;\n    width: 100%;\n    float: right; }\n  .dg .has-slider input[type=text] {\n    width: 30%;\n    /*display: none;*/\n    margin-left: 0; }\n  .dg .slider {\n    float: left;\n    width: 66%;\n    margin-left: -5px;\n    margin-right: 0;\n    height: 19px;\n    margin-top: 4px; }\n  .dg .slider-fg {\n    height: 100%; }\n  .dg .c input[type=checkbox] {\n    margin-top: 7px; }\n  .dg .c select {\n    margin-top: 5px; }\n  .dg .cr.function,\n  .dg .cr.function .property-name,\n  .dg .cr.function *,\n  .dg .cr.boolean,\n  .dg .cr.boolean * {\n    cursor: pointer; }\n  .dg .cr.color {\n    overflow: visible; }\n  .dg .selector {\n    display: none;\n    position: absolute;\n    margin-left: -9px;\n    margin-top: 23px;\n    z-index: 10; }\n  .dg .c:hover .selector,\n  .dg .selector.drag {\n    display: block; }\n  .dg li.save-row {\n    padding: 0; }\n    .dg li.save-row .button {\n      display: inline-block;\n      padding: 0px 6px; }\n  .dg.dialogue {\n    background-color: #222;\n    width: 460px;\n    padding: 15px;\n    font-size: 13px;\n    line-height: 15px; }\n\n/* TODO Separate style and structure */\n#dg-new-constructor {\n  padding: 10px;\n  color: #222;\n  font-family: Monaco, monospace;\n  font-size: 10px;\n  border: 0;\n  resize: none;\n  box-shadow: inset 1px 1px 1px #888;\n  word-wrap: break-word;\n  margin: 12px 0;\n  display: block;\n  width: 440px;\n  overflow-y: scroll;\n  height: 100px;\n  position: relative; }\n\n#dg-local-explain {\n  display: none;\n  font-size: 11px;\n  line-height: 17px;\n  border-radius: 3px;\n  background-color: #333;\n  padding: 8px;\n  margin-top: 10px; }\n  #dg-local-explain code {\n    font-size: 10px; }\n\n#dat-gui-save-locally {\n  display: none; }\n\n/** Main type */\n.dg {\n  color: #eee;\n  font: 11px 'Lucida Grande', sans-serif;\n  text-shadow: 0 -1px 0 #111;\n  /** Auto place */\n  /* Controller row, <li> */\n  /** Controllers */ }\n  .dg.main {\n    /** Scrollbar */ }\n    .dg.main::-webkit-scrollbar {\n      width: 5px;\n      background: #1a1a1a; }\n    .dg.main::-webkit-scrollbar-corner {\n      height: 0;\n      display: none; }\n    .dg.main::-webkit-scrollbar-thumb {\n      border-radius: 5px;\n      background: #676767; }\n  .dg li:not(.folder) {\n    background: #1a1a1a;\n    border-bottom: 1px solid #2c2c2c; }\n  .dg li.save-row {\n    line-height: 25px;\n    background: #dad5cb;\n    border: 0; }\n    .dg li.save-row select {\n      margin-left: 5px;\n      width: 108px; }\n    .dg li.save-row .button {\n      margin-left: 5px;\n      margin-top: 1px;\n      border-radius: 2px;\n      font-size: 9px;\n      line-height: 7px;\n      padding: 4px 4px 5px 4px;\n      background: #c5bdad;\n      color: #fff;\n      text-shadow: 0 1px 0 #b0a58f;\n      box-shadow: 0 -1px 0 #b0a58f;\n      cursor: pointer; }\n      .dg li.save-row .button.gears {\n        background: #c5bdad url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAANCAYAAAB/9ZQ7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAQJJREFUeNpiYKAU/P//PwGIC/ApCABiBSAW+I8AClAcgKxQ4T9hoMAEUrxx2QSGN6+egDX+/vWT4e7N82AMYoPAx/evwWoYoSYbACX2s7KxCxzcsezDh3evFoDEBYTEEqycggWAzA9AuUSQQgeYPa9fPv6/YWm/Acx5IPb7ty/fw+QZblw67vDs8R0YHyQhgObx+yAJkBqmG5dPPDh1aPOGR/eugW0G4vlIoTIfyFcA+QekhhHJhPdQxbiAIguMBTQZrPD7108M6roWYDFQiIAAv6Aow/1bFwXgis+f2LUAynwoIaNcz8XNx3Dl7MEJUDGQpx9gtQ8YCueB+D26OECAAQDadt7e46D42QAAAABJRU5ErkJggg==) 2px 1px no-repeat;\n        height: 7px;\n        width: 8px; }\n      .dg li.save-row .button:hover {\n        background-color: #bab19e;\n        box-shadow: 0 -1px 0 #b0a58f; }\n  .dg li.folder {\n    border-bottom: 0; }\n  .dg li.title {\n    padding-left: 16px;\n    background: #000 url(data:image/gif;base64,R0lGODlhBQAFAJEAAP////Pz8////////yH5BAEAAAIALAAAAAAFAAUAAAIIlI+hKgFxoCgAOw==) 6px 10px no-repeat;\n    cursor: pointer;\n    border-bottom: 1px solid rgba(255, 255, 255, 0.2); }\n  .dg .closed li.title {\n    background-image: url(data:image/gif;base64,R0lGODlhBQAFAJEAAP////Pz8////////yH5BAEAAAIALAAAAAAFAAUAAAIIlGIWqMCbWAEAOw==); }\n  .dg .cr.boolean {\n    border-left: 3px solid #806787; }\n  .dg .cr.color {\n    border-left: 3px solid; }\n  .dg .cr.function {\n    border-left: 3px solid #e61d5f; }\n  .dg .cr.number {\n    border-left: 3px solid #2FA1D6; }\n    .dg .cr.number input[type=text] {\n      color: #2FA1D6; }\n  .dg .cr.string {\n    border-left: 3px solid #1ed36f; }\n    .dg .cr.string input[type=text] {\n      color: #1ed36f; }\n  .dg .cr.function:hover, .dg .cr.boolean:hover {\n    background: #111; }\n  .dg .c input[type=text] {\n    background: #303030;\n    outline: none; }\n    .dg .c input[type=text]:hover {\n      background: #3c3c3c; }\n    .dg .c input[type=text]:focus {\n      background: #494949;\n      color: #fff; }\n  .dg .c .slider {\n    background: #303030;\n    cursor: ew-resize; }\n  .dg .c .slider-fg {\n    background: #2FA1D6;\n    max-width: 100%; }\n  .dg .c .slider:hover {\n    background: #3c3c3c; }\n    .dg .c .slider:hover .slider-fg {\n      background: #44abda; }\n", ""]);
-
-			// exports
-
-
-			/***/
-		},
-		/* 24 */
-		/***/function (module, exports) {
-
-			/*
-   	MIT License http://www.opensource.org/licenses/mit-license.php
-   	Author Tobias Koppers @sokra
-   */
-			// css base code, injected by the css-loader
-			module.exports = function () {
-				var list = [];
-
-				// return the list of modules as css string
-				list.toString = function toString() {
-					var result = [];
-					for (var i = 0; i < this.length; i++) {
-						var item = this[i];
-						if (item[2]) {
-							result.push("@media " + item[2] + "{" + item[1] + "}");
-						} else {
-							result.push(item[1]);
-						}
-					}
-					return result.join("");
-				};
-
-				// import a list of modules into the list
-				list.i = function (modules, mediaQuery) {
-					if (typeof modules === "string") modules = [[null, modules, ""]];
-					var alreadyImportedModules = {};
-					for (var i = 0; i < this.length; i++) {
-						var id = this[i][0];
-						if (typeof id === "number") alreadyImportedModules[id] = true;
-					}
-					for (i = 0; i < modules.length; i++) {
-						var item = modules[i];
-						// skip already imported module
-						// this implementation is not 100% perfect for weird media query combinations
-						//  when a module is imported multiple times with different media queries.
-						//  I hope this will never occur (Hey this way we have smaller bundles)
-						if (typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
-							if (mediaQuery && !item[2]) {
-								item[2] = mediaQuery;
-							} else if (mediaQuery) {
-								item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
-							}
-							list.push(item);
-						}
-					}
-				};
-				return list;
-			};
-
-			/***/
-		}
-		/******/])
-	);
-});
-;
-//# sourceMappingURL=dat.gui.js.map
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(62)(module)))
-
-/***/ }),
-/* 71 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67640,7 +63327,7 @@ Object.defineProperty(exports, "__esModule", {
 var validCountries = exports.validCountries = ['Colombia', 'Niger', 'Palau', 'Jordan', 'Bosnia Herzegovina', 'Belgium', 'Singapore', 'Albania', 'Benin', 'Indonesia', 'Australia', 'Armenia', 'Spain', 'Ireland', 'Botswana', 'Mauritania', 'Chile', 'Malaysia', 'Peru', 'Portugal', 'China', 'Israel', 'Paraguay', 'Antigua and Barbuda', 'Cyprus', 'Mauritius', 'Slovakia', 'Bahrain', 'Guyana', 'USA', 'Rep. of Moldova', 'Malta', 'Ecuador', 'France', 'Italy', 'Belarus', 'Ethiopia', 'Senegal', 'Solomon Isds', 'Bulgaria', 'Montenegro', 'Sri Lanka', 'Hungary', 'New Zealand', 'Samoa', 'Myanmar', 'South Africa', 'Uruguay', 'Germany', 'Togo', 'Poland', 'United Kingdom', 'Argentina', 'Brazil', 'Russian Federation', 'Rwanda', 'El Salvador', 'Switzerland', 'Latvia', 'Japan', 'Romania', 'Croatia', 'Madagascar', 'Barbados', 'Oman', 'Sweden', 'Maldives', 'India', 'Jamaica', 'Mexico', 'Zimbabwe', 'Lithuania', 'Denmark', 'Namibia', 'Costa Rica', 'Greece', 'Kazakhstan', 'Egypt', 'Estonia', 'Morocco', 'Luxembourg', 'TFYR of Macedonia', 'United Rep. of Tanzania', 'Belize', 'Georgia', 'Bermuda', 'Greenland', 'China, Hong Kong SAR', 'Norway', 'Sierra Leone', 'Philippines', 'Sao Tome and Principe', 'Kyrgyzstan', 'Czechia', 'Aruba', 'Turkey', 'Rep. of Korea', 'Serbia', 'Canada', 'Iceland'];
 
 /***/ }),
-/* 72 */
+/* 70 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -67652,7 +63339,7 @@ var validCountries = exports.validCountries = ['Colombia', 'Niger', 'Palau', 'Jo
 
 
 /***/ }),
-/* 73 */
+/* 71 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -67681,7 +63368,7 @@ var validCountries = exports.validCountries = ['Colombia', 'Niger', 'Palau', 'Jo
 
 
 /***/ }),
-/* 74 */
+/* 72 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -67691,15 +63378,15 @@ var validCountries = exports.validCountries = ['Colombia', 'Niger', 'Palau', 'Jo
 
 
 /***/ }),
-/* 75 */
+/* 73 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__array__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__bisect__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constant__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__constant__ = __webpack_require__(70);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__extent__ = __webpack_require__(32);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__identity__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__identity__ = __webpack_require__(74);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__range__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ticks__ = __webpack_require__(37);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__threshold_sturges__ = __webpack_require__(36);
@@ -67781,7 +63468,7 @@ var validCountries = exports.validCountries = ['Colombia', 'Niger', 'Palau', 'Jo
 
 
 /***/ }),
-/* 76 */
+/* 74 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -67791,7 +63478,7 @@ var validCountries = exports.validCountries = ['Colombia', 'Niger', 'Palau', 'Jo
 
 
 /***/ }),
-/* 77 */
+/* 75 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -67832,7 +63519,7 @@ var validCountries = exports.validCountries = ['Colombia', 'Niger', 'Palau', 'Jo
 
 
 /***/ }),
-/* 78 */
+/* 76 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -67865,7 +63552,7 @@ var validCountries = exports.validCountries = ['Colombia', 'Niger', 'Palau', 'Jo
 
 
 /***/ }),
-/* 79 */
+/* 77 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -67903,7 +63590,7 @@ var validCountries = exports.validCountries = ['Colombia', 'Niger', 'Palau', 'Jo
 
 
 /***/ }),
-/* 80 */
+/* 78 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -67931,7 +63618,7 @@ var validCountries = exports.validCountries = ['Colombia', 'Niger', 'Palau', 'Jo
 
 
 /***/ }),
-/* 81 */
+/* 79 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -67943,7 +63630,7 @@ var validCountries = exports.validCountries = ['Colombia', 'Niger', 'Palau', 'Jo
 
 
 /***/ }),
-/* 82 */
+/* 80 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -67971,7 +63658,7 @@ var validCountries = exports.validCountries = ['Colombia', 'Niger', 'Palau', 'Jo
 
 
 /***/ }),
-/* 83 */
+/* 81 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -67992,7 +63679,7 @@ var validCountries = exports.validCountries = ['Colombia', 'Niger', 'Palau', 'Jo
 
 
 /***/ }),
-/* 84 */
+/* 82 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68019,7 +63706,7 @@ var validCountries = exports.validCountries = ['Colombia', 'Niger', 'Palau', 'Jo
 
 
 /***/ }),
-/* 85 */
+/* 83 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68039,7 +63726,7 @@ var validCountries = exports.validCountries = ['Colombia', 'Niger', 'Palau', 'Jo
 
 
 /***/ }),
-/* 86 */
+/* 84 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68052,7 +63739,7 @@ var validCountries = exports.validCountries = ['Colombia', 'Niger', 'Palau', 'Jo
 
 
 /***/ }),
-/* 87 */
+/* 85 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68065,7 +63752,7 @@ var validCountries = exports.validCountries = ['Colombia', 'Niger', 'Palau', 'Jo
 
 
 /***/ }),
-/* 88 */
+/* 86 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68077,7 +63764,7 @@ var validCountries = exports.validCountries = ['Colombia', 'Niger', 'Palau', 'Jo
 
 
 /***/ }),
-/* 89 */
+/* 87 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68089,7 +63776,7 @@ var validCountries = exports.validCountries = ['Colombia', 'Niger', 'Palau', 'Jo
 
 
 /***/ }),
-/* 90 */
+/* 88 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68170,7 +63857,7 @@ function setMap(map, key, value) {
 
 
 /***/ }),
-/* 91 */
+/* 89 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68217,7 +63904,7 @@ function set(object, f) {
 
 
 /***/ }),
-/* 92 */
+/* 90 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68229,7 +63916,7 @@ function set(object, f) {
 
 
 /***/ }),
-/* 93 */
+/* 91 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68302,7 +63989,7 @@ __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__define__["a" /* default */])(
 
 
 /***/ }),
-/* 94 */
+/* 92 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68424,7 +64111,7 @@ __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__define__["a" /* default */])(
 
 
 /***/ }),
-/* 95 */
+/* 93 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68454,7 +64141,7 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 96 */
+/* 94 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68475,7 +64162,7 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 97 */
+/* 95 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68500,7 +64187,7 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 98 */
+/* 96 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68514,7 +64201,7 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 99 */
+/* 97 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68533,7 +64220,7 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 100 */
+/* 98 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68543,7 +64230,7 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 101 */
+/* 99 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68556,7 +64243,7 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 102 */
+/* 100 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68569,7 +64256,7 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 103 */
+/* 101 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68583,7 +64270,7 @@ function defaultLocale(definition) {
 
 
 /***/ }),
-/* 104 */
+/* 102 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68622,7 +64309,7 @@ var cubehelixLong = cubehelix(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* defaul
 
 
 /***/ }),
-/* 105 */
+/* 103 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68653,7 +64340,7 @@ var hclLong = hcl(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* default */]);
 
 
 /***/ }),
-/* 106 */
+/* 104 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68684,7 +64371,7 @@ var hslLong = hsl(__WEBPACK_IMPORTED_MODULE_1__color__["a" /* default */]);
 
 
 /***/ }),
-/* 107 */
+/* 105 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68710,7 +64397,7 @@ function lab(start, end) {
 
 
 /***/ }),
-/* 108 */
+/* 106 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68722,7 +64409,7 @@ function lab(start, end) {
 
 
 /***/ }),
-/* 109 */
+/* 107 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68734,7 +64421,7 @@ function lab(start, end) {
 
 
 /***/ }),
-/* 110 */
+/* 108 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68768,14 +64455,14 @@ var identity = {
 
 
 /***/ }),
-/* 111 */
+/* 109 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* unused harmony export interpolateTransformCss */
 /* unused harmony export interpolateTransformSvg */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__number__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__parse__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__parse__ = __webpack_require__(110);
 
 
 
@@ -68842,13 +64529,13 @@ var interpolateTransformSvg = interpolateTransform(__WEBPACK_IMPORTED_MODULE_1__
 
 
 /***/ }),
-/* 112 */
+/* 110 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = parseCss;
 /* harmony export (immutable) */ __webpack_exports__["b"] = parseSvg;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__decompose__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__decompose__ = __webpack_require__(108);
 
 
 var cssNode,
@@ -68877,7 +64564,7 @@ function parseSvg(value) {
 
 
 /***/ }),
-/* 113 */
+/* 111 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68948,56 +64635,56 @@ function tanh(x) {
 
 
 /***/ }),
-/* 114 */
+/* 112 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_band__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_band__ = __webpack_require__(113);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleBand", function() { return __WEBPACK_IMPORTED_MODULE_0__src_band__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scalePoint", function() { return __WEBPACK_IMPORTED_MODULE_0__src_band__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_identity__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__src_identity__ = __webpack_require__(119);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleIdentity", function() { return __WEBPACK_IMPORTED_MODULE_1__src_identity__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__src_linear__ = __webpack_require__(11);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleLinear", function() { return __WEBPACK_IMPORTED_MODULE_2__src_linear__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_log__ = __webpack_require__(122);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__src_log__ = __webpack_require__(120);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleLog", function() { return __WEBPACK_IMPORTED_MODULE_3__src_log__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__src_ordinal__ = __webpack_require__(56);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleOrdinal", function() { return __WEBPACK_IMPORTED_MODULE_4__src_ordinal__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleImplicit", function() { return __WEBPACK_IMPORTED_MODULE_4__src_ordinal__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_pow__ = __webpack_require__(123);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__src_pow__ = __webpack_require__(121);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scalePow", function() { return __WEBPACK_IMPORTED_MODULE_5__src_pow__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleSqrt", function() { return __WEBPACK_IMPORTED_MODULE_5__src_pow__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_quantile__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__src_quantile__ = __webpack_require__(122);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleQuantile", function() { return __WEBPACK_IMPORTED_MODULE_6__src_quantile__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_quantize__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__src_quantize__ = __webpack_require__(123);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleQuantize", function() { return __WEBPACK_IMPORTED_MODULE_7__src_quantize__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_threshold__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__src_threshold__ = __webpack_require__(126);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleThreshold", function() { return __WEBPACK_IMPORTED_MODULE_8__src_threshold__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__src_time__ = __webpack_require__(57);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleTime", function() { return __WEBPACK_IMPORTED_MODULE_9__src_time__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_utcTime__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__src_utcTime__ = __webpack_require__(128);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleUtc", function() { return __WEBPACK_IMPORTED_MODULE_10__src_utcTime__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_category10__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__src_category10__ = __webpack_require__(114);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeCategory10", function() { return __WEBPACK_IMPORTED_MODULE_11__src_category10__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_category20b__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__src_category20b__ = __webpack_require__(116);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeCategory20b", function() { return __WEBPACK_IMPORTED_MODULE_12__src_category20b__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_category20c__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__src_category20c__ = __webpack_require__(117);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeCategory20c", function() { return __WEBPACK_IMPORTED_MODULE_13__src_category20c__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_category20__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__src_category20__ = __webpack_require__(115);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "schemeCategory20", function() { return __WEBPACK_IMPORTED_MODULE_14__src_category20__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_cubehelix__ = __webpack_require__(120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__src_cubehelix__ = __webpack_require__(118);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateCubehelixDefault", function() { return __WEBPACK_IMPORTED_MODULE_15__src_cubehelix__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_rainbow__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__src_rainbow__ = __webpack_require__(124);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateRainbow", function() { return __WEBPACK_IMPORTED_MODULE_16__src_rainbow__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateWarm", function() { return __WEBPACK_IMPORTED_MODULE_16__src_rainbow__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateCool", function() { return __WEBPACK_IMPORTED_MODULE_16__src_rainbow__["c"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_viridis__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__src_viridis__ = __webpack_require__(129);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateViridis", function() { return __WEBPACK_IMPORTED_MODULE_17__src_viridis__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateMagma", function() { return __WEBPACK_IMPORTED_MODULE_17__src_viridis__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolateInferno", function() { return __WEBPACK_IMPORTED_MODULE_17__src_viridis__["c"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "interpolatePlasma", function() { return __WEBPACK_IMPORTED_MODULE_17__src_viridis__["d"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_sequential__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__src_sequential__ = __webpack_require__(125);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "scaleSequential", function() { return __WEBPACK_IMPORTED_MODULE_18__src_sequential__["a"]; });
 
 
@@ -69039,7 +64726,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 115 */
+/* 113 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -69151,7 +64838,7 @@ function point() {
 
 
 /***/ }),
-/* 116 */
+/* 114 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -69162,7 +64849,7 @@ function point() {
 
 
 /***/ }),
-/* 117 */
+/* 115 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -69173,7 +64860,7 @@ function point() {
 
 
 /***/ }),
-/* 118 */
+/* 116 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -69184,7 +64871,7 @@ function point() {
 
 
 /***/ }),
-/* 119 */
+/* 117 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -69195,7 +64882,7 @@ function point() {
 
 
 /***/ }),
-/* 120 */
+/* 118 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -69208,7 +64895,7 @@ function point() {
 
 
 /***/ }),
-/* 121 */
+/* 119 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -69242,7 +64929,7 @@ function identity() {
 
 
 /***/ }),
-/* 122 */
+/* 120 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -69383,7 +65070,7 @@ function log() {
 
 
 /***/ }),
-/* 123 */
+/* 121 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -69433,7 +65120,7 @@ function sqrt() {
 
 
 /***/ }),
-/* 124 */
+/* 122 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -69494,7 +65181,7 @@ function quantile() {
 
 
 /***/ }),
-/* 125 */
+/* 123 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -69551,7 +65238,7 @@ function quantize() {
 
 
 /***/ }),
-/* 126 */
+/* 124 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -69579,7 +65266,7 @@ var rainbow = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_d3_color__["a" /
 
 
 /***/ }),
-/* 127 */
+/* 125 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -69618,7 +65305,7 @@ function sequential(interpolator) {
 
 
 /***/ }),
-/* 128 */
+/* 126 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -69661,7 +65348,7 @@ function threshold() {
 
 
 /***/ }),
-/* 129 */
+/* 127 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -69701,7 +65388,7 @@ function threshold() {
 
 
 /***/ }),
-/* 130 */
+/* 128 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -69718,7 +65405,7 @@ function threshold() {
 
 
 /***/ }),
-/* 131 */
+/* 129 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -69745,7 +65432,7 @@ var plasma = ramp(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__colors__["a
 
 
 /***/ }),
-/* 132 */
+/* 130 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -69767,7 +65454,7 @@ var parseIso = +new Date("2000-01-01T00:00:00.000Z")
 
 
 /***/ }),
-/* 133 */
+/* 131 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -69792,7 +65479,7 @@ var days = day.range;
 
 
 /***/ }),
-/* 134 */
+/* 132 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -69819,7 +65506,7 @@ var hours = hour.range;
 
 
 /***/ }),
-/* 135 */
+/* 133 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -69854,7 +65541,7 @@ var milliseconds = millisecond.range;
 
 
 /***/ }),
-/* 136 */
+/* 134 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -69879,7 +65566,7 @@ var minutes = minute.range;
 
 
 /***/ }),
-/* 137 */
+/* 135 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -69903,7 +65590,7 @@ var months = month.range;
 
 
 /***/ }),
-/* 138 */
+/* 136 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -69928,7 +65615,7 @@ var seconds = second.range;
 
 
 /***/ }),
-/* 139 */
+/* 137 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -69953,7 +65640,7 @@ var utcDays = utcDay.range;
 
 
 /***/ }),
-/* 140 */
+/* 138 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -69978,7 +65665,7 @@ var utcHours = utcHour.range;
 
 
 /***/ }),
-/* 141 */
+/* 139 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -70003,7 +65690,7 @@ var utcMinutes = utcMinute.range;
 
 
 /***/ }),
-/* 142 */
+/* 140 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -70027,7 +65714,7 @@ var utcMonths = utcMonth.range;
 
 
 /***/ }),
-/* 143 */
+/* 141 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -70079,7 +65766,7 @@ var utcSaturdays = utcSaturday.range;
 
 
 /***/ }),
-/* 144 */
+/* 142 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -70114,7 +65801,7 @@ var utcYears = utcYear.range;
 
 
 /***/ }),
-/* 145 */
+/* 143 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -70166,7 +65853,7 @@ var saturdays = saturday.range;
 
 
 /***/ }),
-/* 146 */
+/* 144 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -70201,10 +65888,14 @@ var years = year.range;
 
 
 /***/ }),
-/* 147 */
+/* 145 */
 /***/ (function(module, exports) {
 
 module.exports = {
+	"Solomon Isds": {
+		"lat": -9.480696,
+		"lng": 160.153028
+	},
 	"Lebanon": {
 		"lat": 33.854721,
 		"lng": 35.862285
@@ -71128,7 +66819,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 148 */
+/* 146 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -105033,7 +100724,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 149 */
+/* 147 */
 /***/ (function(module, exports) {
 
 var g;
@@ -105057,6 +100748,34 @@ try {
 // easier to handle this case. if(!global) { ...}
 
 module.exports = g;
+
+
+/***/ }),
+/* 148 */
+/***/ (function(module, exports) {
+
+module.exports = function(module) {
+	if(!module.webpackPolyfill) {
+		module.deprecate = function() {};
+		module.paths = [];
+		// module.parent = undefined by default
+		if(!module.children) module.children = [];
+		Object.defineProperty(module, "loaded", {
+			enumerable: true,
+			get: function() {
+				return module.l;
+			}
+		});
+		Object.defineProperty(module, "id", {
+			enumerable: true,
+			get: function() {
+				return module.i;
+			}
+		});
+		module.webpackPolyfill = 1;
+	}
+	return module;
+};
 
 
 /***/ })

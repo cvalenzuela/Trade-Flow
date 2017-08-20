@@ -34,46 +34,52 @@ let instrumentOrder = 1;
 
 // This will run everytime a new country is added
 let setCurrentInstrument = (reset) => {
-  // This is just for debug
-  console.log("===============")
-  console.log('filter frequency: ', filter.frequency.input.value);
-  console.log('freeverb room Size', freeverb.roomSize.input.value);
-  console.log('freeverb dampening', freeverb.dampening.input.value);
-
-  // Increase the variables for filter or freeverb
-  filter.frequency.input.value += frequencyIncrease; // Increase for frequency in filter
-
-  freeverb.dampening.input.value += dampeningIncrease; // Increase for dampening in freeverb
-  freeverb.roomSize.input.value > 0.8 ? roomSizeIncrease = 0 : roomSizeIncrease = 0.1; // Logic so roomSize doesn't go over 0.8
-  freeverb.roomSize.input.value += roomSizeIncrease;  // Increase for roomSize in freeverb
 
   if(reset){
     instrumentOrder = 1;
-  }
-  // Each country gets a different sound based on the position it was clicked.
-  switch(instrumentOrder){
-    case 1:
-      instrumentOrder++;
-      return 'mono'
-    case 2:
-      instrumentOrder++;
-      return 'poly'
-    case 3:
-      instrumentOrder++;
-      return 'newDrum'
-    case 4:
-      instrumentOrder++;
-      return 'HiMono'
-    case 5:
-      instrumentOrder++;
-      return 'LowMono'
-    case 6:
-      instrumentOrder++;
-      return 'HiPoly'
-    default:
-      instrumentOrder = 2;
-      return 'mono'
-      break;
+    filter.frequency.input.value = 350; // Increase for frequency in filter
+    freeverb.dampening.input.value = 10; // Increase for dampening in freeverb
+    freeverb.roomSize.input.value = 0.1;  // Increase for roomSize in freeverb
+  } else {
+    // This is just for debug
+    console.log("===============")
+    console.log('filter frequency: ', filter.frequency.input.value);
+    console.log('freeverb room Size', freeverb.roomSize.input.value);
+    console.log('freeverb dampening', freeverb.dampening.input.value);
+
+    // Increase the variables for filter or freeverb
+    filter.frequency.input.value += frequencyIncrease; // Increase for frequency in filter
+
+    freeverb.dampening.input.value += dampeningIncrease; // Increase for dampening in freeverb
+    freeverb.roomSize.input.value > 0.8 ? roomSizeIncrease = 0 : roomSizeIncrease = 0.1; // Logic so roomSize doesn't go over 0.8
+    freeverb.roomSize.input.value += roomSizeIncrease;  // Increase for roomSize in freeverb
+
+    
+    // Each country gets a different sound based on the position it was clicked.
+    switch(instrumentOrder){
+      case 1:
+        instrumentOrder++;
+        return 'mono'
+      case 2:
+        instrumentOrder++;
+        return 'poly'
+      case 3:
+        instrumentOrder++;
+        return 'newDrum'
+      case 4:
+        instrumentOrder++;
+        return 'HiMono'
+      case 5:
+        instrumentOrder++;
+        return 'LowMono'
+      case 6:
+        instrumentOrder++;
+        return 'HiPoly'
+      default:
+        instrumentOrder = 2;
+        return 'mono'
+        break;
+    }
   }
 }
 
