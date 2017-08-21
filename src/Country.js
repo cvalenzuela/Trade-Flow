@@ -19,7 +19,7 @@ class Country {
     this.Color = colors();
     this.Opacity = 200;
     this.Trail = 2;
-    this.id = this.Country+this.tradeType
+    this.id = this.Country + this.tradeType
 
     this.system = new ParticleSystem();
     this.trade = trade[this.Country][this.tradeType];
