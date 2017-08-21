@@ -3,6 +3,7 @@
 import { validCountries } from './validCountries';
 import { countryOptions } from './countryOptions';
 import { randomColor, removeDiv } from './utils';
+let mobile = require('is-mobile');
 
 let currentSelectedCountry = document.getElementById("currentSelectedCountry");
 let currentSelectedTrade = document.getElementById("currentSelectedTrade");
@@ -30,7 +31,7 @@ let showTradeBtn = () => {
   document.getElementById("tradeList").classList.toggle("show");
 }
 
-// Function to trigger when a country is selected: Get all countries and it's data-name property
+// Function to trigger when a country is selected: Get country and it's data-name property
 let allCountriesDropwdown = document.getElementsByClassName("country");
 let selectCountry = function(element) {
     let name = this.getAttribute("data-name");
@@ -83,7 +84,6 @@ let startCountry = () =>{
     selectedCountries.push(selectedCountry);
     countryOptions.Elt = selectedCountry;
     countryOptions.Start();
-    countryOptions.Color = randomColor();
   }
 }
 
@@ -95,4 +95,83 @@ let clearAll = () =>{
   countryOptions["Clear All"]();
 }
 
-export { showCountriesBtn, showTradeBtn, startCountry, clearAll };
+// Hide stuff when mobile
+if (mobile()) {
+  let info = document.getElementById('info');
+  let ui = document.getElementById('ui');
+  let hideUI = document.getElementById('hideUI');
+  info.style.display = 'none';
+  ui.style.top = '1em';
+  hideUI.style.display = 'block';
+} 
+
+let showHideUI = () => {
+  let hidden = false;
+  let hideUIButton = document.getElementById('hideUIButton');
+  let about = document.getElementById('aboutBtn');
+  let UIs = document.getElementsByClassName('ui');
+
+  return () => {
+    hideUIButton.innerHTML = 'Options';
+    about.style.display = 'none';
+    if(hidden){
+      for(let i = 0; i < UIs.length; i++){
+        UIs[i].style.display = 'none'
+      }
+    } else {
+      about.style.display = 'inline';
+      hideUIButton.innerHTML = 'Hide Options';
+      for(let i = 0; i < UIs.length; i++){
+        UIs[i].style.display = 'block'
+      }
+    }
+    hidden = !hidden;
+  }
+}
+
+let showAboutMobile = () => {
+  let overlays = document.getElementsByClassName('overlay');
+  let showingAbout = false;
+
+  return () => {
+    if(showingAbout){
+      for(let i = 0; i < overlays.length; i++){
+        overlays[i].style.display = 'none'
+      }
+    } else {
+      document.getElementById('start').innerHTML = 'Resume';
+      for(let i = 0; i < overlays.length; i++){
+        overlays[i].style.display = 'block'
+      }
+    }
+    showingAbout = !showingAbout;
+  }
+}
+
+// Quick way to debug with a preset country. ONLY FOR DEVELOPMENT
+// let overlays = document.getElementsByClassName('overlay');
+// for(let i = 0; i < overlays.length; i++){
+//   overlays[i].style.display = 'none'
+// }
+// let demoCountry = () =>{
+//   let countries = document.getElementsByClassName("country");
+//   let name = countries[2].getAttribute('data-name');
+//   selectedCountry = countries[2];
+//   currentSelectedCountry.innerHTML = name;
+//   countryOptions.Country = name;
+
+//   let types = document.getElementsByClassName("tradeType")
+//   let type = types[0].getAttribute("data-name");
+//   currentSelectedTrade.innerHTML = type.charAt(0).toUpperCase() + type.slice(1);
+//   countryOptions["Trade Type"] = type;
+  
+//   selectedCountry.style.color = '#3e3c3c';
+//   selectedCountries.push(selectedCountry);
+//   countryOptions.Elt = selectedCountry;
+//   // countryOptions.Start();
+// }
+// setTimeout(function(){
+//   demoCountry();
+// },1000)
+
+export { showCountriesBtn, showTradeBtn, startCountry, clearAll, showHideUI, showAboutMobile };

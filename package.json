@@ -46,7 +46,9 @@
     "d3-collection": "1.0.4",
     "d3-scale": "1.0.6",
     "dat.gui": "0.6.1",
+    "is-mobile": "0.2.2",
     "p5": "0.5.11",
+    "startaudiocontext": "1.2.1",
     "tone": "0.10.0"
   }
 }

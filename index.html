@@ -59,13 +59,13 @@
   </div>
 
   <div id="ui">
-    <div class="menu" id="countriesDropdown">
+    <div class="menu ui" id="countriesDropdown">
       <button onclick="showCountriesBtn()" class="dropbtn" id="currentSelectedCountry">Select a Country</button>
       <div id="countryList" class="dropdown-content">
       </div>
     </div>
 
-    <div class="menu" id="tradeDropdown">
+    <div class="menu ui" id="tradeDropdown">
         <button onclick="showTradeBtn()" class="dropbtn" id="currentSelectedTrade">Select Trade Type</button>
         <div id="tradeList" class="dropdown-content">
           <div class="tradeType" data-name="exports">Exports</div>
@@ -73,16 +73,20 @@
         </div>
     </div>
 
-    <div class="menu" id="play">
+    <div class="menu ui" id="play">
       <button onclick="startCountry()" class="dropbtn" id="playButton">Play</button>
     </div>
 
-    <div class="menu" id="clear">
+    <div class="menu ui" id="clear">
         <button onclick="clearAll()" class="dropbtn" id="clearButton">Clear</button>
     </div>
 
-    <div class="menu" id="animateMap">
+    <div class="menu ui" id="animateMap">
         <button onclick="animateMap()" class="dropbtn" id="animateMapButton">Animate Map</button>
+    </div>
+    <div class="menu" id="hideUI">
+        <button onclick="showAboutMobile()" class="dropbtn" id="aboutBtn">About</button>
+        <button onclick="showHideUI()" class="dropbtn" id="hideUIButton">Hide Options</button>
     </div>
 
     <div class="menu" id="warning">
@@ -93,7 +97,6 @@
 
   <!-- <div id="gui"></div>  --> <!-- data gui interface -->
   <script src="assets/bundle.js"></script>
-
 </body>
 
 </html>

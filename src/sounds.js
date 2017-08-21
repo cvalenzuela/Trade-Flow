@@ -3,6 +3,8 @@
 
 import * as Tone from 'tone';
 import { p5Instance as p5 } from './index';
+let mobile = require('is-mobile');
+let StartAudioContext = require('startaudiocontext');
 
 // Bmp
 Tone.Transport.bpm.value = 108;
@@ -18,6 +20,10 @@ var filter = new Tone.Filter({
   Q: 1,
   gain: 0
 }).toMaster();
+
+if (mobile()) {
+  StartAudioContext(filter.context, '#playButton');
+} 
 
 // Freeverb
 // Docs: https://tonejs.github.io/docs/#Freeverb
@@ -42,10 +48,10 @@ let setCurrentInstrument = (reset) => {
     freeverb.roomSize.input.value = 0.1;  // Increase for roomSize in freeverb
   } else {
     // This is just for debug
-    console.log("===============")
-    console.log('filter frequency: ', filter.frequency.input.value);
-    console.log('freeverb room Size', freeverb.roomSize.input.value);
-    console.log('freeverb dampening', freeverb.dampening.input.value);
+    // console.log("===============")
+    // console.log('filter frequency: ', filter.frequency.input.value);
+    // console.log('freeverb room Size', freeverb.roomSize.input.value);
+    // console.log('freeverb dampening', freeverb.dampening.input.value);
 
     // Increase the variables for filter or freeverb
     filter.frequency.input.value += frequencyIncrease; // Increase for frequency in filter
