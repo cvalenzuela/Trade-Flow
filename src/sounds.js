@@ -60,7 +60,6 @@ let setCurrentInstrument = (reset) => {
     freeverb.roomSize.input.value > 0.8 ? roomSizeIncrease = 0 : roomSizeIncrease = 0.1; // Logic so roomSize doesn't go over 0.8
     freeverb.roomSize.input.value += roomSizeIncrease;  // Increase for roomSize in freeverb
 
-    
     // Each country gets a different sound based on the position it was clicked.
     switch(instrumentOrder){
       case 1:
@@ -105,6 +104,7 @@ let createSoundGroup = (size, group) => {
 }
 
 // This actually loads all the files, no need to change anything here.
+// this is new
 let soundTypes = {
   mono: {
     sounds: createSoundGroup(5, '1mono'),
