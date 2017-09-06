@@ -104,7 +104,6 @@ let createSoundGroup = (size, group) => {
 }
 
 // This actually loads all the files, no need to change anything here.
-// this is new
 let soundTypes = {
   mono: {
     sounds: createSoundGroup(5, '1mono'),
@@ -115,7 +114,7 @@ let soundTypes = {
     tempo: '2n'
   },
   newDrum: {
-    sounds: createSoundGroup(10, '3newDrum'),
+    sounds: createSoundGroup(8, '3newDrum'),
     tempo: '3n'
   },
   HiMono: {

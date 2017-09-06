@@ -73,6 +73,7 @@ class Country {
       if(this.loop != null){ this.loop.dispose()};
       map.removeOnChange(this.showOriginName);      
       let name = document.getElementById(this.id);
+      this.Elt.style.color = '#c7c7c7';
       name.parentNode.removeChild(name);
     } catch (error) {
       console.log(error)

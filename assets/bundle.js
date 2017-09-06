@@ -964,7 +964,6 @@ var setCurrentInstrument = function setCurrentInstrument(reset) {
     freeverb.roomSize.input.value > 0.8 ? roomSizeIncrease = 0 : roomSizeIncrease = 0.1; // Logic so roomSize doesn't go over 0.8
     freeverb.roomSize.input.value += roomSizeIncrease; // Increase for roomSize in freeverb
 
-
     // Each country gets a different sound based on the position it was clicked.
     switch (instrumentOrder) {
       case 1:
@@ -1019,7 +1018,7 @@ var soundTypes = {
     tempo: '2n'
   },
   newDrum: {
-    sounds: createSoundGroup(10, '3newDrum'),
+    sounds: createSoundGroup(8, '3newDrum'),
     tempo: '3n'
   },
   HiMono: {
@@ -63222,6 +63221,7 @@ var Country = function () {
         };
         _index.map.removeOnChange(this.showOriginName);
         var name = document.getElementById(this.id);
+        this.Elt.style.color = '#c7c7c7';
         name.parentNode.removeChild(name);
       } catch (error) {
         console.log(error);
