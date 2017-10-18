@@ -6,7 +6,7 @@
   "scripts": {
     "develop": "webpack-dev-server",
     "prebuild": "rimraf dist",
-    "watch:test": "npm t -- -w",
+    "watch": "npm t -- -w",
     "build:main": "babel --copy-files --out-dir dist --ignore *.test.js",
     "build": "webpack --output-filename bundle.js",
     "build:min": "webpack --output-filename bundle.min.js -p"

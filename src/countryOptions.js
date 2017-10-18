@@ -2,10 +2,10 @@
 // 2) A Country instance has a Particle System. 3) A Particle System has an
 // array of particles to display.
 
-import {p5Instance as p5} from './index';
-import {Country} from './Country';
-import {removeDiv} from './utils';
-import {setCurrentInstrument} from './sounds';
+import { p5Instance as p5 } from './index';
+import { Country } from './Country';
+import { removeDiv } from './utils';
+import { setCurrentInstrument } from './sounds';
 
 // All the countries are store in this object
 let allCountries = new Object();
@@ -16,10 +16,10 @@ let countryOptions = {
   CountryInstance: null,
   Elt: null,
   "Trade Type": null,
-  CountryAndTrade: function () {
+  CountryAndTrade: function() {
     return this.Country + this["Trade Type"]
   },
-  Start: function () {
+  Start: function() {
     if (!allCountries[this.CountryAndTrade()]) {
       this.CountryInstance = new Country([
         this.Country,
@@ -29,8 +29,8 @@ let countryOptions = {
       allCountries[this.CountryAndTrade()] = this.CountryInstance;
     }
   },
-  "Clear All": function () {
-    setCurrentInstrument(true);  // return to the first sound
+  "Clear All": function() {
+    setCurrentInstrument(true); // return to the first sound
     for (let country in allCountries) {
       allCountries[country].Stop();
     };
@@ -38,7 +38,7 @@ let countryOptions = {
     allCountries = []; // Erase all countries
     p5.ellipse(1, 1, 1, 1); // bug? if not the screen freezes
   },
-  UpdateColor: function (value) {
+  UpdateColor: function(value) {
     if (allCountries[this.CountryAndTrade()]) {
       this.CountryInstance.Color = value; // All the next particles that will be created
       allCountries[this.CountryAndTrade()]
@@ -48,7 +48,7 @@ let countryOptions = {
         })
     }
   },
-  UpdateOpacity: function (value) {
+  UpdateOpacity: function(value) {
     if (allCountries[this.CountryAndTrade()]) {
       this.CountryInstance = allCountries[this.CountryAndTrade()];
       this.CountryInstance.Opacity = value; // All the new particles that will be created
@@ -61,4 +61,4 @@ let countryOptions = {
   }
 }
 
-export {allCountries, countryOptions}
+export { allCountries, countryOptions }

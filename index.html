@@ -48,7 +48,7 @@
   <div id="credits" class="overlay">
     <h6>Data from the <a href="https://comtrade.un.org/" target="_blank">UN Comtrade Database</a></h6>
     <h6>Built by <a href="http://cvalenzuelab.com" target="_blank">Cristóbal Valenzuela</a>. Sounds by <a href="http://www.scottreitherman.com/" target="_blank">Scott Reitherman </a></h6>
-    <h6>Using <a href="https://p5js.org/" target="_blank">p5.js</a>, <a href="https://github.com/cvalenzuela/Mappa" target="_blank">mappa.js</a> and <a href="https://tonejs.github.io/" target="_blank">tone.js</a> and <a href="https://www.mapbox.com/mapbox-gl-js/" target="_blank">MapbboxGl</a></h6>
+    <h6>Using <a href="https://p5js.org/" target="_blank">p5.js</a>, <a href="https://github.com/cvalenzuela/Mappa" target="_blank">Mappa.js</a>,<a href="https://tonejs.github.io/" target="_blank">Tone.js</a> and <a href="https://www.mapbox.com/mapbox-gl-js/" target="_blank">MapboxGL</a></h6>
   </div>
 
   <div id="info">
@@ -66,11 +66,11 @@
     </div>
 
     <div class="menu ui" id="tradeDropdown">
-        <button onclick="showTradeBtn()" class="dropbtn" id="currentSelectedTrade">Select Trade Type</button>
-        <div id="tradeList" class="dropdown-content">
-          <div class="tradeType" data-name="exports">Exports</div>
-          <div class="tradeType" data-name="imports">Imports</div>
-        </div>
+      <button onclick="showTradeBtn()" class="dropbtn" id="currentSelectedTrade">Select Trade Type</button>
+      <div id="tradeList" class="dropdown-content">
+        <div class="tradeType" data-name="exports">Exports</div>
+        <div class="tradeType" data-name="imports">Imports</div>
+      </div>
     </div>
 
     <div class="menu ui" id="play">
@@ -78,24 +78,29 @@
     </div>
 
     <div class="menu ui" id="clear">
-        <button onclick="clearAll()" class="dropbtn" id="clearButton">Clear</button>
+      <button onclick="clearAll()" class="dropbtn" id="clearButton">Clear</button>
     </div>
 
     <div class="menu ui" id="animateMap">
-        <button onclick="animateMap()" class="dropbtn" id="animateMapButton">Animate Map</button>
+      <button onclick="animateMap()" class="dropbtn" id="animateMapButton">Animate Map</button>
     </div>
     <div class="menu" id="hideUI">
-        <button onclick="showAboutMobile()" class="dropbtn" id="aboutBtn">About</button>
-        <button onclick="showHideUI()" class="dropbtn" id="hideUIButton">Hide Options</button>
+      <button onclick="showAboutMobile()" class="dropbtn" id="aboutBtn">About</button>
+      <button onclick="showHideUI()" class="dropbtn" id="hideUIButton">Hide Options</button>
     </div>
 
     <div class="menu" id="warning">
       Please select a country
     </div>
 
+
+
+  </div>
+  <div id="timeline">
+    <div id="importsTimeline" class="timelineTrade">Imports</div>
+    <div id="exportsTimeline" class="timelineTrade">Exports</div>
   </div>
 
-  <!-- <div id="gui"></div>  --> <!-- data gui interface -->
   <script src="assets/bundle.js"></script>
 </body>
 

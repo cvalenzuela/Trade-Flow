@@ -934,11 +934,11 @@ if (mobile()) {
 var roomSizeIncrease = 0.1; // This is the increment to roomSize everytime a new country is added.
 var dampeningIncrease = 250; // This is the increment to dampening everytime a new country is added.
 var wetIncrease = 0.1; // This is the increment to wet everytime a new country is added.
-var freeverb = new Tone.Freeverb({
-  roomSize: 0.1,
-  dampening: 10,
-  wet: 0.2
-}).toMaster();
+// var freeverb = new Tone.Freeverb({
+//   roomSize: 0.1,
+//   dampening: 10,
+//   wet: 0.2
+// }).toMaster();
 
 var instrumentOrder = 1;
 
@@ -947,9 +947,9 @@ var setCurrentInstrument = function setCurrentInstrument(reset) {
 
   if (reset) {
     instrumentOrder = 1;
-    filter.frequency.input.value = 350; // Increase for frequency in filter
-    freeverb.dampening.input.value = 10; // Increase for dampening in freeverb
-    freeverb.roomSize.input.value = 0.1; // Increase for roomSize in freeverb
+    // filter.frequency.input.value = 350; // Increase for frequency in filter
+    // freeverb.dampening.input.value = 10; // Increase for dampening in freeverb
+    // freeverb.roomSize.input.value = 0.1;  // Increase for roomSize in freeverb
   } else {
     // This is just for debug
     // console.log("===============")
@@ -960,9 +960,9 @@ var setCurrentInstrument = function setCurrentInstrument(reset) {
     // Increase the variables for filter or freeverb
     filter.frequency.input.value += frequencyIncrease; // Increase for frequency in filter
 
-    freeverb.dampening.input.value += dampeningIncrease; // Increase for dampening in freeverb
-    freeverb.roomSize.input.value > 0.8 ? roomSizeIncrease = 0 : roomSizeIncrease = 0.1; // Logic so roomSize doesn't go over 0.8
-    freeverb.roomSize.input.value += roomSizeIncrease; // Increase for roomSize in freeverb
+    // freeverb.dampening.input.value += dampeningIncrease; // Increase for dampening in freeverb
+    // freeverb.roomSize.input.value > 0.8 ? roomSizeIncrease = 0 : roomSizeIncrease = 0.1; // Logic so roomSize doesn't go over 0.8
+    // freeverb.roomSize.input.value += roomSizeIncrease;  // Increase for roomSize in freeverb
 
     // Each country gets a different sound based on the position it was clicked.
     switch (instrumentOrder) {
@@ -993,7 +993,7 @@ var setCurrentInstrument = function setCurrentInstrument(reset) {
 };
 
 // The mp3 files are loaded here.
-var createSoundGroup = function createSoundGroup(size, group) {
+var createSoundGroup = function createSoundGroup(size, group, volume) {
   var arr = [];
 
   // This loads all files in the folder /mp3. The name should match the pattern: Tradeflow_1mono_1.mp3
@@ -1001,8 +1001,8 @@ var createSoundGroup = function createSoundGroup(size, group) {
     arr.push(new Tone.Player({
       "url": "./mp3/Tradeflow_" + group + "_" + i + ".mp3",
       "loop": false,
-      "volume": -4
-    }).connect(filter).connect(freeverb)); // To take the filter or freeverb off, just remove the .connect(filter) or .connect(freeverb)
+      "volume": volume || -4
+    }).connect(filter)); // To take the filter or freeverb off, just remove the .connect(filter) or .connect(freeverb)
   }
   return arr;
 };
@@ -1011,27 +1011,33 @@ var createSoundGroup = function createSoundGroup(size, group) {
 var soundTypes = {
   mono: {
     sounds: createSoundGroup(5, '1mono'),
-    tempo: '1n'
+    tempo: '1n',
+    loop: '1n'
   },
   poly: {
     sounds: createSoundGroup(7, '2poly'),
-    tempo: '2n'
+    tempo: '2n',
+    loop: '1n'
   },
   newDrum: {
     sounds: createSoundGroup(8, '3newDrum'),
-    tempo: '3n'
+    tempo: '3n',
+    loop: '1n'
   },
   HiMono: {
     sounds: createSoundGroup(8, '4HiMono'),
-    tempo: '4n'
+    tempo: '4n',
+    loop: '1n'
   },
   LowMono: {
-    sounds: createSoundGroup(4, '5LowMono'),
-    tempo: '5n'
+    sounds: createSoundGroup(4, '5LowMono', -15),
+    tempo: '5n',
+    loop: '1n'
   },
   HiPoly: {
     sounds: createSoundGroup(7, '6HiPoly'),
-    tempo: '6n'
+    tempo: '6n',
+    loop: '1n'
   }
 };
 
@@ -63210,7 +63216,7 @@ var Country = function () {
         } else {
           _this2.Stop();
         }
-      }, '1n').start(_sounds.soundTypes[this.instrument].tempo);
+      }, _sounds.soundTypes[this.instrument].loop).start(_sounds.soundTypes[this.instrument].tempo);
     }
   }, {
     key: 'Stop',

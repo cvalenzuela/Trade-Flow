@@ -293,3 +293,30 @@ a{
   font-size: 12px;
   margin-top: 12px;
 }
+
+#timeline{
+  position: absolute;
+  bottom: 0;
+  z-index: 20;
+  width: 100%;
+  color: white;
+  padding: 2vw;
+}
+
+.countryInTimeline{
+  color: #272727;
+  display: inline-block;
+  font-size: 10px;
+  padding: 0.2vw;
+  margin: 4px 0px 0px 5px;
+}
+
+.timelineTrade{
+  font-size: 12px;
+  font-family: 'Helvetica', 'sans-serif';
+  color: #909090;
+  margin: 1vh;
+  width: 95%;
+  padding: 0px 0px 4px 0px;
+  border-bottom: 2px solid #6d6d6d;
+}

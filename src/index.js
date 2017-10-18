@@ -16,12 +16,12 @@ import { countryOptions } from './countryOptions';
 const options = {
   lat: 0,
   lng: 0,
-  zoom: 2,
+  zoom: 1.5,
   renderWorldCopies: false,
   minZoom: 1,
   maxZoom: 5.5,
   maxBounds: [ [-180, -75], [180, 85] ],
-  pitch: 15,
+  pitch: 5,
   //style: 'http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png' // debug leaflet
   //style: 'mapbox://styles/cvalenzuela/cj463ywav008a2spldmk3n40c' // original black
   style: 'mapbox://styles/cvalenzuela/cj65qb6616hoj2rr822iwpwx5' // Terminal
