@@ -8,8 +8,7 @@ import { scale, showName, randomColor, colorPallet } from './utils';
 import { soundTypes, setCurrentInstrument } from './sounds';
 import * as Tone from 'tone';
 import { addCountryToTimeline, removeCountryFromTimeline } from './Timeline';
-import { releaseLowMono } from './sounds';
-
+import { releaseLowMono, getTempo } from './sounds';
 
 let colors = colorPallet();
 
@@ -27,11 +26,30 @@ class Country {
     this.system = new ParticleSystem();
     this.trade = trade[this.Country][this.tradeType];
     this.origin = latlng[this.Country];
-    this.instrument = setCurrentInstrument(false);
+    //this.instrument = setCurrentInstrument(false);
+    this.getInstrumentBasedOnAverageTrade();
     //this.soundType = soundTypes[this.instrument].sounds[0]; // Always the same sound.
     this.soundType = p5.random(soundTypes[this.instrument].sounds); // Randoms sounds.
     this.showOriginName = () => { showName(this.Country, this.id, map.latLngToPixel(this.origin), this.Color, true) };
     this.Start();
+  }
+
+  getInstrumentBasedOnAverageTrade() {
+    let sum = 0;
+    for (let country in this.trade) {
+      sum += parseFloat(this.trade[country]);
+    }
+    let average = parseInt(sum / Object.keys(this.trade).length);
+    if (this.tradeType == 'exports') {
+      // Biggest is germany, smallest is bermuda
+      this.average = p5.map(average, 21908, 684312269, 1, 6)
+    } else {
+      // Biggest is germany, smallest is palau
+      this.average = p5.map(average, 115575, 725643630, 1, 6)
+    };
+
+    this.instrument = setCurrentInstrument(this.average);
+    this.tempo = getTempo();
   }
 
   Start() {
@@ -70,11 +88,11 @@ class Country {
         this.Stop();
         removeCountryFromTimeline(this.Country, this.tradeType);
         // Check if this the lowMono (we only want one low mono playing at a time)
-        if (this.instrument == 'LowMono'){
+        if (this.instrument == 'LowMono') {
           releaseLowMono();
         }
       }
-    }, soundTypes[this.instrument].loop).start(soundTypes[this.instrument].tempo);
+    }, soundTypes[this.instrument].loop).start(this.tempo);
   }
 
   Stop() {

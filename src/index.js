@@ -28,7 +28,7 @@ const options = {
   //style: 'mapbox://styles/cvalenzuela/cj5n001zq3wwp2smux7pdrpkq' // decimal
 }
 let mappa = new Mappa('Mapboxgl', key);
-console.log("Tradeflow your console? that's next?")
+
 let width = window.innerWidth;
 let height = window.innerHeight;
 let canvas, map;

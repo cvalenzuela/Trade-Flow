@@ -43,59 +43,76 @@ var wetIncrease = 0.1; // This is the increment to wet everytime a new country i
 let instrumentOrder = 1;
 
 // This will run everytime a new country is added
-let setCurrentInstrument = (reset) => {
-
-  if (reset) {
-    instrumentOrder = 1;
-    // filter.frequency.input.value = 350; // Increase for frequency in filter
-    // freeverb.dampening.input.value = 10; // Increase for dampening in freeverb
-    // freeverb.roomSize.input.value = 0.1;  // Increase for roomSize in freeverb
-  } else {
-    // This is just for debug
-    // console.log("===============")
-    // console.log('filter frequency: ', filter.frequency.input.value);
-    // console.log('freeverb room Size', freeverb.roomSize.input.value);
-    // console.log('freeverb dampening', freeverb.dampening.input.value);
-
-    // Increase the variables for filter or freeverb
-    filter.frequency.input.value += frequencyIncrease; // Increase for frequency in filter
-
-    // freeverb.dampening.input.value += dampeningIncrease; // Increase for dampening in freeverb
-    // freeverb.roomSize.input.value > 0.8 ? roomSizeIncrease = 0 : roomSizeIncrease = 0.1; // Logic so roomSize doesn't go over 0.8
-    // freeverb.roomSize.input.value += roomSizeIncrease;  // Increase for roomSize in freeverb
-
-    // Each country gets a different sound based on the position it was clicked.
-    switch (instrumentOrder) {
-      case 1:
-        instrumentOrder++;
-        return 'mono'
-      case 2:
-        instrumentOrder++;
-        return 'poly'
-      case 3:
-        instrumentOrder++;
-        return 'newDrum'
-      case 4:
-        instrumentOrder++;
-        return 'HiMono'
-      case 5:
-        if (lowMonoIsTaken) {
-          instrumentOrder = instrumentOrder + 2;
-          return 'HiPoly'
-        } else {
-          instrumentOrder++;
-          lowMonoIsTaken = true;
-          return 'LowMono'
-        }
-      case 6:
-        instrumentOrder++;
-        return 'HiPoly'
-      default:
-        instrumentOrder = 2;
-        return 'mono'
-        break;
-    }
+let setCurrentInstrument = (value) => {
+  switch (value) {
+    case 1:
+      return 'HiMono'
+    case 2:
+      return 'HiPoly'
+    case 3:
+      return 'mono'
+    case 4:
+      return 'newDrum'
+    case 5:
+      return 'poly'
+    case 6:
+      return 'LowMono'
+    default:
+      return 'mono'
+      break;
   }
+
+  // if (reset) {
+  //   instrumentOrder = 1;
+  //   // filter.frequency.input.value = 350; // Increase for frequency in filter
+  //   // freeverb.dampening.input.value = 10; // Increase for dampening in freeverb
+  //   // freeverb.roomSize.input.value = 0.1;  // Increase for roomSize in freeverb
+  // } else {
+  //   // This is just for debug
+  //   // console.log("===============")
+  //   // console.log('filter frequency: ', filter.frequency.input.value);
+  //   // console.log('freeverb room Size', freeverb.roomSize.input.value);
+  //   // console.log('freeverb dampening', freeverb.dampening.input.value);
+
+  //   // Increase the variables for filter or freeverb
+  //   filter.frequency.input.value += frequencyIncrease; // Increase for frequency in filter
+
+  //   // freeverb.dampening.input.value += dampeningIncrease; // Increase for dampening in freeverb
+  //   // freeverb.roomSize.input.value > 0.8 ? roomSizeIncrease = 0 : roomSizeIncrease = 0.1; // Logic so roomSize doesn't go over 0.8
+  //   // freeverb.roomSize.input.value += roomSizeIncrease;  // Increase for roomSize in freeverb
+
+  //   // Each country gets a different sound based on the position it was clicked.
+  //   switch (instrumentOrder) {
+  //     case 1:
+  //       instrumentOrder++;
+  //       return 'mono'
+  //     case 2:
+  //       instrumentOrder++;
+  //       return 'poly'
+  //     case 3:
+  //       instrumentOrder++;
+  //       return 'newDrum'
+  //     case 4:
+  //       instrumentOrder++;
+  //       return 'HiMono'
+  //     case 5:
+  //       if (lowMonoIsTaken) {
+  //         instrumentOrder = instrumentOrder + 2;
+  //         return 'HiPoly'
+  //       } else {
+  //         instrumentOrder++;
+  //         lowMonoIsTaken = true;
+  //         return 'LowMono'
+  //       }
+  //     case 6:
+  //       instrumentOrder++;
+  //       return 'HiPoly'
+  //     default:
+  //       instrumentOrder = 2;
+  //       return 'mono'
+  //       break;
+  //   }
+  // }
 };
 
 let releaseLowMono = () => {
@@ -151,8 +168,37 @@ let soundTypes = {
   }
 }
 
+let currentTempo = 1;
+
+let getTempo = () => {
+  switch (currentTempo) {
+    case 1:
+      currentTempo++;
+      return 1
+    case 2:
+      currentTempo++;
+      return 2
+    case 3:
+      currentTempo++;
+      return 3
+    case 4:
+      currentTempo++;
+      return 4
+    case 5:
+      currentTempo++
+      return 5
+    case 6:
+      currentTempo = 1
+      return 6
+    default:
+      currentTempo = 2;
+      return 'mono'
+      break;
+  }
+}
+
 let playSound = (soundType) => {
   soundType.start();
 }
 
-export { playSound, soundTypes, setCurrentInstrument, releaseLowMono };
+export { playSound, soundTypes, setCurrentInstrument, releaseLowMono, getTempo };
