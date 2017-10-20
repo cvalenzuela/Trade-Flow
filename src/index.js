@@ -22,12 +22,12 @@ const options = {
   maxZoom: 5.5,
   maxBounds: [ [-180, -75], [180, 85] ],
   pitch: 2,
-  style: 'http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png' // debug leaflet
+  //style: 'http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png' // debug leaflet
   //style: 'mapbox://styles/cvalenzuela/cj463ywav008a2spldmk3n40c' // original black
-  //style: 'mapbox://styles/cvalenzuela/cj65qb6616hoj2rr822iwpwx5' // Terminal
+  style: 'mapbox://styles/cvalenzuela/cj65qb6616hoj2rr822iwpwx5' // Terminal
   //style: 'mapbox://styles/cvalenzuela/cj5n001zq3wwp2smux7pdrpkq' // decimal
 }
-let mappa = new Mappa('Leaflet', key);
+let mappa = new Mappa('Mapboxgl', key);
 
 let width = window.innerWidth;
 let height = window.innerHeight;
