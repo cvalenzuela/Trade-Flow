@@ -4,11 +4,13 @@ import { ParticleSystem } from './ParticleSystem';
 import * as latlng from './latlng.json';
 import * as trade from './tradeData.json';
 import { p5Instance as p5, map } from './index';
-import { scale, showName, randomColor, colorPallet } from './utils';
+import { scale, showName, randomColor, colorPallet, getIndexFromAllImportsSorted, getIndexFromAllExportsSorted } from './utils';
 import { soundTypes, setCurrentInstrument } from './sounds';
 import * as Tone from 'tone';
 import { addCountryToTimeline, removeCountryFromTimeline } from './Timeline';
 import { releaseLowMono, getTempo } from './sounds';
+
+import * as _ from 'underscore';
 
 let colors = colorPallet();
 
@@ -37,17 +39,18 @@ class Country {
   getInstrumentBasedOnAverageTrade() {
     let sum = 0;
     for (let country in this.trade) {
-      sum += parseFloat(this.trade[country]);
+      sum += parseInt(this.trade[country]);
     }
     let average = parseInt(sum / Object.keys(this.trade).length);
+    
     if (this.tradeType == 'exports') {
-      // Biggest is germany, smallest is bermuda
-      this.average = p5.map(average, 21908, 684312269, 1, 6)
+      let avgToIndex = getIndexFromAllExportsSorted(average);
+      this.average = parseInt(p5.map(avgToIndex, 0, 100, 1, 7));
     } else {
-      // Biggest is germany, smallest is palau
-      this.average = p5.map(average, 115575, 725643630, 1, 6)
+      let avgToIndex = getIndexFromAllImportsSorted(average);
+      this.average = parseInt(p5.map(avgToIndex, 0, 100, 1, 7));
     };
-
+    _.sortBy()
     this.instrument = setCurrentInstrument(this.average);
     this.tempo = getTempo();
   }
@@ -57,6 +60,8 @@ class Country {
     let destinationCountries = p5.shuffle(Object.keys(this.trade), true);
     let currentDestinationCountry = 0;
     map.onChange(this.showOriginName);
+
+    console.log(this.Country, this.average, this.instrument);
 
     addCountryToTimeline(this.Country, this.tradeType, this.Color);
     this.loop = new Tone.Loop((time) => {
@@ -88,11 +93,11 @@ class Country {
         this.Stop();
         removeCountryFromTimeline(this.Country, this.tradeType);
         // Check if this the lowMono (we only want one low mono playing at a time)
-        if (this.instrument == 'LowMono') {
-          releaseLowMono();
-        }
+        // if (this.instrument == 'LowMono') {
+        //   releaseLowMono();
+        // }
       }
-    }, soundTypes[this.instrument].loop).start(this.tempo);
+    }, soundTypes[this.instrument].loop).start(soundTypes[this.instrument].tempo);
   }
 
   Stop() {

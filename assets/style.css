@@ -296,7 +296,7 @@ a{
 
 #timeline{
   position: absolute;
-  bottom: 0;
+  bottom: 3vh;
   z-index: 20;
   width: 100%;
   color: white;

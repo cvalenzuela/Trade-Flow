@@ -44,6 +44,9 @@ let instrumentOrder = 1;
 
 // This will run everytime a new country is added
 let setCurrentInstrument = (value) => {
+  // console.log(value);
+  // let randomArray = ['HiMono', 'HiPoly', 'mono', 'newDrum', 'poly', 'LowMono']; 
+  // return randomArray[Math.floor(Math.random()*6)]
   switch (value) {
     case 1:
       return 'HiMono'
@@ -82,36 +85,36 @@ let setCurrentInstrument = (value) => {
   //   // freeverb.roomSize.input.value += roomSizeIncrease;  // Increase for roomSize in freeverb
 
   //   // Each country gets a different sound based on the position it was clicked.
-  //   switch (instrumentOrder) {
-  //     case 1:
-  //       instrumentOrder++;
-  //       return 'mono'
-  //     case 2:
-  //       instrumentOrder++;
-  //       return 'poly'
-  //     case 3:
-  //       instrumentOrder++;
-  //       return 'newDrum'
-  //     case 4:
-  //       instrumentOrder++;
-  //       return 'HiMono'
-  //     case 5:
-  //       if (lowMonoIsTaken) {
-  //         instrumentOrder = instrumentOrder + 2;
-  //         return 'HiPoly'
-  //       } else {
-  //         instrumentOrder++;
-  //         lowMonoIsTaken = true;
-  //         return 'LowMono'
-  //       }
-  //     case 6:
-  //       instrumentOrder++;
-  //       return 'HiPoly'
-  //     default:
-  //       instrumentOrder = 2;
-  //       return 'mono'
-  //       break;
-  //   }
+    // switch (instrumentOrder) {
+    //   case 1:
+    //     instrumentOrder++;
+    //     return 'mono'
+    //   case 2:
+    //     instrumentOrder++;
+    //     return 'poly'
+    //   case 3:
+    //     instrumentOrder++;
+    //     return 'newDrum'
+    //   case 4:
+    //     instrumentOrder++;
+    //     return 'HiMono'
+    //   case 5:
+    //     if (lowMonoIsTaken) {
+    //       instrumentOrder = instrumentOrder + 2;
+    //       return 'HiPoly'
+    //     } else {
+    //       instrumentOrder++;
+    //       lowMonoIsTaken = true;
+    //       return 'LowMono'
+    //     }
+    //   case 6:
+    //     instrumentOrder++;
+    //     return 'HiPoly'
+    //   default:
+    //     instrumentOrder = 2;
+    //     return 'mono'
+    //     break;
+    // }
   // }
 };
 
@@ -137,33 +140,33 @@ let createSoundGroup = (size, group, volume) => {
 // This actually loads all the files, no need to change anything here.
 let soundTypes = {
   mono: {
-    sounds: createSoundGroup(5, '1mono'),
-    tempo: '1n',
+    sounds: createSoundGroup(5, '1mono', -10),
+    tempo: '6n',
     loop: '1n'
   },
   poly: {
-    sounds: createSoundGroup(7, '2poly'),
+    sounds: createSoundGroup(7, '2poly', -15),
     tempo: '2n',
     loop: '1n'
   },
   newDrum: {
     sounds: createSoundGroup(8, '3newDrum'),
-    tempo: '3n',
+    tempo: '4n',
     loop: '1n'
   },
   HiMono: {
     sounds: createSoundGroup(8, '4HiMono'),
-    tempo: '4n',
+    tempo: '3n',
     loop: '1n'
   },
   LowMono: {
-    sounds: createSoundGroup(4, '5LowMono', -15),
-    tempo: '5n',
+    sounds: createSoundGroup(3, '5LowMono', -25),
+    tempo: '1n',
     loop: '1n'
   },
   HiPoly: {
     sounds: createSoundGroup(7, '6HiPoly'),
-    tempo: '6n',
+    tempo: '5n',
     loop: '1n'
   }
 }

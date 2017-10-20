@@ -49,6 +49,7 @@
     "is-mobile": "0.2.2",
     "p5": "0.5.11",
     "startaudiocontext": "1.2.1",
-    "tone": "0.10.0"
+    "tone": "0.10.0",
+    "underscore": "1.8.3"
   }
 }
