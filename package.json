@@ -32,7 +32,7 @@
     "babel-register": "6.24.1",
     "json-loader": "0.5.4",
     "rimraf": "2.6.1",
-    "webpack": "2.6.1",
+    "webpack": "5.74.0",
     "webpack-dev-server": "2.4.5"
   },
   "babel": {
